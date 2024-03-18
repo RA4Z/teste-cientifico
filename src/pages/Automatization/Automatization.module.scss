@@ -2,6 +2,43 @@
     height: 80vh;
     width: 100%;
     margin-top: 20px;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        align-self: flex-start;
+        text-align: center;
+
+        img {
+            cursor: pointer;
+            height: 45px;
+        }
+    }
+
+    &__text {
+        padding: 15px;
+        font-size: large;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        &__description {
+            width: 65%;
+        }
+    }
+}
+.history {
+    padding: 15px;
     display: flex;
     justify-content: center;
+    gap: 10px;
+    font-size: larger;
+    text-align: center;
+    flex-wrap: wrap;
 }
