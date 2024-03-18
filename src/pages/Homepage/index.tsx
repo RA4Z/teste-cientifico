@@ -9,15 +9,20 @@ export default function Homepage() {
             <Header />
             <div className={styles.container}>
                 <div className={styles.projects}>
-                    <List data_desenvolvimento="15/03/2024"
+                    <List id=''
+                        data_desenvolvimento="15/03/2024"
                         nome="Cobrança de materiais WMO para GTA"
                         desenvolvedor="Robert Aron Zimmermann"
                         solicitante="Beatriz Silva de Andrade Graciosa" />
-                    <List data_desenvolvimento="15/03/2024"
+
+                    <List id=''
+                        data_desenvolvimento="15/03/2024"
                         nome="Cobrança de materiais WMO para GTA"
                         desenvolvedor="Robert Aron Zimmermann"
                         solicitante="Beatriz Silva de Andrade Graciosa" />
-                    <List data_desenvolvimento="15/03/2024"
+                        
+                    <List id=''
+                        data_desenvolvimento="15/03/2024"
                         nome="Cobrança de materiais WMO para GTA"
                         desenvolvedor="Robert Aron Zimmermann"
                         solicitante="Beatriz Silva de Andrade Graciosa" />
