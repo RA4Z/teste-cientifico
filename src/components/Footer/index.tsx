@@ -8,13 +8,13 @@ export default function Footer() {
                 <img src={Logo} alt='Logo da Weg' className={styles.container__logotipo} />
                 <div className={styles.container__dev}>
                     <button className={styles.container__button}>Automations's Database</button>
-                    <a href='https://github.com/RA4Z'>Developed and prototyped by <br /> Robert Aron Zimmermann</a>
+                    <a href='https://github.com/RA4Z'>Desenvolvido e prototipado por<br /> Robert Aron Zimmermann</a>
                     <p>robertn@weg.net</p>
                 </div>
             </div>
 
             <div className={styles.atribuicoes}>
-                <li style={{ listStyle: 'none', color: '#64CCC5' }}>Analyst Contact:</li>
+                <li style={{ listStyle: 'none', color: '#64CCC5' }}>Contato dos Analistas:</li>
                 <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_31798" target="_blank" rel="noreferrer"><li>Alisson Mazuim</li></a>
                 <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_35973" target="_blank" rel="noreferrer"><li>Anderson Paulo da Luz</li></a>
                 <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_77661" target="_blank" rel="noreferrer"><li>Daniel Assis Amancio</li></a>

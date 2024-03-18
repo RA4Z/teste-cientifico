@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    color: white;
+    list-style-type: none;
+
+    &__linha {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+
+    &__detalhes {
+        color: black;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    li {
+       width: 75%;
+    }
+}
