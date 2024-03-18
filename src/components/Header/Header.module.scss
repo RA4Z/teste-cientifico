@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 5px 5px 7px #191919;
+
+    img {
+        height: 68px;
+        cursor: pointer;
+    }
+}
