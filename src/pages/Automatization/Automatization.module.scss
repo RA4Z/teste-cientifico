@@ -3,6 +3,12 @@
     width: 100%;
     margin-top: 20px;
 
+    &__icon {
+        display: flex;
+        width: 150px;
+        margin: 0 auto;
+    }
+
     &__title {
         display: flex;
         justify-content: center;
@@ -31,14 +37,26 @@
         &__description {
             width: 65%;
         }
+
     }
 }
+
 .history {
     padding: 15px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     font-size: larger;
     text-align: center;
     flex-wrap: wrap;
+
+    &__stack {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__list {
+        list-style: none;
+    }
 }
