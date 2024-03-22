@@ -37,7 +37,7 @@ export default function Automatization() {
             <div className={styles.container__text}>
                 <li className={styles.container__text__description}>{automation?.descricao}</li>
                 <li>Automatização desenvolvida em {automation?.data_desenvolvimento} por {automation?.desenvolvedor} e solicitado por {automation?.solicitante}</li>
-                <li>Automatização se encontra em {automation?.caminho_groups}</li>
+                <li className={styles.container__text__path}>Automatização se encontra em {automation?.caminho_groups}</li>
             </div>
             <img src={automation?.imagem} alt='Ícone do projeto' className={styles.container__icon} />
             <Divider style={{ background: 'white' }} />

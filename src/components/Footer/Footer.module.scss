@@ -6,6 +6,11 @@
     display: flex;
     justify-content: space-between;
 
+    @media(max-width:550px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
     &__button,
     p,
     li,

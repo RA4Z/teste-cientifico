@@ -22,6 +22,9 @@
             cursor: pointer;
             height: 45px;
         }
+        @media(max-width:500px) {
+            flex-direction: column;
+        }
     }
 
     &__text {
@@ -36,6 +39,13 @@
 
         &__description {
             width: 65%;
+        }
+
+        &__path {
+            @media(max-width:500px) {
+                width: 100vw;
+                overflow-wrap: break-word;
+            }
         }
 
     }
