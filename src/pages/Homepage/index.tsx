@@ -3,29 +3,35 @@ import styles from './Homepage.module.scss'
 import Footer from "components/Footer"
 import List from "components/List"
 
+import { viewAutomations } from "services/firestore"
+import { AutomationType } from "types/automation"
+
+import { useEffect, useState } from "react"
+
 export default function Homepage() {
+    const [automations, setAutomations] = useState<AutomationType[]>([])
+
+    useEffect(() => {
+        async function getFirebaseData() {
+            await viewAutomations(setAutomations)
+        }
+        getFirebaseData()
+    }, [])
+
     return (
         <>
             <Header />
             <div className={styles.container}>
                 <div className={styles.projects}>
-                    <List id='1'
-                        data_desenvolvimento="15/03/2024"
-                        nome="Cobrança de materiais WMO para GTA"
-                        desenvolvedor="Robert Aron Zimmermann"
-                        solicitante="Beatriz Silva de Andrade Graciosa" />
-
-                    <List id='2'
-                        data_desenvolvimento="15/03/2024"
-                        nome="Cobrança de materiais WMO para GTA"
-                        desenvolvedor="Robert Aron Zimmermann"
-                        solicitante="Beatriz Silva de Andrade Graciosa" />
-                        
-                    <List id='3'
-                        data_desenvolvimento="15/03/2024"
-                        nome="Cobrança de materiais WMO para GTA"
-                        desenvolvedor="Robert Aron Zimmermann"
-                        solicitante="Beatriz Silva de Andrade Graciosa" />
+                    {automations.map((automation, index) => (
+                        <List 
+                            key={index}
+                            id={automation.id}
+                            data_desenvolvimento={automation.data_desenvolvimento}
+                            nome={automation.nome}
+                            desenvolvedor={automation.desenvolvedor}
+                            solicitante={automation.solicitante} />
+                    ))}
                 </div>
 
             </div>
