@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Homepage from './Homepage';
-import Automatization from './Automatization';
+import Homepage from './pages/Homepage';
+import Automatization from './pages/Automatization';
 
 export default function AppRouter() {
   return (
