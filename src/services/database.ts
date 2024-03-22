@@ -1,5 +1,5 @@
 import { database } from "config/firebase";
-import { limitToLast, onValue, orderByChild, query, ref } from "firebase/database";
+import { limitToLast, onValue, orderByChild, query, ref, remove } from "firebase/database";
 
 export async function getHistory(dbRef: string, setHistory: any) {
     try {
@@ -15,5 +15,21 @@ export async function getHistory(dbRef: string, setHistory: any) {
         });
     } catch (error) {
         console.error('Erro ao buscar o histórico:', error);
+    }
+}
+
+export async function deleteHistory(automationName:string, userName:string, historyId: string) {
+    const chatRef = ref(database, `Algoritmos/${automationName}/${userName}/${historyId}`);
+    const result = await remove(chatRef)
+        .then(() => {
+            return true
+        })
+        .catch(() => {
+            return false
+        });
+    if (result) {
+        return true
+    } else {
+        return false
     }
 }

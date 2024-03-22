@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Automatization.module.scss'
 import { HistoryType, HistoryItemType } from 'types/automation'
-import { getHistory } from 'services/database';
+import { deleteHistory, getHistory } from 'services/database';
 
 interface Props {
     automationName: string
@@ -11,6 +11,10 @@ interface Props {
 const HistoryComponent: React.FC<Props> = ({ automationName, history }) => {
     const [data, setData] = useState<HistoryItemType[]>([])
     const [sevenDays, setSevenDays] = useState(false)
+
+    async function deletarHistoricoExec(nomeAutomacao: string, userName: string, id: string) {
+        await deleteHistory(nomeAutomacao, userName, id)
+    }
 
     useEffect(() => {
         async function getFirebaseData() {
@@ -25,6 +29,14 @@ const HistoryComponent: React.FC<Props> = ({ automationName, history }) => {
                 } else {
                     setSevenDays(false)
                 }
+                data.forEach((item: any) => {
+                    const dataDoItem = new Date(item.horaExec);
+                    const trintaDiasEmMilissegundos = 30 * 24 * 60 * 60 * 1000;
+                    const diferencaDeTempoEmMilissegundos = dataAtual.getTime() - dataDoItem.getTime();
+                    if (diferencaDeTempoEmMilissegundos > trintaDiasEmMilissegundos) {
+                        deletarHistoricoExec(automationName, history.id, item)
+                    }
+                });
             }
         }
         getFirebaseData()
