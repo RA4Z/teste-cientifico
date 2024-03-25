@@ -30,7 +30,8 @@ interface Props {
     referencia: string,
     detalhes: string,
     descricao: string,
-    utilidade: string
+    utilidade: string,
+    imagem?: string
 }
 
 export default function AgendaCard(props: Props) {
@@ -41,11 +42,11 @@ export default function AgendaCard(props: Props) {
     };
 
     return (
-        <Card sx={{ width: 345, bgcolor:'#D9D9D9' }}>
+        <Card sx={{ width: 345, bgcolor: '#D9D9D9' }}>
             <CardHeader
                 avatar={
                     <Avatar aria-label="recipe">
-                        <img src={ideiaIMG} style={{height:'100%'}} alt='imagem' />
+                        <img src={props.imagem? props.imagem : ideiaIMG} style={{ height: '100%' }} alt='imagem' />
                     </Avatar>
                 }
                 title={`${props.referencia}`}
@@ -69,7 +70,7 @@ export default function AgendaCard(props: Props) {
                 </CardActions>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
-                        <Typography paragraph style={{wordWrap:'break-word'}}>
+                        <Typography paragraph style={{ wordWrap: 'break-word' }}>
                             {props.detalhes}
                         </Typography>
                     </CardContent>

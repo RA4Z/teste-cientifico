@@ -43,6 +43,7 @@ export default function Agenda() {
                             referencia={data.REFERÊNCIA}
                             descricao={data.DESCRIÇÃO}
                             detalhes={data.DETALHES ? data.DETALHES : ''}
+                            imagem={data.ICON}
                             utilidade={data.UTILIDADE} />
                     ))}
                 </div>
