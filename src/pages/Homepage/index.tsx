@@ -1,7 +1,6 @@
 import Header from "components/Header"
 import styles from './Homepage.module.scss'
 import Footer from "components/Footer"
-import List from "components/List"
 
 import { viewAutomations } from "services/firestore"
 import { AutomationType } from "types/automation"
@@ -9,6 +8,7 @@ import { AutomationType } from "types/automation"
 import { useEffect, useState } from "react"
 import { Button, Divider, TextField } from "@mui/material"
 import { useNavigate } from "react-router-dom"
+import ExecCard from "components/ExecCard"
 
 export default function Homepage() {
     const navigate = useNavigate()
@@ -52,13 +52,17 @@ export default function Homepage() {
             <div className={styles.container}>
                 <div className={styles.projects}>
                     {automations.map((automation, index) => (
-                        <List
+                        <ExecCard
                             key={index}
                             id={automation.id}
+                            descricao={automation.descricao}
+                            imagem={automation.imagem}
                             data_desenvolvimento={automation.data_desenvolvimento}
                             nome={automation.nome}
                             desenvolvedor={automation.desenvolvedor}
-                            solicitante={automation.solicitante} />
+                            solicitante={automation.solicitante}
+
+                        />
                     ))}
                 </div>
             </div>
