@@ -7,9 +7,11 @@ import { viewAutomations } from "services/firestore"
 import { AutomationType } from "types/automation"
 
 import { useEffect, useState } from "react"
-import { Divider, TextField } from "@mui/material"
+import { Button, Divider, TextField } from "@mui/material"
+import { useNavigate } from "react-router-dom"
 
 export default function Homepage() {
+    const navigate = useNavigate()
     const [automations, setAutomations] = useState<AutomationType[]>([])
     const [backup, setBackup] = useState<AutomationType[]>([])
     const [filter, setFilter] = useState({ filename: '' })
@@ -42,6 +44,9 @@ export default function Homepage() {
                     variant="filled"
                     style={{ backgroundColor: 'white' }}
                 />
+                <Button onClick={() => navigate(`/Agenda`)} variant="outlined" size="medium">
+                    Visualizar Agenda
+                </Button>
             </div>
             <Divider style={{ background: 'white' }} />
             <div className={styles.container}>

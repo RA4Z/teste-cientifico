@@ -1,12 +1,14 @@
 import Header from 'components/Header'
 import styles from './Agenda.module.scss'
-import { Divider, TextField } from '@mui/material'
+import { Button, Divider, TextField } from '@mui/material'
 import Footer from 'components/Footer'
 import DataJSON from 'data/Agenda.json'
 import { useEffect, useState } from 'react'
 import AgendaCard from 'components/AgendaCard'
+import { useNavigate } from 'react-router-dom'
 
 export default function Agenda() {
+    const navigate = useNavigate()
     const [data, setData] = useState(DataJSON)
     const [filter, setFilter] = useState('')
 
@@ -29,19 +31,16 @@ export default function Agenda() {
                     variant="filled"
                     style={{ backgroundColor: 'white' }}
                 />
+                <Button onClick={() => navigate(`/`)} variant="outlined" size="medium">
+                    Histórico de Execuções
+                </Button>
             </div>
             <Divider style={{ background: 'white' }} />
             <div className={styles.container}>
                 <div className={styles.projects}>
                     {data.map((data, index) => (
-                        // <div key={index} className={styles.card}>
-                        //     <h3>Referência:</h3><p>{data.REFERÊNCIA}</p>
-                        //     <h3>Detalhes:</h3><p>{data.DETALHES}</p>
-                        //     <h3>Descrição:</h3><p>{data.DESCRIÇÃO}</p>
-                        //     <h3>Utilidade:</h3><p>{data.UTILIDADE}</p>
-                        //     <Divider style={{ background: 'white', width: '80%' }} />
-                        // </div>
-                        <AgendaCard referencia={data.REFERÊNCIA}
+                        <AgendaCard key={index}
+                            referencia={data.REFERÊNCIA}
                             descricao={data.DESCRIÇÃO}
                             detalhes={data.DETALHES ? data.DETALHES : ''}
                             utilidade={data.UTILIDADE} />

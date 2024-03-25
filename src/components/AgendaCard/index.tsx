@@ -41,7 +41,7 @@ export default function AgendaCard(props: Props) {
     };
 
     return (
-        <Card sx={{ width: 345 }}>
+        <Card sx={{ width: 345, bgcolor:'#D9D9D9' }}>
             <CardHeader
                 avatar={
                     <Avatar aria-label="recipe">
@@ -69,7 +69,7 @@ export default function AgendaCard(props: Props) {
                 </CardActions>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
-                        <Typography paragraph>
+                        <Typography paragraph style={{wordWrap:'break-word'}}>
                             {props.detalhes}
                         </Typography>
                     </CardContent>
