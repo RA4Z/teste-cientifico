@@ -34,14 +34,16 @@
         "SEQ": 5,
         "REFERÊNCIA": "\/N\/OPT\/VIM_WP",
         "DESCRIÇÃO": "Justificativa de Diferenças entre Pedido e Entrada de Mercadoria",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 6,
         "REFERÊNCIA": "\/OPT\/VIM_WP",
         "DESCRIÇÃO": "Área de Trabalho de VIM",
         "UTILIDADE": "Compras",
-        "DETALHES": "Para corrigir um pedido pendente, justificar a diferença de preços."
+        "DETALHES": "Para corrigir um pedido pendente, justificar a diferença de preços.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 7,
@@ -82,27 +84,31 @@
         "SEQ": 12,
         "REFERÊNCIA": "C223",
         "DESCRIÇÃO": "Versão de Produção - Eliminar",
-        "UTILIDADE": "Roteiro"
+        "UTILIDADE": "Roteiro",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 13,
         "REFERÊNCIA": "CA02",
         "DESCRIÇÃO": "Modificar Roteiro",
-        "UTILIDADE": "Roteiro"
+        "UTILIDADE": "Roteiro",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 14,
         "REFERÊNCIA": "CA03",
         "DESCRIÇÃO": "Exibir Roteiro",
         "UTILIDADE": "Roteiro",
-        "DETALHES": "Impressão do roteiro►Entrar no roteiro normal►Suplementos►Programação►Programar►Data do dia►tamanho do lote►Enter►Variante Sint.►000000000003►Enter►Clicar na Impressora. Também é possível ver o resultado da programação.                                                                                                  "
+        "DETALHES": "Impressão do roteiro►Entrar no roteiro normal►Suplementos►Programação►Programar►Data do dia►tamanho do lote►Enter►Variante Sint.►000000000003►Enter►Clicar na Impressora. Também é possível ver o resultado da programação.                                                                                                  ",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 15,
         "REFERÊNCIA": "CA03",
         "DESCRIÇÃO": "Exibir Roteiro",
         "UTILIDADE": "Roteiro",
-        "DETALHES": "Ver todos os Roteiros do material►Ir na CA03 e colocar o material e o centro►no grupo de listas tarefas clicar no math code►Escolher Pesquisa via Material►Colocar o material e centro►apresentará todos os roteiros. Pode haver roteiros específicos para PEP's."
+        "DETALHES": "Ver todos os Roteiros do material►Ir na CA03 e colocar o material e o centro►no grupo de listas tarefas clicar no math code►Escolher Pesquisa via Material►Colocar o material e centro►apresentará todos os roteiros. Pode haver roteiros específicos para PEP's.",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 16,
@@ -196,7 +202,8 @@
         "REFERÊNCIA": "CEWB",
         "DESCRIÇÃO": "EWB - Previsão Impressão de Operações - Engineering Workbench",
         "UTILIDADE": "Roteiro",
-        "DETALHES": "Ao entrar selecionar Area de trabalho atual ► Sap Operation ►Ir para Outros critérios de operação na Aba Operação, colocar materiais e centro►Executar o processo e clicar na Impressora►Ajustar layout ►Os tempos de duração estão nos campos chamados Standart►Criado layout AEROGERADOR"
+        "DETALHES": "Ao entrar selecionar Area de trabalho atual ► Sap Operation ►Ir para Outros critérios de operação na Aba Operação, colocar materiais e centro►Executar o processo e clicar na Impressora►Ajustar layout ►Os tempos de duração estão nos campos chamados Standart►Criado layout AEROGERADOR",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 30,
@@ -1676,21 +1683,24 @@
         "SEQ": 256,
         "REFERÊNCIA": "ME21N",
         "DESCRIÇÃO": "Criar Pedido de Compras",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 257,
         "REFERÊNCIA": "ME21N",
         "DESCRIÇÃO": "Criar Pedido de Compras",
         "UTILIDADE": "Compras",
-        "DETALHES": "Para fazer um único pedido para várias requisições e ou materiais►Preencher o que foi solicitado e depois Clicar em Ativar Sintese de Documentos►Clicar no canto esquerdo Variante de Seleção►Escolher Requisições de compra►Fazer os devidos processamentos►Depois selecionar todas e arrastar para dentro do carrinho."
+        "DETALHES": "Para fazer um único pedido para várias requisições e ou materiais►Preencher o que foi solicitado e depois Clicar em Ativar Sintese de Documentos►Clicar no canto esquerdo Variante de Seleção►Escolher Requisições de compra►Fazer os devidos processamentos►Depois selecionar todas e arrastar para dentro do carrinho.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 258,
         "REFERÊNCIA": "ME22N",
         "DESCRIÇÃO": "Modificar Pedido de Compras\n4503428815 - WII da WEN\n4503287384 - WII - Depósito WW01\n4502433558 - WEN da WII",
         "UTILIDADE": "Compras",
-        "DETALHES": "Para imprimir o pedido►clicar em mensagens e preencher►NEU - Pedido ►Meio - 1 Saída de Impressão ►Função - F0 ►Parceiro - 1200 ►Marcar a linha ► Clicar em Meio de Comunicação ►Destino lógico- EMAIL-PDF ► preencher nome do destinatário, voltar ► Clicar em Dados Adicionais ► Momento de envio ► Enviar imediadatente (ao gravar a aplicação). ►Gravar ►Aguardar e-mail."
+        "DETALHES": "Para imprimir o pedido►clicar em mensagens e preencher►NEU - Pedido ►Meio - 1 Saída de Impressão ►Função - F0 ►Parceiro - 1200 ►Marcar a linha ► Clicar em Meio de Comunicação ►Destino lógico- EMAIL-PDF ► preencher nome do destinatário, voltar ► Clicar em Dados Adicionais ► Momento de envio ► Enviar imediadatente (ao gravar a aplicação). ►Gravar ►Aguardar e-mail.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 259,
@@ -1704,126 +1714,145 @@
         "REFERÊNCIA": "ME22N",
         "DESCRIÇÃO": "Modificar Pedido de Compras",
         "UTILIDADE": "Compras",
-        "DETALHES": "Quando dá o erro: Cliente XXXXXX não existe - modificar entrada no centro XXXX. ►Entrar em contato com Grace Kelly Rissini (Secao Apoio a Vendas e Marketing) ►depois provável que tenha que solicitar mais ajuda com a Central de Cadastro, para implantar as Condições."
+        "DETALHES": "Quando dá o erro: Cliente XXXXXX não existe - modificar entrada no centro XXXX. ►Entrar em contato com Grace Kelly Rissini (Secao Apoio a Vendas e Marketing) ►depois provável que tenha que solicitar mais ajuda com a Central de Cadastro, para implantar as Condições.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 261,
         "REFERÊNCIA": "ME23N",
         "DESCRIÇÃO": "Exibir Pedido de Compras",
         "UTILIDADE": "Compras",
-        "DETALHES": "Para ver histórico de Movimento de Transferência entre Centros ► Ao abrir o pedido, na parte inferior referente ao item ► Clicar na aba Histórico do Pedido ► Clicar duas vezes no Documento de material da Linha Oper.Saida de Mercadorias ► Clicar na aba Síntese de Status."
+        "DETALHES": "Para ver histórico de Movimento de Transferência entre Centros ► Ao abrir o pedido, na parte inferior referente ao item ► Clicar na aba Histórico do Pedido ► Clicar duas vezes no Documento de material da Linha Oper.Saida de Mercadorias ► Clicar na aba Síntese de Status.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 262,
         "REFERÊNCIA": "ME2J",
         "DESCRIÇÃO": "Documentos de Compra para Projetos",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 263,
         "REFERÊNCIA": "ME2L",
         "DESCRIÇÃO": "Documentos de Compra por Fornecedor",
         "UTILIDADE": "Compras",
-        "DETALHES": "Ordens de compra pendentes.►Organização de Compras, Abrangência da Lista-ALV, Parâmetro de Seleção-WE103, Grupo de Compradores, Centro, e Data da Remessa."
+        "DETALHES": "Ordens de compra pendentes.►Organização de Compras, Abrangência da Lista-ALV, Parâmetro de Seleção-WE103, Grupo de Compradores, Centro, e Data da Remessa.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 264,
         "REFERÊNCIA": "ME2M",
         "DESCRIÇÃO": "Documentos de Compras para Material",
         "UTILIDADE": "Compras",
-        "DETALHES": "Ordens de compra pendentes►Centro ►Organização de Compras►Abrangência-ALV►Param.seleção-WE107►Tipo documento-UB►Data da remessa - se preferir►Centro fornecedor."
+        "DETALHES": "Ordens de compra pendentes►Centro ►Organização de Compras►Abrangência-ALV►Param.seleção-WE107►Tipo documento-UB►Data da remessa - se preferir►Centro fornecedor.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 265,
         "REFERÊNCIA": "ME2ON",
         "DESCRIÇÃO": "Monitorização do Estoque de Subcontratação por Fonecedor",
         "UTILIDADE": "Compras",
-        "DETALHES": "Verificar a quantidade de peças enviadas para o fornecedor."
+        "DETALHES": "Verificar a quantidade de peças enviadas para o fornecedor.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 266,
         "REFERÊNCIA": "ME31K",
         "DESCRIÇÃO": "Criar Contrato",
-        "UTILIDADE": "compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 267,
         "REFERÊNCIA": "ME31L",
         "DESCRIÇÃO": "Criar Programa de Remessa",
-        "UTILIDADE": "compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 268,
         "REFERÊNCIA": "ME32L",
         "DESCRIÇÃO": "Modificar programa de Remessa",
-        "UTILIDADE": "compras",
-        "DETALHES": "Ver quando entrou no Programa►Entrar no Programa\/Contrato►Marcar linha►Item►estatística►Modificações."
+        "UTILIDADE": "Compras",
+        "DETALHES": "Ver quando entrou no Programa►Entrar no Programa\/Contrato►Marcar linha►Item►estatística►Modificações.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 269,
         "REFERÊNCIA": "ME41",
         "DESCRIÇÃO": "Criar Solicitação de Cotação",
         "UTILIDADE": "Compras",
-        "DETALHES": "Colocar data e depois o Material ► o sistema puxa as requisições que existem ►usar um campo chamado RFQcoletivo, pode ser um numero sequencial, desta forma as várias requisições irão para a mesma cotação."
+        "DETALHES": "Colocar data e depois o Material ► o sistema puxa as requisições que existem ►usar um campo chamado RFQcoletivo, pode ser um numero sequencial, desta forma as várias requisições irão para a mesma cotação.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 270,
         "REFERÊNCIA": "ME47",
         "DESCRIÇÃO": "Atualizar Cotação",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 271,
         "REFERÊNCIA": "ME51N",
         "DESCRIÇÃO": "Criar Requisição de Compras",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 272,
         "REFERÊNCIA": "ME53N",
         "DESCRIÇÃO": "Exibir Requisição de Compras",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 273,
         "REFERÊNCIA": "ME54N",
         "DESCRIÇÃO": "Liberação Individual",
         "UTILIDADE": "Compras",
-        "DETALHES": "Liberar requisições por estratégia de liberação."
+        "DETALHES": "Liberar requisições por estratégia de liberação.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 274,
         "REFERÊNCIA": "ME55",
         "DESCRIÇÃO": "Liberação Coletiva",
         "UTILIDADE": "Compras",
-        "DETALHES": "Liberar requisições por estratégia de liberação."
+        "DETALHES": "Liberar requisições por estratégia de liberação.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 275,
         "REFERÊNCIA": "ME57",
         "DESCRIÇÃO": "Atribuir e Processar Requisições de Compras",
         "UTILIDADE": "Compras",
-        "DETALHES": "Imprimir requisições de um comprador►Grupo de Compradores►Abrangência da lista - ALV►Centro►Status de processamento - N►Código de Ordenação - 7►Caixas de Requisição que devem ser marcadas: Requisição Compras Atribuídas; Requis.Parcialmente pedidas; Requis.Comp.Para liberação Global; Requis.Comp.Para liberação de um item."
+        "DETALHES": "Imprimir requisições de um comprador►Grupo de Compradores►Abrangência da lista - ALV►Centro►Status de processamento - N►Código de Ordenação - 7►Caixas de Requisição que devem ser marcadas: Requisição Compras Atribuídas; Requis.Parcialmente pedidas; Requis.Comp.Para liberação Global; Requis.Comp.Para liberação de um item.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 276,
         "REFERÊNCIA": "ME58",
         "DESCRIÇÃO": "Pedir Requisições de Compra Atribuídas",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 277,
         "REFERÊNCIA": "ME59N",
         "DESCRIÇÃO": "Geração automática de Pedidos via Requisição de Compra",
         "UTILIDADE": "Compras",
-        "DETALHES": "Chamar todas as variantes e selecionar a opção da empresa."
+        "DETALHES": "Chamar todas as variantes e selecionar a opção da empresa.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 278,
         "REFERÊNCIA": "ME5A",
         "DESCRIÇÃO": "Exibir Requisições",
         "UTILIDADE": "Compras",
-        "DETALHES": "Usar parâmetros da ME57 para preencher a solicitação.►Se precisar ver o Elemento PEP para os materiais clicar no ícone de classificação contábil, último ícone na barra de ferramentas."
+        "DETALHES": "Usar parâmetros da ME57 para preencher a solicitação.►Se precisar ver o Elemento PEP para os materiais clicar no ícone de classificação contábil, último ícone na barra de ferramentas.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 279,
@@ -1836,7 +1865,8 @@
         "REFERÊNCIA": "ME85 \/ ME86",
         "DESCRIÇÃO": "Renumerar divisões\/ Compactar",
         "UTILIDADE": "Compras",
-        "DETALHES": "Quando uma divisão de remessa expira executar uma das 02 transações até conseguir rodar o MRP e continuar comprando."
+        "DETALHES": "Quando uma divisão de remessa expira executar uma das 02 transações até conseguir rodar o MRP e continuar comprando.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 281,
@@ -1903,13 +1933,15 @@
         "REFERÊNCIA": "MK02",
         "DESCRIÇÃO": "Fornecedor - Dados de Compra diferentes - Incoterm",
         "UTILIDADE": "Compras",
-        "DETALHES": "Quando o Incoterm precisar ser diferente do que o oficial do fornecedor►Preencher o fornecedor  mais a Organização de compras ► Flegar dados de compra mais Funções do parceiro ► Enter ► Clicar em Dados divergentes►Preencher o centro ►clicar duas vezes sobre o mesmo ► preencher o incoterm na tela seguinte conforme solicitado."
+        "DETALHES": "Quando o Incoterm precisar ser diferente do que o oficial do fornecedor►Preencher o fornecedor  mais a Organização de compras ► Flegar dados de compra mais Funções do parceiro ► Enter ► Clicar em Dados divergentes►Preencher o centro ►clicar duas vezes sobre o mesmo ► preencher o incoterm na tela seguinte conforme solicitado.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 291,
         "REFERÊNCIA": "MK03",
         "DESCRIÇÃO": "Exibir Fornecedor",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 292,
@@ -2177,7 +2209,8 @@
         "REFERÊNCIA": "Sobreposição",
         "DESCRIÇÃO": "Regra de Sobreposição",
         "UTILIDADE": "Roteiro",
-        "DETALHES": "Se 30% na operação X (100-30=70\/100=0,7 unidades), então quando 0,7 um estiver concluído começar operação seguinte. Na ordem respeita os seguintes parâmetro: 1º) Respeita a sobreposição. 2º) Tempo de transição. 3º) Tempo de espera do Centro de Trabalho. *Sendo que o 1º mata o 2º que mata o 3º."
+        "DETALHES": "Se 30% na operação X (100-30=70\/100=0,7 unidades), então quando 0,7 um estiver concluído começar operação seguinte. Na ordem respeita os seguintes parâmetro: 1º) Respeita a sobreposição. 2º) Tempo de transição. 3º) Tempo de espera do Centro de Trabalho. *Sendo que o 1º mata o 2º que mata o 3º.",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 332,
@@ -2355,7 +2388,8 @@
         "SEQ": 358,
         "REFERÊNCIA": "VL32L",
         "DESCRIÇÃO": "Modificar Recebimento",
-        "UTILIDADE": "Compras"
+        "UTILIDADE": "Compras",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 359,
@@ -2417,7 +2451,8 @@
         "REFERÊNCIA": "XK03",
         "DESCRIÇÃO": "Exibir Fornecedor",
         "UTILIDADE": "Compras",
-        "DETALHES": "Geração de Pedido automático - Nos dados de compra deve ser preenchido o Incoterm e condição de pagamento e também Flegar \"Pedido automático\". Usar esta transação para verificar qual é o cliente correspondente ao fornecedor. Marcar tudo e usar a Setinha para visualizar a tela seguinte."
+        "DETALHES": "Geração de Pedido automático - Nos dados de compra deve ser preenchido o Incoterm e condição de pagamento e também Flegar \"Pedido automático\". Usar esta transação para verificar qual é o cliente correspondente ao fornecedor. Marcar tudo e usar a Setinha para visualizar a tela seguinte.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 368,
@@ -2488,21 +2523,24 @@
         "SEQ": 378,
         "REFERÊNCIA": "ZTMM004",
         "DESCRIÇÃO": "Modificar Especificação Eletromecânica",
-        "UTILIDADE": "Roteiro"
+        "UTILIDADE": "Roteiro",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 379,
         "REFERÊNCIA": "ZTMM005",
         "DESCRIÇÃO": "Vizualizar Especificação Eletromecânica",
         "UTILIDADE": "Roteiro",
-        "DETALHES": "Características de Impressão por Centro, planejador, operação. EX: 1200-405-0060, Enter, Marcar a regra e clicar na lupa."
+        "DETALHES": "Características de Impressão por Centro, planejador, operação. EX: 1200-405-0060, Enter, Marcar a regra e clicar na lupa.",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 380,
         "REFERÊNCIA": "ZTMM007",
         "DESCRIÇÃO": "Estoques Críticos X necessidades",
         "UTILIDADE": "Compras",
-        "DETALHES": "Usado para avaliar o MRP de compras."
+        "DETALHES": "Usado para avaliar o MRP de compras.",
+        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 381,
@@ -2547,7 +2585,8 @@
         "SEQ": 387,
         "REFERÊNCIA": "ZTMM048",
         "DESCRIÇÃO": "Ver Dados Especificação Elétrica",
-        "UTILIDADE": "Roteiro"
+        "UTILIDADE": "Roteiro",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 388,
@@ -2600,7 +2639,8 @@
         "SEQ": 395,
         "REFERÊNCIA": "ZTMM118",
         "DESCRIÇÃO": "Visualisar Especificação Eletromecânica - Simulação Impressão",
-        "UTILIDADE": "Roteiro"
+        "UTILIDADE": "Roteiro",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 396,
@@ -3084,7 +3124,8 @@
         "REFERÊNCIA": "ZTPP180",
         "DESCRIÇÃO": "Roteiros e Componentes",
         "UTILIDADE": "Roteiro",
-        "DETALHES": "Roteiros em massa."
+        "DETALHES": "Roteiros em massa.",
+        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 471,
