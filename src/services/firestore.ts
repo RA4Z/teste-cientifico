@@ -1,8 +1,8 @@
 import { db } from 'config/firebase';
-import { collection, doc, getDoc, onSnapshot, query } from 'firebase/firestore';
+import { collection, doc, getDoc, onSnapshot, orderBy, query } from 'firebase/firestore';
 
 export async function viewAutomations(setAutomations: any, setBackup?: any) {
-    const ref = query(collection(db, "automations"))
+    const ref = query(collection(db, "automations"), orderBy("data_desenvolvimento", "desc"))
     onSnapshot(ref, (querySnapshot) => {
         const posts: any[] = []
         querySnapshot.forEach((doc) => {
