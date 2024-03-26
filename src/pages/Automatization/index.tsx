@@ -7,6 +7,7 @@ import { Divider } from '@mui/material'
 
 import { AutomationType, HistoryType } from 'types/automation'
 
+import Download from 'assets/download.png'
 import { infoAutomation } from 'services/firestore'
 import { getHistory } from 'services/database'
 import HistoryComponent from './HistoryComponent'
@@ -36,6 +37,7 @@ export default function Automatization() {
                 <div className={styles.container__title}>
                     <img src={VoltarIMG} alt='Voltar' onClick={() => navigate(-1)} />
                     <h2>{automation?.nome}</h2>
+                    {automation?.arquivo_zip !== '' && <a title='Download' href={automation?.arquivo_zip}><img src={Download} alt='Download file' /></a>}
                 </div>
                 <div className={styles.container__text}>
                     <li className={styles.container__text__description}>{automation?.descricao}</li>
