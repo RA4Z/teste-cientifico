@@ -7,7 +7,9 @@ import { Divider } from '@mui/material'
 
 import { AutomationType, HistoryType } from 'types/automation'
 
+import Auto from 'assets/exec_auto.png'
 import Download from 'assets/download.png'
+
 import { infoAutomation } from 'services/firestore'
 import { getHistory } from 'services/database'
 import HistoryComponent from './HistoryComponent'
@@ -44,7 +46,7 @@ export default function Automatization() {
                     <li>Automatização desenvolvida em {automation?.data_desenvolvimento} por {automation?.desenvolvedor} e solicitado por {automation?.solicitante}</li>
                     <li className={styles.container__text__path}>Automatização se encontra em {automation?.caminho_groups}</li>
                 </div>
-                <img src={automation?.imagem} alt='Ícone do projeto' className={styles.container__icon} />
+                <img src={automation?.imagem? automation.imagem : Auto} alt='Ícone do projeto' className={styles.container__icon} />
                 <Divider style={{ background: 'white' }} />
 
                 <h3 className={styles.history}>Histórico de execuções...</h3>

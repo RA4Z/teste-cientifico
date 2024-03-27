@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import Auto from 'assets/exec_auto.png';
 
 interface ExpandMoreProps extends IconButtonProps {
     expand: boolean;
@@ -50,7 +51,7 @@ export default function ExecCard(props: Props) {
             <CardHeader
                 avatar={
                     <Avatar aria-label="recipe">
-                        <img src={props.imagem} style={{ height: '100%' }} alt='imagem' />
+                        <img src={props.imagem? props.imagem : Auto} style={{ height: '100%' }} alt='imagem' />
                     </Avatar>
                 }
                 title={`${props.nome}`}
