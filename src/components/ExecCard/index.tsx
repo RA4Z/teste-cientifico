@@ -59,7 +59,7 @@ export default function ExecCard(props: Props) {
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                    Automatização solicitada por {props.solicitante} e desenvolvida por {props.desenvolvedor}, finalizada no dia {props.data_desenvolvimento}
+                    Software solicitado por {props.solicitante} e desenvolvido por {props.desenvolvedor}, projeto finalizado no dia {props.data_desenvolvimento}
                 </Typography>
             </CardContent>
             {props.descricao !== '' && <>
