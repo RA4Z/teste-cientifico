@@ -6,7 +6,7 @@ import { viewAutomations } from "services/firestore"
 import { AutomationType } from "types/automation"
 
 import { useEffect, useState } from "react"
-import { Button, Divider, TextField } from "@mui/material"
+import { Button, Checkbox, Divider, FormControlLabel, TextField } from "@mui/material"
 import { useNavigate } from "react-router-dom"
 import ExecCard from "components/ExecCard"
 
@@ -14,7 +14,7 @@ export default function Homepage() {
     const navigate = useNavigate()
     const [automations, setAutomations] = useState<AutomationType[]>([])
     const [backup, setBackup] = useState<AutomationType[]>([])
-    const [filter, setFilter] = useState({ filename: '' })
+    const [filter, setFilter] = useState({ filename: '', manual: false, automatico: false })
 
     useEffect(() => {
         async function getFirebaseData() {
@@ -28,14 +28,16 @@ export default function Homepage() {
             const regex = new RegExp(filter.filename, 'i');
             return regex.test(filename);
         }
-        let newList = backup.filter(item => findFilename(item.nome) || findFilename(item.descricao) || findFilename(item.solicitante) || findFilename(item.data_desenvolvimento) || findFilename(item.caminho_groups))
+        let newList = backup.filter(item => findFilename(item.nome) || findFilename(item.descricao) ||
+            findFilename(item.solicitante) || findFilename(item.data_desenvolvimento) || findFilename(item.caminho_groups))
+        if (filter.manual && !filter.automatico) newList = newList.filter(item => item.manual === true)
+        if (!filter.manual && filter.automatico) newList = newList.filter(item => item.manual !== true)
         setAutomations(newList)
     }, [filter, backup])
 
     return (
         <>
             <Header />
-
             <div className={styles.header}>
                 <TextField
                     value={filter.filename}
@@ -47,6 +49,12 @@ export default function Homepage() {
                 <Button onClick={() => navigate(`/Agenda`)} variant="outlined" size="medium">
                     Visualizar Agenda
                 </Button>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <FormControlLabel control={<Checkbox checked={filter.automatico}
+                    onChange={e => setFilter({ ...filter, automatico: e.target.checked })} />} label="Execução Automática" />
+                <FormControlLabel control={<Checkbox checked={filter.manual}
+                    onChange={e => setFilter({ ...filter, manual: e.target.checked })} />} label="Execução Manual" />
             </div>
             <Divider style={{ background: 'white' }} />
             <div className={styles.container}>

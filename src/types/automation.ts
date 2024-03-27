@@ -7,11 +7,12 @@ export interface AutomationType {
     desenvolvedor: string,
     imagem: string,
     nome: string,
-    solicitante: string
+    solicitante: string,
+    manual: boolean
 }
 
 export interface HistoryType {
-    id:string,
+    id: string,
 }
 
 export interface HistoryItemType {
