@@ -1,9 +1,10 @@
 import styles from './Agenda.module.scss'
-import { Button, Divider, TextField } from '@mui/material'
+import { Button, Divider } from '@mui/material'
 import DataJSON from 'data/Agenda.json'
 import { useEffect, useState } from 'react'
 import AgendaCard from 'components/AgendaCard'
 import { useNavigate } from 'react-router-dom'
+import InputBox from 'components/InputBox'
 
 export default function Agenda() {
     const navigate = useNavigate()
@@ -21,13 +22,7 @@ export default function Agenda() {
     return (
         <>
             <div className={styles.header}>
-                <TextField
-                    value={filter}
-                    onChange={e => setFilter(e.target.value)}
-                    label="Filtrar por Palavra-Chave"
-                    variant="filled"
-                    style={{ backgroundColor: 'white' }}
-                />
+                <InputBox texto={filter} onChange={e => setFilter(e.target.value)} label='Filtrar por Palavra-Chave' />
                 <Button onClick={() => navigate(`/`)} variant="outlined" size="medium">
                     Histórico de Execuções
                 </Button>

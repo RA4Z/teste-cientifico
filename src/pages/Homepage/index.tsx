@@ -4,9 +4,10 @@ import { viewAutomations } from "services/firestore"
 import { AutomationType } from "types/automation"
 
 import { useEffect, useState } from "react"
-import { Button, Checkbox, Divider, FormControlLabel, TextField } from "@mui/material"
+import { Button, Checkbox, Divider, FormControlLabel } from "@mui/material"
 import { useNavigate } from "react-router-dom"
 import ExecCard from "components/ExecCard"
+import InputBox from 'components/InputBox'
 
 export default function Homepage() {
     const navigate = useNavigate()
@@ -36,13 +37,7 @@ export default function Homepage() {
     return (
         <>
             <div className={styles.header}>
-                <TextField
-                    value={filter.filename}
-                    onChange={e => setFilter({ ...filter, filename: e.target.value })}
-                    label="Descrição da Automação"
-                    variant="filled"
-                    style={{ backgroundColor: 'white' }}
-                />
+                <InputBox texto={filter.filename} onChange={e => setFilter({ ...filter, filename: e.target.value })} label='Procurar Software' />
                 <Button onClick={() => navigate(`/Agenda`)} variant="outlined" size="medium">
                     Visualizar Agenda
                 </Button>
