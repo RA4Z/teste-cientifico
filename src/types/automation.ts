@@ -5,8 +5,11 @@ export interface AutomationType {
     data_desenvolvimento: string,
     descricao: string,
     desenvolvedor: string,
+    empresa: string,
+    fluxograma: string,
     imagem: string,
     nome: string,
+    pseudocodigo: string,
     solicitante: string,
     manual: boolean
 }

@@ -3,12 +3,6 @@
     width: 100%;
     margin-top: 20px;
 
-    &__icon {
-        display: flex;
-        width: 150px;
-        margin: 0 auto;
-    }
-
     &__title {
         display: flex;
         justify-content: center;
@@ -21,7 +15,13 @@
         img {
             cursor: pointer;
             height: 45px;
+            transition: .2s;
+
+            &:hover {
+                filter: saturate(2) drop-shadow(5px 5px 3px black);
+            }
         }
+
         @media(max-width:500px) {
             flex-direction: column;
         }
@@ -68,5 +68,29 @@
 
     &__list {
         list-style: none;
+    }
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    margin: 0 auto;
+
+    &__images {
+        cursor: pointer;
+        height: 55px;
+        transition: .2s;
+
+        &:hover {
+            filter: saturate(2) drop-shadow(5px 5px 3px black);
+        }
+    }
+
+    &__icon {
+        width: 150px;
+        filter: drop-shadow(10px 10px 9px black);
     }
 }

@@ -9,6 +9,8 @@ import { AutomationType, HistoryType } from 'types/automation'
 
 import Auto from 'assets/exec_auto.png'
 import Download from 'assets/download.png'
+import Fluxograma from 'assets/fluxograma.png'
+import Pseudo from 'assets/pseudocodigo.png'
 
 import { infoAutomation } from 'services/firestore'
 import { getHistory } from 'services/database'
@@ -46,7 +48,12 @@ export default function Automatization() {
                     <li>Software desenvolvido em {automation?.data_desenvolvimento} por {automation?.desenvolvedor} e solicitado por {automation?.solicitante}</li>
                     <li className={styles.container__text__path}>O sistema se encontra em {automation?.caminho_groups}</li>
                 </div>
-                <img src={automation?.imagem? automation.imagem : Auto} alt='Ícone do projeto' className={styles.container__icon} />
+                <div className={styles.details}>
+                    {automation?.pseudocodigo !== '' && <img src={Pseudo} className={styles.details__images} alt='Visualizar Pseudocódigo' title='Visualizar Pseudocódigo' />}
+                    <img src={automation?.imagem ? automation.imagem : Auto} alt='Ícone do projeto' className={styles.details__icon} />
+                    {automation?.fluxograma !== '' && <a href={automation?.fluxograma}><img src={Fluxograma} className={styles.details__images} alt='Visualizar Fluxograma' title='Visualizar Fluxograma' /></a>}
+
+                </div>
                 <Divider style={{ background: 'white' }} />
 
                 <h3 className={styles.history}>Histórico de execuções...</h3>
