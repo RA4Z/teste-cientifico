@@ -4,7 +4,9 @@ import Weg from 'assets/weg-logo.png'
 export default function Header() {
     return (
         <div className={styles.container}>
-            <img src={Weg} alt='Logo da Weg' />
+            <a href='/' title='Navegar para a Homepage'>
+                <img src={Weg} alt='Logo da Weg' />
+            </a>
         </div>
     )
 }

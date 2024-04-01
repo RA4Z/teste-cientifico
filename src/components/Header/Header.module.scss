@@ -11,5 +11,10 @@
     img {
         height: 68px;
         cursor: pointer;
+        transition: .2s;
+
+        &:hover {
+            filter: saturate(2) drop-shadow(2px 2px 2px black);
+        }
     }
 }
