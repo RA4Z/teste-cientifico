@@ -5,12 +5,12 @@ import styles from './Automatization.module.scss'
 import { useNavigate } from 'react-router-dom'
 import { Divider } from '@mui/material'
 
+import BlocoTop from 'components/BlocoTop'
 import { AutomationType, HistoryType } from 'types/automation'
 
 import Auto from 'assets/exec_auto.png'
 import Download from 'assets/download.png'
 import Fluxograma from 'assets/fluxograma.png'
-import Pseudo from 'assets/pseudocodigo.png'
 
 import { infoAutomation } from 'services/firestore'
 import { getHistory } from 'services/database'
@@ -49,7 +49,9 @@ export default function Automatization() {
                     <li className={styles.container__text__path}>O sistema se encontra em {automation?.caminho_groups}</li>
                 </div>
                 <div className={styles.details}>
-                    {automation?.pseudocodigo !== '' && <img src={Pseudo} className={styles.details__images} alt='Visualizar Pseudocódigo' title='Visualizar Pseudocódigo' />}
+                    {(automation?.pseudocodigo !== '' && automation) &&
+                        <BlocoTop title={automation.nome} text={automation.pseudocodigo} />
+                    }
                     <img src={automation?.imagem ? automation.imagem : Auto} alt='Ícone do projeto' className={styles.details__icon} />
                     {automation?.fluxograma !== '' && <a href={automation?.fluxograma}><img src={Fluxograma} className={styles.details__images} alt='Visualizar Fluxograma' title='Visualizar Fluxograma' /></a>}
 

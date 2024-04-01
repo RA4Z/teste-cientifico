@@ -1,0 +1,9 @@
+.image {
+    cursor: pointer;
+    height: 55px;
+    transition: .2s;
+
+    &:hover {
+        filter: saturate(2) drop-shadow(5px 5px 3px black);
+    }
+}
