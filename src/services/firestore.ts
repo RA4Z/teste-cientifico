@@ -17,10 +17,10 @@ export async function infoAutomation(automationID: any, setAutomation: any) {
     try {
         const ref = (await getDoc(doc(db, 'automations', automationID))).data()
         setAutomation(ref)
-        return 'ok'
+        return ref
     }
     catch (error) {
         console.log(error)
-        return 'error'
+        return undefined
     }
 }

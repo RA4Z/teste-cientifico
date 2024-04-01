@@ -15,23 +15,31 @@ import Fluxograma from 'assets/fluxograma.png'
 import { infoAutomation } from 'services/firestore'
 import { getHistory } from 'services/database'
 import HistoryComponent from './HistoryComponent'
+import { NotFound } from 'pages/NotFound'
 
 export default function Automatization() {
     const [automation, setAutomation] = useState<AutomationType>()
     const [history, setHistory] = useState<HistoryType[]>([])
+    const [erroNotFound, setErroNotFound] = useState(false)
 
     const navigate = useNavigate()
     const { id } = useParams()
 
     useEffect(() => {
         async function getFirebaseData() {
-            if (automation?.nome === undefined) await infoAutomation(id, setAutomation)
-            if (automation?.nome !== undefined) {
-                await getHistory(`Algoritmos/${automation.nome}`, setHistory)
+            if (!automation) {
+                const fetchedInfo = await infoAutomation(id, setAutomation)
+                if (fetchedInfo === undefined) setErroNotFound(true)
             }
+
+            await getHistory(`Algoritmos/${automation?.nome}`, setHistory);
         }
-        getFirebaseData()
-    }, [id, automation?.nome])
+        getFirebaseData();
+    }, [id, automation]);
+
+    if (erroNotFound) {
+        return <NotFound />;
+    }
     return (
         <>
             <div className={styles.container}>
