@@ -29,7 +29,7 @@ export default function Homepage() {
             return regex.test(filename);
         }
         let newList = backup.filter(item => findFilename(item.nome) || findFilename(item.descricao) ||
-            findFilename(item.solicitante) || findFilename(item.data_desenvolvimento) || findFilename(item.caminho_groups))
+            findFilename(item.solicitante) || findFilename(item.data_desenvolvimento) || findFilename(item.caminho_groups) || findFilename(item.pseudocodigo))
         if (filter.manual && !filter.automatico) newList = newList.filter(item => item.manual === true)
         if (!filter.manual && filter.automatico) newList = newList.filter(item => item.manual !== true)
         setAutomations(newList)
