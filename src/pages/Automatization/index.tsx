@@ -15,8 +15,6 @@ import Fluxograma from 'assets/fluxograma.png'
 import { infoAutomation } from 'services/firestore'
 import { getHistory } from 'services/database'
 import HistoryComponent from './HistoryComponent'
-import Footer from 'components/Footer'
-import Header from 'components/Header'
 
 export default function Automatization() {
     const [automation, setAutomation] = useState<AutomationType>()
@@ -36,7 +34,6 @@ export default function Automatization() {
     }, [id, automation?.nome])
     return (
         <>
-            <Header />
             <div className={styles.container}>
                 <div className={styles.container__title}>
                     <img src={VoltarIMG} alt='Voltar' onClick={() => navigate(-1)} />
@@ -64,7 +61,6 @@ export default function Automatization() {
                         <HistoryComponent key={index} automationName={automation.nome} history={logged} />
                     ))}
                 </div>
-                <Footer />
             </div>
         </>
     )

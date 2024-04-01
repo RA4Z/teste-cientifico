@@ -1,6 +1,4 @@
-import Header from "components/Header"
 import styles from './Homepage.module.scss'
-import Footer from "components/Footer"
 
 import { viewAutomations } from "services/firestore"
 import { AutomationType } from "types/automation"
@@ -37,7 +35,6 @@ export default function Homepage() {
 
     return (
         <>
-            <Header />
             <div className={styles.header}>
                 <TextField
                     value={filter.filename}
@@ -73,7 +70,6 @@ export default function Homepage() {
                     ))}
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

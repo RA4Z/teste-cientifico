@@ -1,7 +1,5 @@
-import Header from 'components/Header'
 import styles from './Agenda.module.scss'
 import { Button, Divider, TextField } from '@mui/material'
-import Footer from 'components/Footer'
 import DataJSON from 'data/Agenda.json'
 import { useEffect, useState } from 'react'
 import AgendaCard from 'components/AgendaCard'
@@ -22,7 +20,6 @@ export default function Agenda() {
     }, [filter])
     return (
         <>
-            <Header />
             <div className={styles.header}>
                 <TextField
                     value={filter}
@@ -48,7 +45,6 @@ export default function Agenda() {
                     ))}
                 </div>
             </div>
-            <Footer />
         </>
     )
 }
