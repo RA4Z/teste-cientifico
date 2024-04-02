@@ -5,6 +5,7 @@
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    box-shadow: inset 0 0 5px black;
 
     &__icos {
         display: flex;
@@ -62,9 +63,28 @@
 
 .creditos {
     background-color: black;
-    text-align: center;
     padding: 5px;
-    font-size: calc(6px + 2vmin);
+    overflow: hidden;
+    @media(max-width:500px) {
+        width: 800px;
+    }
+    p {
+        margin: 0;
+        text-align: right;
+        font-size: calc(6px + 2vmin);
+        animation: scroll 15s linear infinite;
+
+        @keyframes scroll {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    }
+
 }
 
 .atribuicoes {

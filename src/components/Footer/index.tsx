@@ -35,7 +35,7 @@ export default function Footer() {
                     <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_49109" target="_blank" rel="noreferrer"><li>Rohan Dorneles Machado</li></a>
                 </div>
             </div>
-            <div className={styles.creditos}>Desenvolvido e prototipado por Robert Aron Zimmermann robertn@weg.net</div>
+            <div className={styles.creditos}><p>Automations's Database, projeto desenvolvido e prototipado por Robert Aron Zimmermann robertn@weg.net</p></div>
         </>
     )
 }
