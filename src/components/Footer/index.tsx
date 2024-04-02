@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.atribuicoes}>
-                    <li style={{ listStyle: 'none', color: '#64CCC5' }}>Contato dos Analistas:</li>
+                    <p style={{ color: '#64CCC5' }}>Contato dos Analistas:</p>
                     <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_31798" target="_blank" rel="noreferrer"><li>Alisson Mazuim</li></a>
                     <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_35973" target="_blank" rel="noreferrer"><li>Anderson Paulo da Luz</li></a>
                     <a href="https://colaboradores.weg.net/colaboradores.aspx?chave=C_1001_77661" target="_blank" rel="noreferrer"><li>Daniel Assis Amancio</li></a>
