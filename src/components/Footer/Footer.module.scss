@@ -29,7 +29,8 @@
     }
 
     &__logotipo {
-        height: calc(30px + 10vmin);
+        max-height: 150px;
+        max-width: 100%;
     }
 
     &__dev {

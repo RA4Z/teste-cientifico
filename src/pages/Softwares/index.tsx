@@ -37,7 +37,7 @@ export default function Softwares() {
             <div className={styles.header}>
                 <InputBox texto={filter.filename} onChange={e => setFilter({ ...filter, filename: e.target.value })} label='Procurar Software' />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', flexWrap:'wrap' }}>
                 <FormControlLabel control={<Checkbox checked={filter.automatico}
                     onChange={e => setFilter({ ...filter, automatico: e.target.checked })} />} label="Execução Automática" />
                 <FormControlLabel control={<Checkbox checked={filter.manual}
