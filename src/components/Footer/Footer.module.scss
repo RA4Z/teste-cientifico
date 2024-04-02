@@ -6,6 +6,23 @@
     display: flex;
     justify-content: space-between;
 
+    &__icos {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding: 5px;
+
+        &__icon {
+            height: 30px;
+            cursor: pointer;
+            transition: .2s;
+
+            &:hover {
+                filter: saturate(2) drop-shadow(2px 2px 2px black);
+            }
+        }
+    }
+
     @media(max-width:550px) {
         flex-direction: column;
         gap: 20px;
@@ -36,5 +53,16 @@
     &__dev {
         display: flex;
         flex-direction: column;
+
+        @media(min-width:551px) {
+            align-self: flex-end;
+        }
     }
+}
+
+.creditos {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: calc(6px + 2vmin);
 }
