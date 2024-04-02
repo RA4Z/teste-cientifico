@@ -4,7 +4,8 @@ import { Box, LinearProgress } from '@mui/material';
 import Footer from 'components/Footer';
 import Header from 'components/Header';
 
-const Homepage = lazy(() => import('pages/Homepage'));
+const HomePage = lazy(() => import('pages/Homepage'))
+const Softwares = lazy(() => import('pages/Softwares'));
 const Automatization = lazy(() => import('pages/Automatization'));
 const Agenda = lazy(() => import('pages/Agenda'));
 const NotFound = lazy(() => import('pages/NotFound'));
@@ -18,7 +19,8 @@ export default function AppRouter() {
         </Box>}>
           <Header />
           <Routes>
-            <Route path='/' element={<Homepage />} />
+            <Route path='/' element={<HomePage />} />
+            <Route path='/Softwares' element={<Softwares />} />
             <Route path='/Agenda' element={<Agenda />} />
             <Route path='/Automatization/:id' element={<Automatization />} />
             <Route path='*' element={<NotFound />} />
