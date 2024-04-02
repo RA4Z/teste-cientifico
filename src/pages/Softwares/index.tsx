@@ -34,10 +34,11 @@ export default function Softwares() {
 
     return (
         <>
+            <h3 style={{ textAlign: 'center', textWrap:'wrap' }}>Buscar Software de Automatização</h3>
             <div className={styles.header}>
                 <InputBox texto={filter.filename} onChange={e => setFilter({ ...filter, filename: e.target.value })} label='Procurar Software' />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', flexWrap:'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <FormControlLabel control={<Checkbox checked={filter.automatico}
                     onChange={e => setFilter({ ...filter, automatico: e.target.checked })} />} label="Execução Automática" />
                 <FormControlLabel control={<Checkbox checked={filter.manual}

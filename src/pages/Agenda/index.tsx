@@ -19,6 +19,7 @@ export default function Agenda() {
     }, [filter])
     return (
         <>
+            <h3 style={{ textAlign: 'center', textWrap:'wrap' }}>Visualizar Dados na Agenda PCP</h3>
             <div className={styles.header}>
                 <InputBox texto={filter} onChange={e => setFilter(e.target.value)} label='Filtrar por Palavra-Chave' />
             </div>

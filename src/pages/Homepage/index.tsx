@@ -24,19 +24,22 @@ export default function Homepage() {
         },
     ]
     return (
-        <div className="container">
-            {webPages.map((page, index) => (
-                <div className="card" key={index} onClick={() => navigate(page.link)}> 
-                    <img className="background" src={page.image} alt="" />
-                    <div className="card-content">
-                        <div className="profile-image">
-                            <img src={page.icon} alt="Ícone da página" />
+        <>
+            <h3 style={{ textAlign: 'center', textWrap: 'wrap', paddingBottom:20 }}>PPC WEN Automation's Database</h3>
+            <div className="container">
+                {webPages.map((page, index) => (
+                    <div className="card" key={index} onClick={() => navigate(page.link)}>
+                        <img className="background" src={page.image} alt="" />
+                        <div className="card-content">
+                            <div className="profile-image">
+                                <img src={page.icon} alt="Ícone da página" />
+                            </div>
+                            <h3 className="title">{page.name}</h3>
                         </div>
-                        <h3 className="title">{page.name}</h3>
+                        <div className="backdrop"></div>
                     </div>
-                    <div className="backdrop"></div>
-                </div>
-            ))}
-        </div>
+                ))}
+            </div>
+        </>
     )
 }
