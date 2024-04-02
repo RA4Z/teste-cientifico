@@ -26,13 +26,13 @@ export default function Homepage() {
     return (
         <div className="container">
             {webPages.map((page, index) => (
-                <div className="card" key={index} onClick={() => navigate(page.link)}>
+                <div className="card" key={index} onClick={() => navigate(page.link)}> 
                     <img className="background" src={page.image} alt="" />
                     <div className="card-content">
                         <div className="profile-image">
                             <img src={page.icon} alt="Ícone da página" />
                         </div>
-                        <h3 className="title">Ir para {page.name}</h3>
+                        <h3 className="title">{page.name}</h3>
                     </div>
                     <div className="backdrop"></div>
                 </div>
