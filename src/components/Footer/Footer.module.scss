@@ -65,14 +65,17 @@
     background-color: black;
     padding: 5px;
     overflow: hidden;
-    @media(max-width:500px) {
-        width: 800px;
-    }
+
     p {
         margin: 0;
-        text-align: right;
         font-size: calc(6px + 2vmin);
-        animation: scroll 15s linear infinite;
+        text-align: center;
+
+        @media(min-width: 700px) {
+            text-wrap: nowrap;
+            text-align: right;
+            animation: scroll 15s linear infinite;
+        }
 
         @keyframes scroll {
             from {
@@ -80,7 +83,11 @@
             }
 
             to {
-                transform: translateX(-100%);
+                transform: translateX(-140%);
+
+                @media(max-width:900px) {
+                    transform: translateX(-100%);
+                }
             }
         }
     }

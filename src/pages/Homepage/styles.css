@@ -63,6 +63,10 @@
   filter: brightness(0.4);
   z-index: -1;
   transition: var(--transition-timing) ease;
+
+  @media(max-width: 500px) {
+    filter: brightness(1);
+  }
 }
 
 .card:hover>.background {
@@ -119,6 +123,11 @@
   margin-left: 10px;
   translate: 0 100%;
   opacity: 0;
+
+  @media(max-width: 500px) {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 
 .card:hover .title {
