@@ -9,7 +9,7 @@
 .container .box {
     position: relative;
     width: 320px;
-    height: 400px;
+    height: calc(40px + 55vmin);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,18 +79,24 @@ $power-bi-image: url('../../assets/Power BI.png');
 $power-apps-image: url('../../assets/Power Apps.png');
 
 .container .box.box--Excel span:before {
-    opacity: 1;
-    background-image: $excel-image;
+    @media(min-width: 500px) {
+        opacity: 1;
+        background-image: $excel-image;
+    }
 }
 
 .container .box.box--Power_BI span:before {
-    opacity: 1;
-    background-image: $power-bi-image;
+    @media(min-width: 500px) {
+        opacity: 1;
+        background-image: $power-bi-image;
+    }
 }
 
 .container .box.box--Power_Apps span:before {
-    opacity: 1;
-    background-image: $power-apps-image;
+    @media(min-width: 500px) {
+        opacity: 1;
+        background-image: $power-apps-image;
+    }
 }
 
 .container .box span {
@@ -159,13 +165,13 @@ $power-apps-image: url('../../assets/Power Apps.png');
 }
 
 .container .box .content h2 {
-    font-size: 2em;
+    font-size: calc(4px + 4vmin);
     color: #fff;
     margin-bottom: 10px;
 }
 
 .container .box .content p {
-    font-size: 1.1em;
+    font-size: calc(4px + 2vmin);
     margin-bottom: 10px;
     line-height: 1.4em;
 }

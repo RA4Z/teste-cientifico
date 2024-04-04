@@ -36,7 +36,7 @@ export default function Indicadores() {
                     )}>
                         <span></span>
                         <div className={styles.content}>
-                            <h2>{dado.NOME.replace(' ', '_')}</h2>
+                            <h2>{dado.NOME}</h2>
                             <p>{dado.DESCRIÇÃO}</p>
                             <InfoIndicador fileName={dado.NOME}
                                 description={dado.DESCRIÇÃO}
