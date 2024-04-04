@@ -51,5 +51,17 @@
         "USABILIDADE": "Fábrica Jaraguá do Sul",
         "LINK_GROUPS": "Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Processos com Automatização/11 - Kanban digital/Kanban_Digital_JGS.pbix",
         "LINK_WEB": "https://app.powerbi.com/view?r=eyJrIjoiNzRiNDk3NDYtNGNlMi00ODkwLTlmOWEtODYwNTJmMDc0NDczIiwidCI6Ijg4NjY2NmE2LWE4ZDItNDYwNC1hMDAyLTk1YjYyMmNiN2UxOCIsImMiOjR9"
+    },
+    {
+        "NOME": "WEG Uber Logística",
+        "DESCRIÇÃO": "Aplicativo que exibe a lista de tarefas para empilhadeiras/carretinhas",
+        "CRIADO POR": "Robert Aron Zimmermann",
+        "CRIADO EM": "04/2024",
+        "DATABASES": [],
+        "ATUALIZACAO": "tempo real",
+        "FILE_TYPE": "Power Apps",
+        "USABILIDADE": "Fábrica Jaraguá do Sul",
+        "LINK_GROUPS": "",
+        "LINK_WEB":"https://apps.powerapps.com/play/e/default-886666a6-a8d2-4604-a002-95b622cb7e18/a/40a86c20-95d0-4640-b76f-18c0fceef4ea?tenantId=886666a6-a8d2-4604-a002-95b622cb7e18&hint=8eee71b5-c199-4f6c-8511-659d28bee355&sourcetime=1712253575800&source=portal#"
     }
 ]
