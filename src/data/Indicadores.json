@@ -54,7 +54,7 @@
     },
     {
         "NOME": "WEG Uber Logística",
-        "DESCRIÇÃO": "Aplicativo que exibe a lista de tarefas para empilhadeiras/carretinhas",
+        "DESCRIÇÃO": "Aplicativo que exibe a listagem de entregas solicitadas para empilhadeiras e carretinhas",
         "CRIADO POR": "Robert Aron Zimmermann",
         "CRIADO EM": "04/2024",
         "DATABASES": [],
