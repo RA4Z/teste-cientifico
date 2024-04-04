@@ -36,8 +36,8 @@ export default function Indicadores() {
                     )}>
                         <span></span>
                         <div className={styles.content}>
-                            <h2>{dado.NOME}</h2>
-                            <p>{dado.DESCRIÇÃO}</p>
+                            <h2>{dado.NOME.slice(0,25)}</h2>
+                            <p>{dado.DESCRIÇÃO.slice(0,100)}</p>
                             <InfoIndicador fileName={dado.NOME}
                                 description={dado.DESCRIÇÃO}
                                 databases={dado.DATABASES}
