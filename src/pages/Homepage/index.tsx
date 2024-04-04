@@ -5,6 +5,10 @@ import Softwares_img from 'images/softwares.jpg'
 
 import Agenda_ico from 'images/svgs/agenda.svg'
 import Agenda_img from 'images/agenda.jpg'
+
+import Indicadores_ico from 'images/svgs/indicadores.svg'
+import Indicadores_img from 'images/indicadores.jpg'
+
 import { useNavigate } from 'react-router-dom'
 
 export default function Homepage() {
@@ -21,6 +25,12 @@ export default function Homepage() {
             link: '/Softwares',
             image: Softwares_img,
             icon: Softwares_ico
+        },
+        {
+            name: 'Indicadores',
+            link: '/Indicadores',
+            image: Indicadores_img,
+            icon: Indicadores_ico
         },
     ]
     return (
