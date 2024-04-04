@@ -5,6 +5,7 @@ import styles from './Indicadores.module.scss'
 import DataJSON from 'data/Indicadores.json'
 import { Divider } from '@mui/material'
 import InputBox from 'components/InputBox'
+import InfoIndicador from './InfoIndicador'
 
 export default function Indicadores() {
     const [dados, setDados] = useState(DataJSON)
@@ -35,9 +36,17 @@ export default function Indicadores() {
                     )}>
                         <span></span>
                         <div className={styles.content}>
-                            <h2>{dado.FILE_TYPE.replace(' ', '_')}</h2>
+                            <h2>{dado.NOME.replace(' ', '_')}</h2>
                             <p>{dado.DESCRIÇÃO}</p>
-                            <a href="/">Saber mais</a>
+                            <InfoIndicador fileName={dado.NOME}
+                                description={dado.DESCRIÇÃO}
+                                databases={dado.DATABASES}
+                                atualizacao={dado.ATUALIZACAO}
+                                criado_em={dado['CRIADO EM']}
+                                criado_por={dado['CRIADO POR']}
+                                link_groups={dado.LINK_GROUPS}
+                                link_web={dado.LINK_WEB}
+                                usabilidade={dado.USABILIDADE} />
                         </div>
                     </div>
                 ))}

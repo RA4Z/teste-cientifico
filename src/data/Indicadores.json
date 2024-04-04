@@ -51,41 +51,5 @@
         "USABILIDADE": "Fábrica Jaraguá do Sul",
         "LINK_GROUPS": "Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Processos com Automatização/11 - Kanban digital/Kanban_Digital_JGS.pbix",
         "LINK_WEB": "https://app.powerbi.com/view?r=eyJrIjoiNzRiNDk3NDYtNGNlMi00ODkwLTlmOWEtODYwNTJmMDc0NDczIiwidCI6Ijg4NjY2NmE2LWE4ZDItNDYwNC1hMDAyLTk1YjYyMmNiN2UxOCIsImMiOjR9"
-    },
-    {
-        "NOME": "Kanban Eletrônico",
-        "DESCRIÇÃO": "Indicador com visão Kanban dos processos a serem realizados pela fábrica de acordo com seu Lead Time",
-        "CRIADO POR": "Jose Francisco Henrique Junior",
-        "CRIADO EM": "11/2021",
-        "DATABASES": [],
-        "ATUALIZACAO": "04:00AM; 08:00AM; 10:00AM; 12:00PM; 02:00PM; 04:00PM; 06:00PM; 08:00PM",
-        "FILE_TYPE": "Excel",
-        "USABILIDADE": "Fábrica Jaraguá do Sul",
-        "LINK_GROUPS": "Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Processos com Automatização/11 - Kanban digital/Kanban_Digital_JGS.pbix",
-        "LINK_WEB": "https://app.powerbi.com/view?r=eyJrIjoiNzRiNDk3NDYtNGNlMi00ODkwLTlmOWEtODYwNTJmMDc0NDczIiwidCI6Ijg4NjY2NmE2LWE4ZDItNDYwNC1hMDAyLTk1YjYyMmNiN2UxOCIsImMiOjR9"
-    },
-    {
-        "NOME": "Kanban Eletrônico",
-        "DESCRIÇÃO": "Indicador com visão Kanban dos processos a serem realizados pela fábrica de acordo com seu Lead Time",
-        "CRIADO POR": "Jose Francisco Henrique Junior",
-        "CRIADO EM": "11/2021",
-        "DATABASES": [],
-        "ATUALIZACAO": "04:00AM; 08:00AM; 10:00AM; 12:00PM; 02:00PM; 04:00PM; 06:00PM; 08:00PM",
-        "FILE_TYPE": "Power Apps",
-        "USABILIDADE": "Fábrica Jaraguá do Sul",
-        "LINK_GROUPS": "Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Processos com Automatização/11 - Kanban digital/Kanban_Digital_JGS.pbix",
-        "LINK_WEB": "https://app.powerbi.com/view?r=eyJrIjoiNzRiNDk3NDYtNGNlMi00ODkwLTlmOWEtODYwNTJmMDc0NDczIiwidCI6Ijg4NjY2NmE2LWE4ZDItNDYwNC1hMDAyLTk1YjYyMmNiN2UxOCIsImMiOjR9"
-    },
-    {
-        "NOME": "Kanban Eletrônico",
-        "DESCRIÇÃO": "Indicador com visão Kanban dos processos a serem realizados pela fábrica de acordo com seu Lead Time",
-        "CRIADO POR": "Jose Francisco Henrique Junior",
-        "CRIADO EM": "11/2021",
-        "DATABASES": [],
-        "ATUALIZACAO": "04:00AM; 08:00AM; 10:00AM; 12:00PM; 02:00PM; 04:00PM; 06:00PM; 08:00PM",
-        "FILE_TYPE": "Outro",
-        "USABILIDADE": "Fábrica Jaraguá do Sul",
-        "LINK_GROUPS": "Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Processos com Automatização/11 - Kanban digital/Kanban_Digital_JGS.pbix",
-        "LINK_WEB": "https://app.powerbi.com/view?r=eyJrIjoiNzRiNDk3NDYtNGNlMi00ODkwLTlmOWEtODYwNTJmMDc0NDczIiwidCI6Ijg4NjY2NmE2LWE4ZDItNDYwNC1hMDAyLTk1YjYyMmNiN2UxOCIsImMiOjR9"
     }
 ]
