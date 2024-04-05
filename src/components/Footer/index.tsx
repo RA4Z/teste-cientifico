@@ -5,6 +5,7 @@ import Logo from 'assets/weg-logo-white.png'
 import HomeDepto from 'assets/svgs/home_depto.svg'
 import Intranet from 'assets/svgs/intranet.svg'
 import SiteWeb from 'assets/svgs/site_weg.svg'
+import Login from 'components/Login'
 
 export default function Footer() {
     return (
@@ -15,6 +16,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.container__dev}>
+                    <Login />
                     <button className={styles.container__button}>Automations's Database</button>
                     <Divider style={{ background: 'white' }} />
                     <div className={styles.container__icos}>
