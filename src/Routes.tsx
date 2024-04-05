@@ -8,6 +8,7 @@ import DefaultPage from 'components/DefaultPage';
 
 const HomePage = lazy(() => import('pages/Homepage'))
 const Softwares = lazy(() => import('pages/Softwares'));
+const CadastrarIndicador = lazy(() => import('pages/CadastrarIndicador'));
 const Indicadores = lazy(() => import('pages/Indicadores'));
 const Automatization = lazy(() => import('pages/Automatization'));
 const Agenda = lazy(() => import('pages/Agenda'));
@@ -26,6 +27,7 @@ export default function AppRouter() {
               <Route index element={<HomePage />} />
               <Route path='/Softwares' element={<Softwares />} />
               <Route path='/Indicadores' element={<Indicadores />} />
+              <Route path='/CadastrarIndicador' element={<CadastrarIndicador />} />
               <Route path='/Agenda' element={<Agenda />} />
               <Route path='/Automatization/:id' element={<Automatization />} />
               <Route path='*' element={<NotFound />} />

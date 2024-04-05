@@ -7,14 +7,21 @@ import InputBox from 'components/InputBox'
 import InfoIndicador from './InfoIndicador'
 import { getIndicadores } from 'services/indicadores'
 import { IndicadoresType } from 'types/automation'
+import BotaoHover from 'components/BotaoHover'
+import { useNavigate } from 'react-router-dom'
+import { supabase } from 'config/supabase'
 
 export default function Indicadores() {
+    const navigate = useNavigate()
     const [filter, setFilter] = useState('')
+    const [user, setUser] = useState('')
     const [dados, setDados] = useState<IndicadoresType[]>([])
     const [backup, setBackup] = useState<IndicadoresType[]>([])
 
     useEffect(() => {
         async function getSupabaseData() {
+            const user = (await supabase.auth.getUser()).data.user?.email
+            if (user !== undefined) setUser(user)
             await getIndicadores(setDados, setBackup)
         }
         getSupabaseData()
@@ -35,6 +42,7 @@ export default function Indicadores() {
             <h3 style={{ textAlign: 'center', textWrap: 'wrap' }}>Listagem de Indicadores PCP WEN</h3>
             <div className={styles.header}>
                 <InputBox texto={filter} onChange={e => setFilter(e.target.value)} label='Filtrar por Palavra-Chave' />
+                {user !== '' && <BotaoHover text="Cadastrar" onClick={() => navigate('/CadastrarIndicador')} />}
             </div>
             <Divider style={{ background: 'white' }} />
             <div className={styles.container}>

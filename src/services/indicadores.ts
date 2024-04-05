@@ -21,14 +21,19 @@ export async function getIndicadores(setDados: any, setBackup: any) {
 
 export async function insertIndicadores(indicador: IndicadoresType) {
     try {
-        const { data, error } = await supabase
+        const { error } = await supabase
             .from('indicadores')
             .insert([
-                { NOME: indicador.NOME, DESCRIÇÃO: indicador.DESCRIÇÃO },
+                {
+                    NOME: indicador.NOME, DESCRIÇÃO: indicador.DESCRIÇÃO, CRIADO_POR: indicador.CRIADO_POR,
+                    CRIADO_EM: indicador.CRIADO_EM, DATABASES: indicador.DATABASES, ATUALIZACAO: indicador.ATUALIZACAO,
+                    FILE_TYPE: indicador.FILE_TYPE, USABILIDADE: indicador.USABILIDADE, LINK_GROUPS: indicador.LINK_GROUPS,
+                    LINK_WEB: indicador.LINK_WEB
+                },
             ])
             .select()
         if (error) return error
-        return data
+        return 'success'
     }
     catch (error: any) {
         console.error('Erro ao buscar indicadores:', error.message);
