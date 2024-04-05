@@ -31,7 +31,12 @@ export default function Login() {
     async function logar() {
         if (dados.email === '' || dados.senha === '') return alert('E-mail ou senha estão em branco!')
         const response = await loginIndicadores(dados.email, dados.senha)
-        console.log(response)
+        if(response === 'success') {
+            alert('Logado com sucesso!')
+            handleClose()
+        } else {
+            alert('E-mail ou senha inválidos!')
+        }
     }
 
     return (

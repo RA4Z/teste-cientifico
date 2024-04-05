@@ -37,11 +37,10 @@ export async function insertIndicadores(indicador: IndicadoresType) {
 }
 
 export async function loginIndicadores(email: string, password: string) {
-    console.log(email, password)
-    const { data, error } = await supabase.auth.signInWithPassword({
+    const { error } = await supabase.auth.signInWithPassword({
         email: email,
         password: password,
     })
     if (error) return error
-    return data
+    return 'success'
 }
