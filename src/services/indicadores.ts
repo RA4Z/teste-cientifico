@@ -44,3 +44,9 @@ export async function loginIndicadores(email: string, password: string) {
     if (error) return error
     return 'success'
 }
+
+export async function logoffIndicadores() {
+    const { error } = await supabase.auth.signOut()
+    if (error) return error
+    return 'success'
+}

@@ -20,7 +20,7 @@ export default function Login() {
     const [dados, setDados] = React.useState({ email: '', senha: '' })
 
     const handleClickOpen = () => {
-        setDados({email:'', senha:''})
+        setDados({ email: '', senha: '' })
         setOpen(true);
     };
 
@@ -31,9 +31,9 @@ export default function Login() {
     async function logar() {
         if (dados.email === '' || dados.senha === '') return alert('E-mail ou senha estão em branco!')
         const response = await loginIndicadores(dados.email, dados.senha)
-        if(response === 'success') {
+        if (response === 'success') {
             alert('Logado com sucesso!')
-            handleClose()
+            window.location.reload()
         } else {
             alert('E-mail ou senha inválidos!')
         }

@@ -6,8 +6,28 @@ import HomeDepto from 'assets/svgs/home_depto.svg'
 import Intranet from 'assets/svgs/intranet.svg'
 import SiteWeb from 'assets/svgs/site_weg.svg'
 import Login from 'components/Login'
+import { supabase } from 'config/supabase'
+import { logoffIndicadores } from 'services/indicadores'
+import { useEffect, useState } from 'react'
+import BotaoHover from 'components/BotaoHover'
 
 export default function Footer() {
+    const [user, setUser] = useState('')
+
+    useEffect(() => {
+        async function getUserLogged() {
+            const user = (await supabase.auth.getUser()).data.user?.email
+            if (user !== '' && user !== undefined) {
+                setUser(user)
+            }
+        }
+        getUserLogged()
+    }, [])
+
+    async function deslogar() {
+        await logoffIndicadores()
+        window.location.reload()
+    }
     return (
         <>
             <div className={styles.container}>
@@ -16,7 +36,9 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.container__dev}>
-                    <Login />
+                    {user === '' ? <Login /> :
+                        <BotaoHover text='Logoff' onClick={() => deslogar()} />}
+
                     <button className={styles.container__button}>Automations's Database</button>
                     <Divider style={{ background: 'white' }} />
                     <div className={styles.container__icos}>
