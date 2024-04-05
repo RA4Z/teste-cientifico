@@ -24,3 +24,16 @@ export interface HistoryItemType {
     horaExec: string,
     quantidade: number
 }
+
+export interface IndicadoresType {
+    NOME: string,
+    DESCRIÇÃO: string
+    CRIADO_POR: string,
+    CRIADO_EM: string,
+    DATABASES: string[],
+    ATUALIZACAO: string,
+    FILE_TYPE: string
+    USABILIDADE: string,
+    LINK_GROUPS: string,
+    LINK_WEB: string,
+}

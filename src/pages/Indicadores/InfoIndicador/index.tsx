@@ -61,7 +61,7 @@ export default function InfoIndicador(props: Props) {
           {props.databases.length > 0 &&
             <><h4>Bases de dados utilizadas pelo Indicador:</h4>
               {props.databases.map((data, index) => (
-                <p key={index}>{data}</p>
+                <p key={index} className={styles.paragraph}>{data}</p>
               ))}</>}
 
         </DialogContent>
