@@ -1,5 +1,5 @@
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
-import styles from './CadastrarIndicador.module.scss'
+import styles from './Cadastrar.module.scss'
 import classNames from "classnames";
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
 export default function FileType(props: Props) {
     return (
         <FormControl>
-            <InputLabel id="demo-simple-select-label" style={{ color: '#4ba3eb' }}>Tipo de Arquivo</InputLabel>
+            <InputLabel id="demo-simple-select-label" style={{ color: '#4ba3eb' }}>TIPO DE ARQUIVO</InputLabel>
             <Select
                 id="demo-simple-select"
                 value={props.dados.FILE_TYPE}
