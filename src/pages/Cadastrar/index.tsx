@@ -8,6 +8,7 @@ import InputBox from "components/InputBox";
 import BotaoHover from "components/BotaoHover";
 import { insertIndicadores } from "services/indicadores";
 import { Timestamp } from "firebase/firestore";
+import { insertAutomation } from "services/firestore";
 
 export default function Cadastrar() {
     const location = useLocation();
@@ -48,19 +49,22 @@ export default function Cadastrar() {
 
         const algumCampoVazio = Object.entries(dados)
             .filter(([campo, valor]) => campo !== 'LINK_WEB' && campo !== 'LINK_GROUPS'
-                && campo !== 'USABILIDADE' && campo !== 'arquivo_zip' && campo !== 'imagem' && valor === "")
+                && campo !== 'USABILIDADE' && campo !== 'arquivo_zip' && campo !== 'imagem' && campo !== 'id' && valor === "")
             .length > 0;
-        if (algumCampoVazio) return alert('Por favor, preencha todos os campos antes de cadastrar o indicador.');
+        if (algumCampoVazio) return alert('Por favor, preencha todos os campos antes de realizar o cadastro.');
 
         if ('NOME' in dados) {
             response = await insertIndicadores(dados)
         }
+        if ('fluxograma' in dados) {
+            response = await insertAutomation(dados)
+        }
 
         if (response === 'success') {
-            alert('Indicador cadastrado com sucesso!')
+            alert('Cadastrado realizado com sucesso!')
             navigate('/')
         } else {
-            alert(`Ocorreu o erro: ${response} ao tentar cadastrar o indicador!`)
+            alert(`Ocorreu o erro: ${response} ao tentar realizar o cadastro!`)
         }
     }
 

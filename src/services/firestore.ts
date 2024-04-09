@@ -1,5 +1,14 @@
 import { db } from 'config/firebase';
-import { collection, doc, getDoc, onSnapshot, orderBy, query } from 'firebase/firestore';
+import { addDoc, collection, doc, getDoc, onSnapshot, orderBy, query } from 'firebase/firestore';
+
+export async function insertAutomation(data: any) {
+    try {
+        await addDoc(collection(db, 'automations'), data)
+        return 'success'
+    } catch (error) {
+        return error
+    }
+}
 
 export async function viewAutomations(setAutomations: any, setBackup?: any) {
     const ref = query(collection(db, "automations"), orderBy("data_desenvolvimento", "desc"))

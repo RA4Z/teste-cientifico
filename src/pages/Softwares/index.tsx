@@ -7,11 +7,24 @@ import { useEffect, useState } from "react"
 import { Checkbox, Divider, FormControlLabel } from "@mui/material"
 import ExecCard from "components/ExecCard"
 import InputBox from 'components/InputBox'
+import BotaoHover from 'components/BotaoHover'
+import { useNavigate } from 'react-router-dom'
+import { supabase } from 'config/supabase'
 
 export default function Softwares() {
+    const navigate = useNavigate()
     const [automations, setAutomations] = useState<AutomationType[]>([])
+    const [user, setUser] = useState('')
     const [backup, setBackup] = useState<AutomationType[]>([])
     const [filter, setFilter] = useState({ filename: '', manual: false, automatico: false })
+
+    useEffect(() => {
+        async function getUser() {
+            const user = (await supabase.auth.getUser()).data.user?.email
+            if (user !== undefined) setUser(user)
+        }
+        getUser()
+    }, [])
 
     useEffect(() => {
         async function getFirebaseData() {
@@ -34,9 +47,10 @@ export default function Softwares() {
 
     return (
         <>
-            <h3 style={{ textAlign: 'center', textWrap:'wrap' }}>Buscar Software de Automatização</h3>
+            <h3 style={{ textAlign: 'center', textWrap: 'wrap' }}>Buscar Software de Automatização</h3>
             <div className={styles.header}>
                 <InputBox texto={filter.filename} onChange={e => setFilter({ ...filter, filename: e.target.value })} label='Procurar Software' />
+                {user !== '' && <BotaoHover text="Cadastrar" onClick={() => navigate('/CadastrarSoftware')} />}
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <FormControlLabel control={<Checkbox checked={filter.automatico}
