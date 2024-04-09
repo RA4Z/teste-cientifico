@@ -12,6 +12,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Auto from 'assets/exec_auto.png';
+import { Timestamp } from '@firebase/firestore-types';
 
 interface ExpandMoreProps extends IconButtonProps {
     expand: boolean;
@@ -30,7 +31,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
 
 interface Props {
     id: string,
-    data_desenvolvimento: string,
+    data_desenvolvimento: Timestamp,
     nome: string,
     desenvolvedor: string,
     solicitante: string,
@@ -51,7 +52,7 @@ export default function ExecCard(props: Props) {
             <CardHeader
                 avatar={
                     <Avatar aria-label="recipe">
-                        <img src={props.imagem? props.imagem : Auto} style={{ height: '100%' }} alt='imagem' />
+                        <img src={props.imagem ? props.imagem : Auto} style={{ height: '100%' }} alt='imagem' />
                     </Avatar>
                 }
                 title={`${props.nome}`}
@@ -59,7 +60,7 @@ export default function ExecCard(props: Props) {
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                    Software solicitado por {props.solicitante} e desenvolvido por {props.desenvolvedor}, projeto finalizado no dia {props.data_desenvolvimento}
+                    Software solicitado por {props.solicitante} e desenvolvido por {props.desenvolvedor}, projeto finalizado no dia {props.data_desenvolvimento.toDate().toLocaleDateString()}
                 </Typography>
             </CardContent>
             {props.descricao !== '' && <>

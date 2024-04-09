@@ -50,7 +50,7 @@ export default function Automatization() {
                 </div>
                 <div className={styles.container__text}>
                     <li className={styles.container__text__description}>{automation?.descricao}</li>
-                    <li>Software desenvolvido em {automation?.data_desenvolvimento} por {automation?.desenvolvedor} e solicitado por {automation?.solicitante}</li>
+                    <li>Software desenvolvido em {automation?.data_desenvolvimento.toDate().toLocaleDateString()} por {automation?.desenvolvedor} e solicitado por {automation?.solicitante}</li>
                     <li className={styles.container__text__path}>O sistema se encontra em {automation?.caminho_groups}</li>
                 </div>
                 <div className={styles.details}>

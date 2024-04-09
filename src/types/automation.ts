@@ -1,8 +1,10 @@
+import { Timestamp } from '@firebase/firestore-types';
+
 export interface AutomationType {
     id: string,
     arquivo_zip: string,
     caminho_groups: string,
-    data_desenvolvimento: string,
+    data_desenvolvimento: Timestamp,
     descricao: string,
     desenvolvedor: string,
     empresa: string,
