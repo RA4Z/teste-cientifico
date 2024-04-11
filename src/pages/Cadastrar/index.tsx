@@ -75,7 +75,7 @@ export default function Cadastrar() {
                 <div className={styles.form}>
                     {location.pathname.toLowerCase() === '/cadastrarindicador' && <FileType dados={dados} setDados={setDados} />}
                     {Object.entries(dados).map(([campo, valor]) => (
-                        (campo !== 'LINK_WEB' && campo !== 'LINK_GROUPS' && campo !== 'data_desenvolvimento' && campo !== 'DATABASES' && campo !== 'manual' && campo !== 'id' && campo !== 'FILE_TYPE') &&
+                        (campo !== 'data_desenvolvimento' && campo !== 'DATABASES' && campo !== 'manual' && campo !== 'id' && campo !== 'FILE_TYPE') &&
                         <InputBox label={campo.replaceAll('_', ' ').toLocaleUpperCase()} texto={valor} onChange={e => setDados({ ...dados, [campo]: e.target.value })} />
                     ))}
                 </div>}
