@@ -49,17 +49,31 @@ export default function ExecCard(props: Props) {
 
     return (
         <Card sx={{ width: 345, bgcolor: '#D9D9D9' }}>
-            <CardHeader
+            <CardHeader 
                 avatar={
                     <Avatar aria-label="recipe">
                         <img src={props.imagem ? props.imagem : Auto} style={{ height: '100%' }} alt='imagem' />
                     </Avatar>
                 }
-                title={`${props.nome}`}
+                title={
+                    <div style={{
+                        display: '-webkit-box',
+                        WebkitBoxOrient: 'vertical',
+                        overflow: 'hidden',
+                        WebkitLineClamp: 1, // Define o número máximo de linhas a serem exibidas
+                    }}>
+                        {props.nome}
+                    </div>
+                }
                 subheader={`${props.solicitante}`}
             />
             <CardContent>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="text.secondary" style={{
+                    display: '-webkit-box',
+                    WebkitBoxOrient: 'vertical',
+                    overflow: 'hidden',
+                    WebkitLineClamp: 3,
+                }}>
                     Software solicitado por {props.solicitante} e desenvolvido por {props.desenvolvedor}, projeto finalizado no dia {props.data_desenvolvimento.toDate().toLocaleDateString()}
                 </Typography>
             </CardContent>
