@@ -49,7 +49,7 @@ export default function Cadastrar() {
 
         const algumCampoVazio = Object.entries(dados)
             .filter(([campo, valor]) => campo !== 'LINK_WEB' && campo !== 'LINK_GROUPS'
-                && campo !== 'USABILIDADE' && campo !== 'arquivo_zip' && campo !== 'imagem' && campo !== 'id' && valor === "")
+                && campo !== 'USABILIDADE' && campo !== 'arquivo_zip' && campo !== 'pseudocodigo' && campo !== 'imagem' && campo !== 'id' && valor === "")
             .length > 0;
         if (algumCampoVazio) return alert('Por favor, preencha todos os campos antes de realizar o cadastro.');
 
@@ -57,7 +57,9 @@ export default function Cadastrar() {
             response = await insertIndicadores(dados)
         }
         if ('fluxograma' in dados) {
-            response = await insertAutomation(dados)
+            let envio: any = { ...dados }
+            delete envio.id
+            response = await insertAutomation(envio)
         }
 
         if (response === 'success') {
