@@ -1,21 +1,3 @@
 .container {
     padding-top: 20vh;
 }
-
-.chat {
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    z-index: 10;
-    cursor: pointer;
-    background-color: #176B87;
-    right: 1%;
-    border: none;
-    color: white;
-    transition: .5s;
-
-    &:hover {
-        background-color: #053B50;
-    }
-}
