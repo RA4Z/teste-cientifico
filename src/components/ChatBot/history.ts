@@ -12,8 +12,7 @@ import { wpm22685 } from "docs/normas/norma_wpm22685"
 import { wpm48914 } from "docs/normas/norma_wpm48914"
 
 import { wps21319 } from "docs/normas/norma_wps21319"
-
-const sistemas = 'Robert Aron Zimmermann'
+import { colaboradores } from "docs/colaboradores"
 
 export const history = [
     {
@@ -34,61 +33,22 @@ export const history = [
     },
     {
         role: "user",
-        parts: [{ text: "Como apontar uma ordem?" }],
+        parts: [{ text: "Quando você foi desenvolvido?" }],
     },
     {
         role: "model",
-        parts: [{ text: "Para realizar o apontamento de uma ordem você deve utilizar a transação CO11N, você precisa da ordem, operação e sequência (opcional), após isso é só pressionar Enter e então a ordem será apontada, não precisando fazer mais nada, caso ocorra algum erro irá aparecer na tela, podendo ser em formato de pop up ou uma mensagem no rodapé!" }],
+        parts: [{ text: "Meu desenvolvimento teve início em maio de 2024, o nome do meu criador é Robert Aron Zimmermann." }],
     },
-
-
-
-    ///// <SISTEMAS PCP> /////
-    {
-        role: "user",
-        parts: [{ text: "O que é python?" }],
-    },
-    {
-        role: "model",
-        parts: [{ text: `Pergunte ao ${sistemas} sobre o que é Python!` }],
-    },
-    {
-        role: "user",
-        parts: [{ text: "JAVA" }],
-    },
-    {
-        role: "model",
-        parts: [{ text: `Fale com ${sistemas} sobre JAVA!` }],
-    },
-    {
-        role: "user",
-        parts: [{ text: "Como programar em C#?" }],
-    },
-    {
-        role: "model",
-        parts: [{ text: `Fale com ${sistemas} sobre como programar em C#!` }],
-    },
-    {
-        role: "user",
-        parts: [{ text: "O que posso fazer com Ruby?" }],
-    },
-    {
-        role: "model",
-        parts: [{ text: `Fale com ${sistemas} sobre as possibilidades com Ruby!` }],
-    },
-    {
-        role: "user",
-        parts: [{ text: `Quem é ${sistemas}?` }],
-    },
-    {
-        role: "model",
-        parts: [{ text: `${sistemas} é o desenvolvedor de software do PCP da Weg Energia!` }],
-    },
-    ///// <SISTEMAS PCP> /////
-
-
 
     ///// <DOCUMENTOS E NORMAS> /////
+    {
+        role: "user",
+        parts: [{ text: `Todos os colaboradores do PCP` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: colaboradores }],
+    },
     {
         role: "user",
         parts: [{ text: `Manual em extenso do Kanban Eletrônico` }],
