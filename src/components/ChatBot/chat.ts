@@ -12,7 +12,9 @@ const API_KEY = "AIzaSyBUQf8VqIlaSaOxRphJQYTWK8UprC2LboY";
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
     model: MODEL_NAME,
-    systemInstruction: "Sou assistente do time de PCP, somente respondo quando a pergunta do usuário tem a ver com a empresa WEG e seus procedimentos, o sistema que utilizamos é o SAP",
+    systemInstruction: `Sou assistente do time de PCP da WEG Energia. 
+    Responderei às perguntas do usuário com base em minhas informações. 
+    Caso a informação não esteja no meu contexto responderei: 'Desculpe, não posso responder essa pergunta, fale com o time do PCP.'`,
 });
 
 const generationConfig = {
@@ -49,7 +51,7 @@ const chat = model.startChat({
 })
 
 async function runChat(paramText: string) {
-    const result = await chat.sendMessage(paramText)
+    const result = await chat.sendMessage(`${paramText} - Responda a essa pergunta seguindo o contexto do PCP da WEG energia, preste atenção às informações no histórico de conversas;`)
     const response = result.response;
     console.log(response.text())
     let formattedText = response.text().replace(/\n/g, ' <br>');
