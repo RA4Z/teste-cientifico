@@ -48,6 +48,8 @@ Analista Júnior	Habilidade	Capacidade de decisão
 Analista Júnior	Habilidade	Coordenação	
 Analista Júnior	Habilidade	Auto gestão do trabalho	
 Analista Júnior	Habilidade	Visão sistemica	
+
+
 Analista Pleno	Atitude	Acabativa	
 Analista Pleno	Atitude	Dinâmico	
 Analista Pleno	Atitude	Foco no resultado	
@@ -94,6 +96,8 @@ Analista Pleno	Habilidade	Capacidade de decisão
 Analista Pleno	Habilidade	Coordenação	
 Analista Pleno	Habilidade	Auto gestão do trabalho	
 Analista Pleno	Habilidade	Visão sistemica	
+
+
 Analista Sênior	Atitude	Acabativa	
 Analista Sênior	Atitude	Dinâmico	
 Analista Sênior	Atitude	Foco no resultado	
@@ -139,6 +143,8 @@ Analista Sênior	Habilidade	Capacidade de decisão
 Analista Sênior	Habilidade	Coordenação	
 Analista Sênior	Habilidade	Auto gestão do trabalho	
 Analista Sênior	Habilidade	Visão sistemica	
+
+
 Assistente Administrativo Júnior	Atitude	Comprometimento	
 Assistente Administrativo Júnior	Atitude	Foco no resultado	
 Assistente Administrativo Júnior	Atitude	Iniciativa	
@@ -154,6 +160,8 @@ Assistente Administrativo Júnior	Habilidade	Negociação	Inteligência Emocial 
 Assistente Administrativo Júnior	Habilidade	Organização	Maximizando a produtividade com o Outlook
 Assistente Administrativo Júnior	Habilidade	Planejamento	
 Assistente Administrativo Júnior	Habilidade	Trabalhar em Equipe	
+
+
 Programador Júnior	Atitude	Comprometimento	
 Programador Júnior	Atitude	Foco no resultado	
 Programador Júnior	Atitude	Iniciativa	
@@ -177,6 +185,8 @@ Programador Júnior	Habilidade	Negociação	Inteligência Emocial e Resiliência
 Programador Júnior	Habilidade	Organização	Maximizando a produtividade com o Outlook
 Programador Júnior	Habilidade	Planejamento	
 Programador Júnior	Habilidade	Trabalhar em Equipe	
+
+
 Programador Pleno	Atitude	Dinâmico	
 Programador Pleno	Atitude	Foco no resultado	
 Programador Pleno	Atitude	Iniciativa	
@@ -207,6 +217,8 @@ Programador Pleno	Habilidade	Planejamento
 Programador Pleno	Habilidade	Resiliência	Inteligência Emocial e Resiliência
 Programador Pleno	Habilidade	Trabalhar em Equipe	
 Programador Pleno	Habilidade	Visão sistemica	
+
+
 Programador Sênior	Atitude	Dinâmico	
 Programador Sênior	Atitude	Foco no resultado	
 Programador Sênior	Atitude	Iniciativa	
