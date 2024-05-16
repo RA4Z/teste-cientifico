@@ -16,6 +16,14 @@ const sistemas = 'Robert Aron Zimmermann'
 export const history = [
     {
         role: "user",
+        parts: [{ text: "Olá" }],
+    },
+    {
+        role: "model",
+        parts: [{ text: "Olá! Sou o Raz, assistente da equipe de PCP aqui da WEG Energia. Estou aqui para ajudar no que for preciso. Com o que posso auxiliar hoje?" }],
+    },
+    {
+        role: "user",
         parts: [{ text: "Quem é você?" }],
     },
     {
