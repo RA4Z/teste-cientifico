@@ -1,4 +1,6 @@
 import { kanbanDoc } from "docs/kanban_eletronico"
+import { procedures } from "docs/procedimentos_pcp"
+import { requisitosPCP } from "docs/requisitos_pcp"
 
 import { wpm1724 } from "docs/normas/norma_wpm1724"
 import { wpm2412 } from "docs/normas/norma_wpm2412"
@@ -176,6 +178,22 @@ export const history = [
     {
         role: "model",
         parts: [{ text: wpr6884 }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Manual em extenso que trata dos procedimentos gerais do PCP` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: procedures }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Manual em extenso que trata dos requisitos mínimos de cada cargo no PCP` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: requisitosPCP }],
     },
     {
         role: "user",

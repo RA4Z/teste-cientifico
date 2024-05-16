@@ -51,7 +51,7 @@ const chat = model.startChat({
 })
 
 async function runChat(paramText: string) {
-    const result = await chat.sendMessage(`${paramText} - Responda a essa pergunta seguindo o contexto do PCP da WEG energia, preste atenção às informações no histórico de conversas;`)
+    const result = await chat.sendMessage(`Reponda a pergunta a seguir no idioma no qual foi perguntado - ${paramText} - Responda a essa pergunta seguindo o contexto do PCP da WEG energia, preste atenção às informações no histórico de conversas;`)
     const response = result.response;
     console.log(response.text())
     let formattedText = response.text().replace(/\n/g, ' <br>');
