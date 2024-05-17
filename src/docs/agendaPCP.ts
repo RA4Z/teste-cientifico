@@ -6,7 +6,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Perfil do PCP",
         "UTILIDADE": "Layout",
         "DETALHES": "ZPFLPROCESPLPR",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 2,
@@ -14,7 +13,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": " ",
         "UTILIDADE": "Layout",
         "DETALHES": "Cancela a transação e abre outra transação.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 3,
@@ -22,21 +20,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": " ",
         "UTILIDADE": "Layout",
         "DETALHES": "Abre outra janela sobre a atual.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 4,
         "REFERÊNCIA": "/DVSREPRO/ZRPR",
         "DESCRIÇÃO": "Impressão de Documentos",
         "UTILIDADE": "Documentos",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 5,
         "REFERÊNCIA": "/N/OPT/VIM_WP",
         "DESCRIÇÃO": "Justificativa de Diferenças entre Pedido e Entrada de Mercadoria",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 6,
@@ -44,14 +39,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Área de Trabalho de VIM",
         "UTILIDADE": "Compras",
         "DETALHES": "Para corrigir um pedido pendente, justificar a diferença de preços.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 7,
         "REFERÊNCIA": "/PWS/ZYCE003_E",
         "DESCRIÇÃO": "Exibir Embarque ",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 8,
@@ -59,7 +52,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Acessar a sua Máquina a partir de Outra",
         "UTILIDADE": "Layout",
         "DETALHES": "Para acessar a sua máquina a partir de outra►preparar a máquina que pretende conectar, ou seja a sua►Meu Computador►Propriedades►Remoto►Assistência Remota►Permitir►Area de Trabalho Remota►Permitir. Para acessar no outro micro►Todos Programas►Acessórios ou acessibilidade►Comunicações►Conexão de área de trabalho remota►Nº da máquina (BRJGSD313993). Tambem é possível acessar clicando ►Iniciar►Executar►MSTSC►Nº do micro. Para Desligar Remoto►SHUTDOWN - S - TO  e Reiniciar Remoto►SHUTDOWN - R - TO.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 9,
@@ -67,7 +59,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Ordens de Venda no Período",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "No MYWEG ►Relatórios BI►WEN►Selecionar a opção "Entr.Cart./Receita Op.Liquida(Realizado WEN - Fisic/"Finan)►Selecionar o período e pressionar Ok►No campo Exibir Visão selecionar a opção "Ovs Abertas WM WSB e WII (Alcidio)►Pressionar o campo Resultado global com o Direito do mouse►selecionar a opção Ir Para "Detalhes - Carteira"►No campo Exibir visão selecionar a opção "Carteira 1100; 1200; 1201 e 6200 (Alcídio)"►Exportar para Excel.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 10,
@@ -75,7 +66,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatórios Diversos",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "No MYWEG (CRHOME)►Relatórios BI►WEN►Selecionar a opção "Entr.Cart./ROL WENWEN - ►Selecionar o período e pressionar (Verificar) Ok►Clicar com o Mouse lado direto no valor da coluna *Vlr Carteira►Ir Para / Detalhes-Carteira de Pedidos►Exportar para Excel►Não é necessário Gravar►Os filtros podem ser feitos na visão.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 11,
@@ -83,21 +73,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatórios Diversos",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "No MYWEG (CHROME)►Relatórios BI►WEN►Selecionar a opção "Entr.Cart./Receita Op.Liquida(Realizado WEN - Fisic/"Finan)►Selecionar o período e pressionar Ok►Remover o campo Dis do Calendário►Clicar sobre a primeira coluna com o muse direito e selecionar Filtro►Selecionar valores para Índice► Escolher os valores "Qtde carteira e Valor Carteira" e "Qtde ROL e Valor ROL" e pressionar OK►Arrastar os valores que você quer visualizar até encontrar uma Barra Preta (pode ser na vertical ou horizontal, depende de onde e como quer visualizar).►Ano, Local, País, Hierarquia Nível 3, etc.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 12,
         "REFERÊNCIA": "C223",
         "DESCRIÇÃO": "Versão de Produção - Eliminar",
         "UTILIDADE": "Roteiro",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 13,
         "REFERÊNCIA": "CA02",
         "DESCRIÇÃO": "Modificar Roteiro",
         "UTILIDADE": "Roteiro",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 14,
@@ -105,7 +92,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Roteiro",
         "UTILIDADE": "Roteiro",
         "DETALHES": "Impressão do roteiro►Entrar no roteiro normal►Suplementos►Programação►Programar►Data do dia►tamanho do lote►Enter►Variante Sint.►000000000003►Enter►Clicar na Impressora. Também é possível ver o resultado da programação.                                                                                                  ",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 15,
@@ -113,14 +99,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Roteiro",
         "UTILIDADE": "Roteiro",
         "DETALHES": "Ver todos os Roteiros do material►Ir na CA03 e colocar o material e o centro►no grupo de listas tarefas clicar no math code►Escolher Pesquisa via Material►Colocar o material e centro►apresentará todos os roteiros. Pode haver roteiros específicos para PEP's.",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 16,
         "REFERÊNCIA": "CA10",
         "DESCRIÇÃO": "Modelo de Texto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 17,
@@ -135,21 +119,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Folha de Horas de Trabalho - Apontar",
         "UTILIDADE": "Projetos",
         "DETALHES": "►Selecionar perfil ZPS00001► Colocar o Número da Pessoa ►Enter► Alterar a Data para a Data do diagrama que está com problema► Marcar a Linha► Clicar em Ir para ►Visão ►Visão de Liberação►Marcar a linha novamente ►Clicar no Cadeado ► Gravar. nConferir na transação CATS_DA se ficou com Amarelinho para todos, O job deveria passar e liberar mais tarde. Mas para Projetos antigos executar a transação CATS_APPR_LITE e depois avisar custos para Executar a CAT5.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 19,
         "REFERÊNCIA": "CAT3 ",
         "DESCRIÇÃO": "Folha de Horas de Trabalho - Exibir",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 20,
         "REFERÊNCIA": "CAT5",
         "DESCRIÇÃO": "Folha de Horas de Trabalho - Transferência a Projetos",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 21,
@@ -157,7 +138,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Aprovação horários de Trabalho",
         "UTILIDADE": "Projetos",
         "DETALHES": "Usar esta transação para aprovar horas de projetos antigos. Usar parâmetros da CATS_DA",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 22,
@@ -165,7 +145,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir horários de trabalho",
         "UTILIDADE": "Projetos",
         "DETALHES": "►Períodos de Análise = TUDO ►Apagar Status Processamento ►Clicar em ►Classificação contábil do Destinatário ►Preencher o Diagrama de Rede ►Usar Layout MARGUIT ou /IPRADO ►Executar►Identificar o número da Pessoa ►na coluna Status ver Cadeado ► Data ►Número da tarefa ►Ir para CAT2.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 23,
@@ -206,7 +185,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Procurar Documentos - Desktop CAD",
         "UTILIDADE": "Documentos",
         "DETALHES": "Quando precisar encontrar o documento para diversos materiais ► Clicar na aba Lista documentos ► na Lupa para Procurar e seguir passos da CV04N ►Ligações de Objetos ► Mestre de Materiais ►Lembrar de Limpar Campos Tipo de Documento e Nº maximo de ocorrências.",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 29,
@@ -214,7 +192,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "EWB - Previsão Impressão de Operações - Engineering Workbench",
         "UTILIDADE": "Roteiro",
         "DETALHES": "Ao entrar selecionar Area de trabalho atual ► Sap Operation ►Ir para Outros critérios de operação na Aba Operação, colocar materiais e centro►Executar o processo e clicar na Impressora►Ajustar layout ►Os tempos de duração estão nos campos chamados Standart►Criado layout AEROGERADOR",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 30,
@@ -229,7 +206,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Incoterms",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "CIF - Remetente paga (só reconhece o valor quando chega no cliente).  FOB - Destinatário paga.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 32,
@@ -237,7 +213,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Projeto",
         "UTILIDADE": "Projetos",
         "DETALHES": "Para fazer a liberação apenas do PEP.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 33,
@@ -245,7 +220,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Elemento PEP",
         "UTILIDADE": "Projetos",
         "DETALHES": "IR Para►Síntese de Documentos.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 34,
@@ -253,7 +227,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Project Builder   ",
         "UTILIDADE": "Projetos",
         "DETALHES": "**Quando colocar um projeto no Estoque►Marcar a tarefa do material►Processar►Tarefa►Confirmar►Flegar Conf.Final e Flegar Dar Baixa de Reservas. Com a função dar baixa em reservas ele flega automaticamente o campo "material"►parâmetros de suprimento►com registro final. ►►Projetos de OS, tem que preencher o campo status de bloqueio no PEP MRP, para ser possível a movimentação de materiais na ordem de produção.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 35,
@@ -261,7 +234,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Project Builder   ",
         "UTILIDADE": "Projetos",
         "DETALHES": "Para Ajustar o Painel de Planejamento►Entrar no cronograma na CJ20N►Configurações►Opções►Painel de Planejamento►Período de Planejamento►Alterar as duas caixas►Período de análise e Período de Planejamento►Transferir.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 36,
@@ -269,7 +241,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Project Builder   ",
         "UTILIDADE": "Projetos",
         "DETALHES": "CPC17 ou CPC47 - No PEP de faturamento, na aba "Controle" deve estar preenchido o campo "Chave Determinação de Resultado " com valor ZPS007.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 37,
@@ -277,21 +248,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Project Builder   ",
         "UTILIDADE": "Projetos",
         "DETALHES": "Controle de Disponibilidade - Na Definição do Projeto, na aba "Controle", no campo "Chave de Determinação de Resultado", deve estar preenchido uma das chaves que iniciam com "ZPS001" ou outras . nOs valores serão distribuídos entre as tarefas para Ordem de Montagem. Para produtos normais geralmente está na atividade de Acabar e embalar na aba Atribuições" no campo "Plan/Prep/Mat".",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 38,
         "REFERÊNCIA": "CJ40",
         "DESCRIÇÃO": "Modificar Planejamento de Custos",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 39,
         "REFERÊNCIA": "CJ91",
         "DESCRIÇÃO": "Criar Templates de Estrutura PEP",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 40,
@@ -299,14 +267,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Templates de Estrutura PEP",
         "UTILIDADE": "Projetos",
         "DETALHES": "Para acertar os níveis dos PEP's, fazer as ligações primeiro, colocando no nível que se deseja, depois marcar o nível de baixo e clicar no ícone "Truncar".",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 41,
         "REFERÊNCIA": "CJCS",
         "DESCRIÇÃO": "Documento Modificação PEP standard",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 42,
@@ -314,28 +280,24 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir partidas Individuais de Custos Reais",
         "UTILIDADE": "Projetos",
         "DETALHES": "Usar o layout /FERRAM_1.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 43,
         "REFERÊNCIA": "CJI4",
         "DESCRIÇÃO": "Exibir partidas Individuais de Custos Planejados",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 44,
         "REFERÊNCIA": "CJV3",
         "DESCRIÇÃO": "Exibir Simulação de Projeto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 45,
         "REFERÊNCIA": "CKM3N",
         "DESCRIÇÃO": "Análise do preço do material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 46,
@@ -420,56 +382,48 @@ export const agendaPCP = `
         "REFERÊNCIA": "CMP3",
         "DESCRIÇÃO": "Planejamento Alocação de Pessoal - Projetos",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 59,
         "REFERÊNCIA": "CMP9",
         "DESCRIÇÃO": "Planejamento Alocação de Pessoal - Análise",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 60,
         "REFERÊNCIA": "CN01",
         "DESCRIÇÃO": "Criar Diagrama de Rede Standart",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 61,
         "REFERÊNCIA": "CN11",
         "DESCRIÇÃO": "Criar Template de Marco",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 62,
         "REFERÊNCIA": "CN22",
         "DESCRIÇÃO": "Liberar Diagrama de Rede",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 63,
         "REFERÊNCIA": "CN25",
         "DESCRIÇÃO": "Entrar Confirmação para Diagrama de Rede",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 64,
         "REFERÊNCIA": "CN27",
         "DESCRIÇÃO": "Confirmação Coletiva Diagrama de Rede",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 65,
         "REFERÊNCIA": "CN29",
         "DESCRIÇÃO": "Confirmação para Diagrama de Rede Estornar",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 66,
@@ -482,7 +436,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "CN41",
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Estrutura",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 68,
@@ -490,7 +443,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Estrutura",
         "UTILIDADE": "Projetos",
         "DETALHES": "Imprimir Templates ►Marcar Estrutura Standard. E no Perfil BD ►Flegar Estrutura Standard.►Quando for Diagrama de REDE, desmarcar a opção de Caminho p/cima dentro do perfil BD.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 69,
@@ -498,7 +450,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Definição",
         "UTILIDADE": "Projetos",
         "DETALHES": "Utilizar o Arco iris para selecionar os projetos por Centro, na Opção Unidades Organizacionais - Centro",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 70,
@@ -506,21 +457,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Status de Projeto por Responsável",
         "UTILIDADE": "Projetos",
         "DETALHES": "Colocar no Arco iris - Dados Mestre - Elem PEP - Tipo de Projeto 24.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 71,
         "REFERÊNCIA": "CN47N",
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Tarefas",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 72,
         "REFERÊNCIA": "CN48N",
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Confirmações",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 73,
@@ -533,42 +481,36 @@ export const agendaPCP = `
         "REFERÊNCIA": "CN55N",
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Itens do Documento SD",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 75,
         "REFERÊNCIA": "CN60",
         "DESCRIÇÃO": "Visualizar Logs Modificações de Projeto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 76,
         "REFERÊNCIA": "CN61",
         "DESCRIÇÃO": "Documento de Modificação para Rede Standard",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 77,
         "REFERÊNCIA": "CN65",
         "DESCRIÇÃO": "Visualizar Logs Modificações de Projeto - Diagrama",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 78,
         "REFERÊNCIA": "CN71",
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Gravar Versão",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 79,
         "REFERÊNCIA": "CN72 ",
         "DESCRIÇÃO": "Gravar Versões de Projetos",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 80,
@@ -576,14 +518,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Sistema de informação de projetos - Análise do andamento",
         "UTILIDADE": "Projetos",
         "DETALHES": "CPC17nÉ necessário usar Perfil info PS  Z00000000CPC",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 81,
         "REFERÊNCIA": "CNMASS",
         "DESCRIÇÃO": "Alteração em Massa Projetos",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 82,
@@ -591,7 +531,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Visualizar Suprimento de Produção de Projeto",
         "UTILIDADE": "Projetos",
         "DETALHES": "Encontrar saldo de estoque em materiais NLAG.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 83,
@@ -599,7 +538,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Workbench da Análise do Andamento",
         "UTILIDADE": "Projetos",
         "DETALHES": "Utilizar a mesma para fazer alteração de campos nas tarefas.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 84,
@@ -613,21 +551,18 @@ export const agendaPCP = `
         "REFERÊNCIA": "CNS41",
         "DESCRIÇÃO": "Exibir Síntese da Estrutura de Projeto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 86,
         "REFERÊNCIA": "CNS47",
         "DESCRIÇÃO": "Sistema de Informação de Projetos - Tarefas",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 87,
         "REFERÊNCIA": "CNSETTLRULE ",
         "DESCRIÇÃO": "Síntese Normas de Apropriação de Custos do Projeto ",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 88,
@@ -780,7 +715,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Processos de confirmação marcados",
         "UTILIDADE": "Inventário",
         "DETALHES": "Estorno que Não Volta►Quando fizer estorno e o material não volta para o estoque, ver nesta tela. Flegar Baixa por explosão e Representação Lista. Também pode ser usada para estornar materiais de Projetos.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 111,
@@ -818,7 +752,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "COGI",
         "DESCRIÇÃO": "Revisão Movimento de Mercadoria",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 117,
@@ -831,7 +764,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "COMAC",
         "DESCRIÇÃO": "Verificar Disponibilidade Coletiva",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 119,
@@ -853,7 +785,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Último ícone superior Direito SAP",
         "UTILIDADE": "Layout",
         "DETALHES": "Desing visual novo►Aba Geral - Tema Ativo►Escolher Enjoy►Configurações de cor►Escolher cor e transferir. Quando acessa no Desing está (System Dependent), depois escolhe (Enjoy).",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 122,
@@ -1048,7 +979,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "CV01N",
         "DESCRIÇÃO": "Criar Documento SAP",
         "UTILIDADE": "Documentos",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 153,
@@ -1056,7 +986,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Documento",
         "UTILIDADE": "Documentos",
         "DETALHES": "Entrar Nº documento, Tipo, Parcial e Última Revisão►Entrar no Campo "nova versão"►Enter, avançar ►Clicar no Excell ►lápis no rodapé ►Abre o lugar para salvar ►Meus documentes, em pasta específica previamente criada. ►Alterar o que for necessário ►Salvar e fechar ►Gravar original ► Sim ►No rodapé, clicar em "Arquiv.original" ► vai fechar o cadeado ► clicar no campo Status Documento e alterar para Liberado, Enter e Salvar.",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 154,
@@ -1064,7 +993,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Documento 1ª tela",
         "UTILIDADE": "Documentos",
         "DETALHES": "Para Ver Histórico de Impressão►Entrar na transação►Preencher dados do documento►Ambiente►Distribuição de Documentos►Exibir Log►Apagar Datas►Executar",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 155,
@@ -1072,7 +1000,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Procurar documentos - Critérios de Seleção.",
         "UTILIDADE": "Documentos",
         "DETALHES": "Documentos para OV►Clicar na Aba►Ligações de Objetos►Escolher a Aba Item Docum.Vendas►Colocar OV e linha►Executar. O resultado será todos os documentos para esta OV.",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 156,
@@ -1080,7 +1007,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Procurar documentos - Critérios de Seleção.",
         "UTILIDADE": "Documentos",
         "DETALHES": "Se precisar salvar um documento em PDF, e não tem permissão para imprimir ► ou não consegue imprimir em PDF por alguma razão ► Abrir até chegar no PDF ►clicar com o Botão direito ► clicar em Copiar segundo► alterar para salvar em sua área de trabalho ► o sistema vai salvar o PDF no local selecionado.",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 157,
@@ -1088,7 +1014,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Altura da Linha",
         "UTILIDADE": "Layout",
         "DETALHES": "Para fazer 02 linhas num texto►Clicar com o botão direito►Formatar Células►Alinhamento►Vertical►Justificar►ajustar a linha com o Mouse. Pode ser feito para a coluna.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 158,
@@ -1096,7 +1021,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "PROCV",
         "UTILIDADE": "Layout",
         "DETALHES": "Digitar = ► Escrever PROCV►Abrir parentesis►clicar no campo da informação que se procura►Digitar ;►Marcar na outra planilha todo o intervalo onde a informação pode estar►Digitar o número da coluna onde a informação está►Digitar ;►Digitar 0►Fechar parêntesis►Enter.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 159,
@@ -1104,7 +1028,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Separar informações na mesma coluna",
         "UTILIDADE": "Layout",
         "DETALHES": "Digitar = ► Escrever "Direita ou Esquerda" ►Abrir parêntesis ►Clicar na coluna que quer dividir►Digitar Ponto e vírgula►Colocar o número de caracteres que pretende vizualizar na direita ou esquerda►Fechar Parentesis►Enter",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 160,
@@ -1112,7 +1035,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Escrever em outra linha",
         "UTILIDADE": "Layout",
         "DETALHES": "Pressionar "ALT ENTER" simultaneamente.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 161,
@@ -1125,35 +1047,30 @@ export const agendaPCP = `
         "REFERÊNCIA": "GRM1",
         "DESCRIÇÃO": "Exibir Atribuições PEP MRP",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 163,
         "REFERÊNCIA": "GRM3",
         "DESCRIÇÃO": "Atribuir Elementos PEP através de Lista",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 164,
         "REFERÊNCIA": "GRM7",
         "DESCRIÇÃO": "Análise Todas Atribuições PEP MRP Válidas",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 165,
         "REFERÊNCIA": "HU02",
         "DESCRIÇÃO": "Criar e processar unidades comerciais disponiveis",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 166,
         "REFERÊNCIA": "HUMO",
         "DESCRIÇÃO": "Seleção de unidades comerciais",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 167,
@@ -1161,7 +1078,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Material - Chave de Busca",
         "UTILIDADE": "Material",
         "DETALHES": "Busca materiais através da classe",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 168,
@@ -1169,7 +1085,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Número de Série do Material",
         "UTILIDADE": "Material",
         "DETALHES": "Pode ser criado Nº de série sem ter perfil no material. ►Depois de criado o número do equipamento ir na IQ02►Processar ►Função especial Nº de série ►Mudança Nº série, e colocar o mesmo número do equipamento. ►Esta numeração de equipamento segue a mesma sequencia do números de série. ",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 169,
@@ -1177,14 +1092,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Nº Série de Material",
         "UTILIDADE": "Material",
         "DETALHES": "Números de série que são faturados e não desaparecem da transação. Entrar na transação, clicar 2 X sobre o Número de série que deseja alterar, clicar em ►Processar ►Função especial Nº Série ►Operação Manual, escolher ►Para cliente,► Depois apagar depósito e centro. Esta modificação depende do Perfil de Nº de série que está no material.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 170,
         "REFERÊNCIA": "IQ03",
         "DESCRIÇÃO": "Exibir Nº série Material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 171,
@@ -1192,7 +1105,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Vários Números de Série  ",
         "UTILIDADE": "Material",
         "DETALHES": "No campo Tipo usar "W" para criar com númereo sequencial utilizado pela WEG.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 172,
@@ -1200,7 +1112,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir o Nº Série de Material - Seleção de Números de Série",
         "UTILIDADE": "Material",
         "DETALHES": "Listar vários materiais.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 173,
@@ -1294,7 +1205,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "INS - canto inferior da tela SAP",
         "UTILIDADE": "Layout",
         "DETALHES": "Insere caracter no texto.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 187,
@@ -1302,7 +1212,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "OVR - canto inferior da tela SAP",
         "UTILIDADE": "Layout",
         "DETALHES": "Sobrepõe caracter no texto.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 188,
@@ -1310,7 +1219,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Último ícone superior Direito SAP",
         "UTILIDADE": "Layout",
         "DETALHES": "Padronizar Layout►Opções►Especialistas►Marcar todas as caixas nesta ABA.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 189,
@@ -1318,7 +1226,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Último ícone superior Direito SAP",
         "UTILIDADE": "Layout",
         "DETALHES": "Opções►Dados locais►Marcar ON.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 190,
@@ -1326,7 +1233,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Folha de rosto do SAP",
         "UTILIDADE": "Layout",
         "DETALHES": "Para Exibir Nomes Técnicos►Suplementos►Configurações►Flegar Exibir nomes técnicos",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 191,
@@ -1334,7 +1240,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Acessar outro SAP sem fazer logoff",
         "UTILIDADE": "Layout",
         "DETALHES": "Opções da Internet ►Avançadas ► Segurança ►Desmarcar caixa "Habilitar Autenticação Integrada do Windows.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 192,
@@ -1342,7 +1247,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Mostrar Códigos no SAP nas caixas de Informação drop-down.",
         "UTILIDADE": "Layout",
         "DETALHES": "No arco-iris do SAP►Opções►No tema "Sap Signature Theme►Desing interativo►Visualização 1►na linha "Controles" marcar as duas caixas►Exibir chave em caixas drop-down►Ordenar por chave nas caixas drop-down para entrada de teclado mais efetiva.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 193,
@@ -1350,7 +1254,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Alterar Configuração de Número",
         "UTILIDADE": "Layout",
         "DETALHES": "Clicar em Sistema►Configuração do Usuário►Dados Próprios►Ir na aba►Valores Fixos ►Alterar a combinação de data conforme necessidade. ",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 194,
@@ -1358,7 +1261,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Visualizar estoque conforme fator de conversão.",
         "UTILIDADE": "Layout",
         "DETALHES": "Clicar MD04 ►Configurações►Configurações ►Configurações Gerais►Selecionar UM bácisa ou UM Alternativa►Na UM alterantiva é possível conforme o Pedido ►ou conforme a medida de saída►  ",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 195,
@@ -1366,7 +1268,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Monitor RF",
         "UTILIDADE": "Inventário",
         "DETALHES": "Fila de Picking para o Coletor.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 196,
@@ -1374,7 +1275,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Ordem de Transporte",
         "UTILIDADE": "Inventário",
         "DETALHES": "Limpar um endereço que ficou ocupado e o material já saiu. Usar LX03 e verificar se tem movimentos Positivos e Negativos pendentes. Entrar na transação ► Tipo do movimento 999, material, quantidade e depósito ► Enter ► Preencher Unidade de depósito 001 ► Flegar o Campo Confirmar. ► Sempre preencher os valores DE com o positivo e Para com o negativo da transação LX03. (Evitar dar enter pois vai preencher por default, mas servirá para saber quais campos tem que preencher).",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 197,
@@ -1382,7 +1282,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar ordem transporte no depósito para UD",
         "UTILIDADE": "Inventário",
         "DETALHES": "TGM - Posição - 004 e Destino - 001 e Marcar Confirmar",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 198,
@@ -1390,7 +1289,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Estornar Ordem de Transporte",
         "UTILIDADE": "Inventário",
         "DETALHES": "TGM -  ",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 199,
@@ -1398,7 +1296,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Estoques WM",
         "UTILIDADE": "Inventário",
         "DETALHES": "TGM -  ",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 200,
@@ -1406,14 +1303,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Visão Sinóptica do Depósito",
         "UTILIDADE": "Inventário",
         "DETALHES": "Número do depósito 310. ► É possível clicar no arco-iris, escolher a Opção ► Quantos e selecionar por Material. Para limpar um endereço usar transação LT01.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 201,
         "REFERÊNCIA": "MB03",
         "DESCRIÇÃO": "Exibir Documento de Material ",
         "UTILIDADE": "Documentos",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 202,
@@ -1421,7 +1316,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Registrar movimento de mercadoria",
         "UTILIDADE": "Inventário",
         "DETALHES": "Movimento 632 para retornar do Fornecedor - Consignação.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 203,
@@ -1429,7 +1323,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Registrar Saída de Mercadorias",
         "UTILIDADE": "Inventário",
         "DETALHES": "Lei do Bem Ordem - Conta Razão - 411075090.nOrdem de Inverstimento - Conta razão - 411050184.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 204,
@@ -1437,7 +1330,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Registrar Saída de Mercadorias",
         "UTILIDADE": "Inventário",
         "DETALHES": "Usar esta transação quando na OP tiver Projeto e Ordem de Venda. O componente não pode ser BPE na linha.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 205,
@@ -1445,14 +1337,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Registrar Transferência de Mercadorias",
         "UTILIDADE": "Inventário",
         "DETALHES": "Movimento Z42 para estornar do Fornecedor - Industrialização.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 206,
         "REFERÊNCIA": "MB1C",
         "DESCRIÇÃO": "Registrar Entrada de Mercadorias",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 207,
@@ -1460,35 +1350,30 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Reserva",
         "UTILIDADE": "Inventário",
         "DETALHES": "Conta razão - 411010015. Centro de Custo EX.20144092. n411075060 – consumo de material de segurança ( protetor, luva, etc...)n411010001 – consumo de materia prima/componentes (parafuso, arruela, etc...)n411010003 – consumo de material intermediário (broca, martelo, lima, etc...)n411075051 – consumo de materiais de limpeza (vassouras, estopas, etc...)n411075061 - consumo de materiais de expediente (marcatudo, fita, caneta...)n411075009 – consumo de material alimentação (copo, etc...)n411060145 – consumo de uniformes",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 208,
         "REFERÊNCIA": "MB22",
         "DESCRIÇÃO": "Modificar Reserva",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 209,
         "REFERÊNCIA": "MB23",
         "DESCRIÇÃO": "Exibir Reserva",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 210,
         "REFERÊNCIA": "MB25",
         "DESCRIÇÃO": "Lista de Reservas",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 211,
         "REFERÊNCIA": "MB26",
         "DESCRIÇÃO": "Lista de Picking",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 212,
@@ -1502,49 +1387,42 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Histórico de Material",
         "UTILIDADE": "Inventário",
         "DETALHES": "Para achar número de UC's de material enviado para o centro 1100►Clicar sobre o campo Referência (se estiver preenchido) para ir na tela de movimento►Duplo clique no conteúdo do campo Nota de Remessa►Clicar no ícone (uma caixinha) Embalar►Aparecerão as UC's que foram criadas para este material. ►►Quando o material é apenas transferido entre depósitos e faturado pelo 1200 usar a MMBE.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 214,
         "REFERÊNCIA": "MB52",
         "DESCRIÇÃO": "Exibir Estoques em Depósito",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 215,
         "REFERÊNCIA": "MB53",
         "DESCRIÇÃO": "Disponibilidade do Centro",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 216,
         "REFERÊNCIA": "MB58",
         "DESCRIÇÃO": "Exibir estqs.consignação cliente e estqs.embalagens ret.",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 217,
         "REFERÊNCIA": "MB5B",
         "DESCRIÇÃO": "Estoque na data de Lançamento",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 218,
         "REFERÊNCIA": "MB5T",
         "DESCRIÇÃO": "Exibição de Estoque em Trânsito",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 219,
         "REFERÊNCIA": "MBBS",
         "DESCRIÇÃO": "Estoque Ordem Cliente e Projeto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 220,
@@ -1557,7 +1435,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "MBST",
         "DESCRIÇÃO": "Estornar documento de Material",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 222,
@@ -1582,7 +1459,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "MCBA",
         "DESCRIÇÃO": "Análise do Centro",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 226,
@@ -1590,7 +1466,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Análise do Depósito",
         "UTILIDADE": "Inventário",
         "DETALHES": "Para avaliar o consumo de um período. Entrar com Centro, Planejador, Mês, e marcar Ledger Mat.Ativo. Depois clicar em Mudar de Lista expandida e Selecionar Material.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 227,
@@ -1598,7 +1473,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Análise do Material",
         "UTILIDADE": "Inventário",
         "DETALHES": "Mostrar o número de vezes que o estoque foi renovado num período.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 228,
@@ -1611,7 +1485,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "MCPO",
         "DESCRIÇÃO": "Análise Material - Quantidades",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 230,
@@ -1638,7 +1511,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Lista de necessidades/Estoque",
         "UTILIDADE": "Material",
         "DETALHES": "Configurações►Configurações►Aba Configurações Gerais►Perfil de Navegação►SAPPPMRP00.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 234,
@@ -1646,21 +1518,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Lista de necessidades/Estoque",
         "UTILIDADE": "Material",
         "DETALHES": "Configurações►Configurações ►Configurações Gerais►Selecionar UM bácisa ou UM Alternativa►Na UM alterantiva é possível conforme o Pedido ►ou conforme a medida de saída►  ",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 235,
         "REFERÊNCIA": "MD06  ",
         "DESCRIÇÃO": "Lista MRP - exceção.",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 236,
         "REFERÊNCIA": "MD07",
         "DESCRIÇÃO": "Lista Atual de Necessidades/Estoques",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 237,
@@ -1709,7 +1578,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "MD4C",
         "DESCRIÇÃO": "Relatório da Ordem Multinível",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 245,
@@ -1728,7 +1596,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "MD74",
         "DESCRIÇÃO": "Reorganização Necessidades Independentes",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 248,
@@ -1754,21 +1621,18 @@ export const agendaPCP = `
         "REFERÊNCIA": "ME01",
         "DESCRIÇÃO": "Atualizar LOF",
         "UTILIDADE": "Reg.Info",
-        "ICON": "icones_agenda/registro.png"
     },
     {
         "SEQ": 252,
         "REFERÊNCIA": "ME11",
         "DESCRIÇÃO": "Criar Registro Info 1ª tela",
         "UTILIDADE": "Reg.Info",
-        "ICON": "icones_agenda/registro.png"
     },
     {
         "SEQ": 253,
         "REFERÊNCIA": "ME12",
         "DESCRIÇÃO": "Modificar Registro Info 1ª tela",
         "UTILIDADE": "Reg.Info",
-        "ICON": "icones_agenda/registro.png"
     },
     {
         "SEQ": 254,
@@ -1776,21 +1640,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Registro Info 1ª tela",
         "UTILIDADE": "Reg.Info",
         "DETALHES": "Para ver o registro Info por Material ►Clicar no math code do Registro Info►Escolher Pesquisa via Material►Colocar o material e centro►apresentará os Registros Info do material.►Se 01 registro estiver criado o pedido de compra já dará certo.",
-        "ICON": "icones_agenda/registro.png"
     },
     {
         "SEQ": 255,
         "REFERÊNCIA": "ME1M",
         "DESCRIÇÃO": "Registro Info por Material",
         "UTILIDADE": "Reg.Info",
-        "ICON": "icones_agenda/registro.png"
     },
     {
         "SEQ": 256,
         "REFERÊNCIA": "ME21N",
         "DESCRIÇÃO": "Criar Pedido de Compras",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 257,
@@ -1798,7 +1659,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Pedido de Compras",
         "UTILIDADE": "Compras",
         "DETALHES": "Para fazer um único pedido para várias requisições e ou materiais►Preencher o que foi solicitado e depois Clicar em Ativar Sintese de Documentos►Clicar no canto esquerdo Variante de Seleção►Escolher Requisições de compra►Fazer os devidos processamentos►Depois selecionar todas e arrastar para dentro do carrinho.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 258,
@@ -1806,7 +1666,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Pedido de Comprasn4503428815 - WII da WENn4503287384 - WII - Depósito WW01n4502433558 - WEN da WII",
         "UTILIDADE": "Compras",
         "DETALHES": "Para imprimir o pedido►clicar em mensagens e preencher►NEU - Pedido ►Meio - 1 Saída de Impressão ►Função - F0 ►Parceiro - 1200 ►Marcar a linha ► Clicar em Meio de Comunicação ►Destino lógico- EMAIL-PDF ► preencher nome do destinatário, voltar ► Clicar em Dados Adicionais ► Momento de envio ► Enviar imediadatente (ao gravar a aplicação). ►Gravar ►Aguardar e-mail.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 259,
@@ -1821,7 +1680,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Pedido de Compras",
         "UTILIDADE": "Compras",
         "DETALHES": "Quando dá o erro: Cliente XXXXXX não existe - modificar entrada no centro XXXX. ►Entrar em contato com Grace Kelly Rissini (Secao Apoio a Vendas e Marketing) ►depois provável que tenha que solicitar mais ajuda com a Central de Cadastro, para implantar as Condições.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 261,
@@ -1829,14 +1687,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Pedido de Compras",
         "UTILIDADE": "Compras",
         "DETALHES": "Para ver histórico de Movimento de Transferência entre Centros ► Ao abrir o pedido, na parte inferior referente ao item ► Clicar na aba Histórico do Pedido ► Clicar duas vezes no Documento de material da Linha Oper.Saida de Mercadorias ► Clicar na aba Síntese de Status.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 262,
         "REFERÊNCIA": "ME2J",
         "DESCRIÇÃO": "Documentos de Compra para Projetos",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 263,
@@ -1844,7 +1700,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Documentos de Compra por Fornecedor",
         "UTILIDADE": "Compras",
         "DETALHES": "Ordens de compra pendentes.►Organização de Compras, Abrangência da Lista-ALV, Parâmetro de Seleção-WE103, Grupo de Compradores, Centro, e Data da Remessa.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 264,
@@ -1852,7 +1707,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Documentos de Compras para Material",
         "UTILIDADE": "Compras",
         "DETALHES": "Ordens de compra pendentes►Centro ►Organização de Compras►Abrangência-ALV►Param.seleção-WE107►Tipo documento-UB►Data da remessa - se preferir►Centro fornecedor.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 265,
@@ -1860,21 +1714,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Monitorização do Estoque de Subcontratação por Fonecedor",
         "UTILIDADE": "Compras",
         "DETALHES": "Verificar a quantidade de peças enviadas para o fornecedor.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 266,
         "REFERÊNCIA": "ME31K",
         "DESCRIÇÃO": "Criar Contrato",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 267,
         "REFERÊNCIA": "ME31L",
         "DESCRIÇÃO": "Criar Programa de Remessa",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 268,
@@ -1882,7 +1733,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar programa de Remessa",
         "UTILIDADE": "Compras",
         "DETALHES": "Ver quando entrou no Programa►Entrar no Programa/Contrato►Marcar linha►Item►estatística►Modificações.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 269,
@@ -1890,28 +1740,24 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Solicitação de Cotação",
         "UTILIDADE": "Compras",
         "DETALHES": "Colocar data e depois o Material ► o sistema puxa as requisições que existem ►usar um campo chamado RFQcoletivo, pode ser um numero sequencial, desta forma as várias requisições irão para a mesma cotação.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 270,
         "REFERÊNCIA": "ME47",
         "DESCRIÇÃO": "Atualizar Cotação",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 271,
         "REFERÊNCIA": "ME51N",
         "DESCRIÇÃO": "Criar Requisição de Compras",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 272,
         "REFERÊNCIA": "ME53N",
         "DESCRIÇÃO": "Exibir Requisição de Compras",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 273,
@@ -1919,7 +1765,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Liberação Individual",
         "UTILIDADE": "Compras",
         "DETALHES": "Liberar requisições por estratégia de liberação.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 274,
@@ -1927,7 +1772,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Liberação Coletiva",
         "UTILIDADE": "Compras",
         "DETALHES": "Liberar requisições por estratégia de liberação.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 275,
@@ -1935,14 +1779,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Atribuir e Processar Requisições de Compras",
         "UTILIDADE": "Compras",
         "DETALHES": "Imprimir requisições de um comprador►Grupo de Compradores►Abrangência da lista - ALV►Centro►Status de processamento - N►Código de Ordenação - 7►Caixas de Requisição que devem ser marcadas: Requisição Compras Atribuídas; Requis.Parcialmente pedidas; Requis.Comp.Para liberação Global; Requis.Comp.Para liberação de um item.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 276,
         "REFERÊNCIA": "ME58",
         "DESCRIÇÃO": "Pedir Requisições de Compra Atribuídas",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 277,
@@ -1950,7 +1792,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Geração automática de Pedidos via Requisição de Compra",
         "UTILIDADE": "Compras",
         "DETALHES": "Chamar todas as variantes e selecionar a opção da empresa.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 278,
@@ -1958,14 +1799,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Requisições",
         "UTILIDADE": "Compras",
         "DETALHES": "Usar parâmetros da ME57 para preencher a solicitação.►Se precisar ver o Elemento PEP para os materiais clicar no ícone de classificação contábil, último ícone na barra de ferramentas.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 279,
         "REFERÊNCIA": "ME5J",
         "DESCRIÇÃO": "Requisições do Projeto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 280,
@@ -1973,7 +1812,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Renumerar divisões/ Compactar",
         "UTILIDADE": "Compras",
         "DETALHES": "Quando uma divisão de remessa expira executar uma das 02 transações até conseguir rodar o MRP e continuar comprando.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 281,
@@ -1981,7 +1819,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Preparação de Material para ordens planejadas.",
         "UTILIDADE": "inventário",
         "DETALHES": "Ao entrar na transação, colocar o centro►enter►clicar em Configurações globais►desmarcar "Considerar todas necessidades e Só exibir quantidade em falta".►Voltar►ir na Aba "ordem de produção/processo"►Preencher a ordem ou o material com depósito de retirada (WIP) e depósito de reabastecimento (IS99).►Apagar data se necessário.►Executar►Depois preencher o campo "Qtd.coloc.disposição"►que é a quantidade que se deseja transferir.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 282,
@@ -1989,7 +1826,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Preparação de Material para ordens planejadas.",
         "UTILIDADE": "inventário",
         "DETALHES": "Para casos em que os materiais não aparecem na transação, usar  MMBE para ver se há alguma entrada gerada por reservas►Reserva entradas. Se sim clicar com o botão direito e localizar as reservas do movimento 311. Estas devem ser marcadas com Registro final.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 283,
@@ -1997,14 +1833,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar documento de inventário",
         "UTILIDADE": "Inventário",
         "DETALHES": "Se perder o número do documento gerado► Preencher novamente a MI01►ao dar ENTER a mensagem dirá que já está ativo.►Clicar em Documento inventário►Outras funções►Recontar►(não gravar)  e o sistema deve apresentar o documento que foi gerado anteriormente.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 284,
         "REFERÊNCIA": "MI04",
         "DESCRIÇÃO": "Registrar Contagem",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 285,
@@ -2012,14 +1846,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Imprimir lista de Diferenças",
         "UTILIDADE": "Inventário",
         "DETALHES": "Recebimento - 701 - 12; Baixa - 702 - 11.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 286,
         "REFERÊNCIA": "MI21",
         "DESCRIÇÃO": "Imprimir documento Invent. Físico",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 287,
@@ -2027,7 +1859,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Análise ABC Inventário Rotativo.",
         "UTILIDADE": "inventário",
         "DETALHES": "Entrar Modificar porcentagem CC para alterar percentuais das classes.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 288,
@@ -2035,14 +1866,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Documentos de Inventário",
         "UTILIDADE": "Inventário",
         "DETALHES": "Contagem Cíclica.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 289,
         "REFERÊNCIA": "MIGO",
         "DESCRIÇÃO": "Transferências de Materiais",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 290,
@@ -2050,21 +1879,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Fornecedor - Dados de Compra diferentes - Incoterm",
         "UTILIDADE": "Compras",
         "DETALHES": "Quando o Incoterm precisar ser diferente do que o oficial do fornecedor►Preencher o fornecedor  mais a Organização de compras ► Flegar dados de compra mais Funções do parceiro ► Enter ► Clicar em Dados divergentes►Preencher o centro ►clicar duas vezes sobre o mesmo ► preencher o incoterm na tela seguinte conforme solicitado.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 291,
         "REFERÊNCIA": "MK03",
         "DESCRIÇÃO": "Exibir Fornecedor",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 292,
         "REFERÊNCIA": "MM01",
         "DESCRIÇÃO": "Criar Material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 293,
@@ -2072,7 +1898,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Materiais que não geram Remessa►Na aba►SD:OrgVendas1►Sempre abrir com►Centro►Org. Vendas►Canal Distrib.►Limpar os Campos Status e Validade. Grupo de Categoria de Item (Org.Vendas2) - ZMBH Híbrido. Fazer isto para os 03 Canais de distribuição.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 294,
@@ -2080,7 +1905,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Depósito Remoto►Se alguém marcar um depósito como remoto (1) na MMSC►Entrar na MM02 com Centro e Depósito, na aba MRP4►estoque médio de centro e apagar o número 1 do Campo.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 295,
@@ -2088,7 +1912,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Para materiais que geram uma linha na MD04 "Planejamento sem montagem" alterar o Grupo de estratégias na aba MRP3 para valor 40.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 296,
@@ -2096,7 +1919,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Lotes Fixos na Ordem de Vendas. Ir na aba SD: org.Vendas1, olhar nas devidas Organiz Vendas e canal de distribuição, no Campo: Perfil de Arredondamento.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 297,
@@ -2104,7 +1926,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Aplicar Agrupador ►Na aba MRP3, clicar no ícone Avaliação de Variante►Depois clicar na opção ZConf►Rec.Config.►Digitar o número do agrupador ►Salvar e Salvar. Esta ação deve ser executada em todos os centros onde o material está válido. Depois deve ser aplicado na linha da OV do material.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 298,
@@ -2112,7 +1933,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Incluir Perfil de Número de Série. Se o sistema não deixar gravar o perfil e o material está marcado para eliminação em algum centro, deve-se incluir o perfil no Centro marcado para eliminação primeiro.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 299,
@@ -2120,7 +1940,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "X1 - Para conseguir calcular o custo deste material no Centro comprador, deve-se preencher na Aba "Cálculo de Preço 1" no campo "AprEspCálcCst" o valor referente ao suprimento especial do centro fornecedor. Exemplo 15011213 - X1 Suprimento especial Z8.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 300,
@@ -2128,21 +1947,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Material",
         "UTILIDADE": "Material",
         "DETALHES": "Fator de conversão ►Se a Unidade básica é UM e o o valor correspondente é maior que 1 cuidar com o estoque máximo.►Esta conta pode estourar o campo e impedir a visualização no MD04.  ►O campo permite 10 inteiros e 3 decimais",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 301,
         "REFERÊNCIA": "MM04",
         "DESCRIÇÃO": "Exibir Modificações no Material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 302,
         "REFERÊNCIA": "MM17",
         "DESCRIÇÃO": "Atualização em Massa",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 303,
@@ -2150,21 +1966,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Materiais Ampliáveis",
         "UTILIDADE": "Material",
         "DETALHES": "Selecionar vários materiais e atualizar uma aba específica, selecionar status de atualização. Pode ser utilizada para criar a Aba Esquematização de trabalho, em vários materiais, por exemplo.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 304,
         "REFERÊNCIA": "MM60",
         "DESCRIÇÃO": "Indice de Materiais",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 305,
         "REFERÊNCIA": "MMAM",
         "DESCRIÇÃO": "Modificar tipo de Material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 306,
@@ -2172,7 +1985,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Visão geral de Estoques",
         "UTILIDADE": "Material",
         "DETALHES": "Achar UC's de material ►Clicar sobre a quantidade no depósito ► Clicar em Ambiente ► Clicar em Unidade Comercial ► Depois é só dar duplo click na UC e avaliar ",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 307,
@@ -2180,14 +1992,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criação Coletiva de depósitos",
         "UTILIDADE": "Material",
         "DETALHES": "Se precisar criar um depósito, sempre é possível clicar em "Listar só depósitos ampliáveis".",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 308,
         "REFERÊNCIA": "MR51",
         "DESCRIÇÃO": "Documentos Contábeis para Material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 309,
@@ -2201,7 +2011,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "OPENPS",
         "DESCRIÇÃO": "Downloud Operações em Palm Pilot",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 311,
@@ -2209,7 +2018,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Cadastrar Responsável",
         "UTILIDADE": "Projetos",
         "DETALHES": "Tem que usar o Match code e encontrar a pessoa pelo nome. Cada colaborador tem um número sequenial no RH, que não é o número do Cadastro",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 312,
@@ -2217,7 +2025,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Cadastrar Solicitante",
         "UTILIDADE": "Projetos",
         "DETALHES": "Tem que usar o Match code e encontrar a pessoa pelo nome. Cada colaborador tem um número sequenial no RH, que não é o número do Cadastro",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 313,
@@ -2253,7 +2060,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Norma Embalagem Expedição",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Verificar se existe norma de Embalagem para Conjunto.  ►Tipo de Determinação: SHIP  ►MatRefEmb./Centro. Preencher com o Número do conjunto da Embalagem. Posição 9000 da lista. Se tiver número de Norma pressionar sobre a mesma.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 318,
@@ -2286,7 +2092,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Docs.modificação",
         "UTILIDADE": "Material",
         "DETALHES": "Para consultar o material, no campo"ID Objeto" colocar 10 vezes o ZERO e depois o código -Variante  - /CONSULTA_MAT",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 323,
@@ -2294,7 +2099,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Visão geral de Estoques",
         "UTILIDADE": "Material",
         "DETALHES": "Consulta para vários materiais - Sem acesso - Igual a MMBE.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 324,
@@ -2302,7 +2106,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Permitir login com outro usuário",
         "UTILIDADE": "Layout",
         "DETALHES": "Ferramentas►Opções da Internet►Avançadas►Segurança►Desmarcar a Caixa►Habilitar a Autenticação Integrada do Windows*►Aplicar",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 325,
@@ -2316,14 +2119,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibição Geral de tabelas",
         "UTILIDADE": "Material",
         "DETALHES": "Dias sem Movimentação - tabela ZTBMM_401_MAT_W",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 327,
         "REFERÊNCIA": "SM30",
         "DESCRIÇÃO": "Atualização de visão de tabelas",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 328,
@@ -2351,7 +2152,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Regra de Sobreposição",
         "UTILIDADE": "Roteiro",
         "DETALHES": "Se 30% na operação X (100-30=70/100=0,7 unidades), então quando 0,7 um estiver concluído começar operação seguinte. Na ordem respeita os seguintes parâmetro: 1º) Respeita a sobreposição. 2º) Tempo de transição. 3º) Tempo de espera do Centro de Trabalho. *Sendo que o 1º mata o 2º que mata o 3º.",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 332,
@@ -2371,7 +2171,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "SQ01",
         "DESCRIÇÃO": "Queri",
         "UTILIDADE": "Documentos",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 335,
@@ -2379,7 +2178,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Atualizações de Especificações Próprias do Usuário",
         "UTILIDADE": "Material",
         "DETALHES": "Para alterar Peso no material o usuário deve entrar na transação e colocar estes valores na aba parâmetros: ZMM_CHANGING_WEIGTH com valor NO_CHECK. Se não tem acesso na transação, deve abrir chamado.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 336,
@@ -2406,7 +2204,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar ordem de Cliente",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Entrar na OV►Clicar na lupa►Localizar Aba Status►Clicar Status do Objeto►Para estar gerando ordem deve estar com Status Concluída (30 conc).",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 340,
@@ -2414,7 +2211,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar ordem de Cliente",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Informação para HISA - Grupo de mercadorias ZGMSD_13      Redução BC ICMS HISA - Esta Informação tem que estar na OV - aba "Vendas B" e no material na aba "SD: Org Vendas 1". nSe a OV tiver com dados para o material que não coincidem com a Informação do material, devido atualização da Contabilidade, entrar na OV, no cabeçalho e trocar a utilização para outra e voltar na mesma. ",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 341,
@@ -2422,7 +2218,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar ordem de Cliente",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Aplicar Agrupador ►Chamar a Ordem de Venda e não dar Enter ►clicar no ícone Configuração e Enter►Selecionar a linha e clicar no ícone Acesso ao configurador►N Revisão do configurador, incluir o número do agrupador e o motivo►Digitar o número do agrupador ►Salvar. ",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 342,
@@ -2430,7 +2225,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar ordem de Cliente",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Motivo de recusa: primeiro eliminar o estoque, depois colocar o motivo de recusa. Se não seguir a sequencia correta, a reserva continua aparecendo.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 343,
@@ -2438,7 +2232,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar ordem de Cliente",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "GRM3 - ►Se tiver projeto envolvido na Ordem de Venda, o PEP de faturamento não pode estar atribuído ao PEP MRP.► Ou seja PEP-21 de MRP, PEP-2 de faturamento.► O PEP-2 tem que estar livre.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 344,
@@ -2446,14 +2239,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar ordem de Cliente",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Para alterar a data da OV, ir na aba Divisão de Remessa, Expedição e atualizar o campo Data da Remessa até que a data da Preparação de material chegue na data desejada. ",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 345,
         "REFERÊNCIA": "VA05",
         "DESCRIÇÃO": "Lista Ordens de Vendas",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 346,
@@ -2461,7 +2252,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Cliente Exibir",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Entrar com o Número do cliente e preencher Org.Vendas, canal e setor. ►Depois clicar no Campo "Dados da área de Vendas" e na aba "Doc.faturamento", para ver qual INCOTERMS que está cadastrado.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 347,
@@ -2469,7 +2259,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Info Cliente Material ",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Relação entre nosso material e do Cliente.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 348,
@@ -2477,7 +2266,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Seleção de registros Info Cliente x material",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Entrar Cliente e material. Depois de executar clicar duas vezes sobre o material. O campo Utilização do item tem que estar preenchido com ZMTO para que a OV nasca sempre para Cliente. Z1NO.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 349,
@@ -2485,7 +2273,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Criar Registro de Condição",
         "UTILIDADE": "Preços",
         "DETALHES": "Entrar tipo de Condição ► Usar sempre "ZPR1" ► Enter ►Marcar Org.Vendas/Lst.preços/Cliente/Material (usar a terceira opção **Se colocar o setor de atividade para a WII não dá certo.) ► Enter. Na outra página preencher a Organização de Vendas pretendida, lista de Preços e o cliente. n► WEN vende para WII - 1001 - E6 - 780179 ----n► WEN vende para WEM - 1001 - E0 - 798270 n► WII vende para WEN 1200 - 6006 - N2 - 626449 ---n► WII vende para WEN 1201 - 6006 - N1 - 627925 --- n► WEM vende para WEN 1200 - 3014 - ZL - 626449n► WEM vende para WEN 1201 - 3014 - ZL - 627925n► A condição que precisa criar na OC é ZPMC.n► .O código de Imposto é I0 (India fornece) e V0 (Brasil fornece) e 52 (WEM fornece).",
-        "ICON": "icones_agenda/valor.png"
     },
     {
         "SEQ": 350,
@@ -2493,7 +2280,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Alterar registro de condição",
         "UTILIDADE": "Preços",
         "DETALHES": "É possível alterar condições cadastradas►Ex: Tipo de Condição ZSEE ►Preencher a condição, o país e o incoterm - FCA ►eliminar a linha existente com o valor cadastrado ►Marcar a linha ►Selecionar Eliminar linha.",
-        "ICON": "icones_agenda/valor.png"
     },
     {
         "SEQ": 351,
@@ -2501,63 +2287,54 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modificar Entrega",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Se precisar alterar o depósito da entrega, apagar a quantidade do picking, irá habilitar o Campo "depósito"",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 352,
         "REFERÊNCIA": "VL06F",
         "DESCRIÇÃO": "Lista de Entregas",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 353,
         "REFERÊNCIA": "VL06I",
         "DESCRIÇÃO": "Monitor de Recebimentos",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 354,
         "REFERÊNCIA": "VL06P",
         "DESCRIÇÃO": "Entregas para o Picking",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 355,
         "REFERÊNCIA": "VL09",
         "DESCRIÇÃO": "Estornar Movimento de Mercadorias",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 356,
         "REFERÊNCIA": "VL10A",
         "DESCRIÇÃO": "Oper. Com Prazo Expedição Vencido",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 357,
         "REFERÊNCIA": "VL10D",
         "DESCRIÇÃO": "Itens do Pedido",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 358,
         "REFERÊNCIA": "VL32L",
         "DESCRIÇÃO": "Modificar Recebimento",
         "UTILIDADE": "Compras",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 359,
         "REFERÊNCIA": "VL32N",
         "DESCRIÇÃO": "Modificar Recebimento - UC's",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 360,
@@ -2565,21 +2342,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Mensagens provenientes de Pickings",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Tem que entrar com o Número do Transporte. Se clicar sobre a entrega na MD04 e no fluxo de documento clicar duas vezes sobre o transporte. Pode fechar tudo e entrar na transação que vai Puxar o Número do transporte. ",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 361,
         "REFERÊNCIA": "VL74",
         "DESCRIÇÃO": "Mensagens de Unidades Comerciais",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 362,
         "REFERÊNCIA": "VT01N",
         "DESCRIÇÃO": "Criar Documento de Transporte",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 363,
@@ -2587,7 +2361,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Copiar parte de texto",
         "UTILIDADE": "Layout",
         "DETALHES": "Para copiar parte de um texto usar os comandos CTRL - SHIFT - F8.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 364,
@@ -2595,7 +2368,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Formatar Sumário",
         "UTILIDADE": "Layout",
         "DETALHES": "No texto do Word tem que ter marcado na barra de ferramentas Padrão e Formatação ► Você deve ter os títulos dos tópicos ► Criar um Título tipo "1 - Assunto" ► Marcar o mesmo, escolher o Tipo de Letra e Tamanho, clicar no campo AA na barra de formatação e escolher TITULO1, assim será criado a formatação do Título. ► Depois escolher onde estará o Sumario. ► Clicar em Inserir ► Referências ► Indices. ► O mesmo vale para subtítulos.",
-        "ICON": "icones_agenda/layout.png"
     },
     {
         "SEQ": 365,
@@ -2603,7 +2375,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Transferir workflow",
         "UTILIDADE": "Material",
         "DETALHES": "Transferir Workflow►(Entradas) Entrar no Workflow►Configurações►Configurações workflow►Atualizar substituto►Marcar o nome►Clicar na figura Marcar Substituto►Termo de pesquisa, nome ou login►Selecionar►Definir a validade e clicar em substituição Ativa►Salvar. Para Desfazer clicar em Eliminar Substituto. Deve ser feito no login de quem vai passar a visão. *As vezes quem vai receber a visão tem que fazer o mesmo caminho e aceitar a substituição.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 366,
@@ -2611,7 +2382,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Cliente - 1ª tela",
         "UTILIDADE": "Preços",
         "DETALHES": "Para encontrar a Lista de Preços do Cliente ► Entrar com código do Cliente (626449-WM, 627925-WSB, 780179-WII), Organização de Vendas (6006 - 1001), Canal de Distribuição (10) e Setor de Atividade (80) ► Enter. ►Aba Dados da área de Vendas.",
-        "ICON": "icones_agenda/valor.png"
     },
     {
         "SEQ": 367,
@@ -2619,7 +2389,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Fornecedor",
         "UTILIDADE": "Compras",
         "DETALHES": "Geração de Pedido automático - Nos dados de compra deve ser preenchido o Incoterm e condição de pagamento e também Flegar "Pedido automático". Usar esta transação para verificar qual é o cliente correspondente ao fornecedor. Marcar tudo e usar a Setinha para visualizar a tela seguinte.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 368,
@@ -2648,7 +2417,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relação MARC, MARA e MARM",
         "UTILIDADE": "Material",
         "DETALHES": "AQA0SYSTQV000375SANEAM_RRP==== ►usar sempre este arquivo para encontrar material antigo ou material novo.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 372,
@@ -2656,7 +2424,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Objetos Apropriados em Projetos",
         "UTILIDADE": "Projetos",
         "DETALHES": "Utilizar quando der erro ao Encerrar Projetos.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 373,
@@ -2693,7 +2460,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTMM004",
         "DESCRIÇÃO": "Modificar Especificação Eletromecânica",
         "UTILIDADE": "Roteiro",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 379,
@@ -2701,7 +2467,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Vizualizar Especificação Eletromecânica",
         "UTILIDADE": "Roteiro",
         "DETALHES": "Características de Impressão por Centro, planejador, operação. EX: 1200-405-0060, Enter, Marcar a regra e clicar na lupa.",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 380,
@@ -2709,14 +2474,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Estoques Críticos X necessidades",
         "UTILIDADE": "Compras",
         "DETALHES": "Usado para avaliar o MRP de compras.",
-        "ICON": "icones_agenda/compras.png"
     },
     {
         "SEQ": 381,
         "REFERÊNCIA": "ZTMM020",
         "DESCRIÇÃO": "Formulário Solicitação de Materiais e Características",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 382,
@@ -2730,7 +2493,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTMM022",
         "DESCRIÇÃO": "Criação do Material",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 384,
@@ -2744,7 +2506,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTMM029",
         "DESCRIÇÃO": "Relatório de Mapa de Entrega Diária",
         "UTILIDADE": "inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 386,
@@ -2752,14 +2513,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Modoficar "Visão Fornecedores" Weg Online.",
         "UTILIDADE": "Material",
         "DETALHES": "Ver o número de dias de agrupamento por Fornecedor.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 387,
         "REFERÊNCIA": "ZTMM048",
         "DESCRIÇÃO": "Ver Dados Especificação Elétrica",
         "UTILIDADE": "Roteiro",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 388,
@@ -2767,14 +2526,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Verificação de Usuários em Grupos de Worflow",
         "UTILIDADE": "Workflow",
         "DETALHES": " ",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 389,
         "REFERÊNCIA": "ZTMM067",
         "DESCRIÇÃO": "Status do Workflow",
         "UTILIDADE": "Workflow",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 390,
@@ -2782,14 +2539,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Rastreamento de Itens no Workflow",
         "UTILIDADE": "Workflow",
         "DETALHES": "Para ver histórico de dias anteriores usar a opção de alguns dias pra trás.",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 391,
         "REFERÊNCIA": "ZTMM075",
         "DESCRIÇÃO": "Conclusão Automática de Workitens",
         "UTILIDADE": "Workflow",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 392,
@@ -2803,7 +2558,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Estoques em Depósito de Material",
         "UTILIDADE": "Inventário",
         "DETALHES": "Flegar Exibir Estoques de Lotes e Sem Linhas Estoque Zero.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 394,
@@ -2811,14 +2565,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Protocolo de Entrega de Documentos ",
         "UTILIDADE": "Documentos",
         "DETALHES": "Djalma WTD",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 395,
         "REFERÊNCIA": "ZTMM118",
         "DESCRIÇÃO": "Visualisar Especificação Eletromecânica - Simulação Impressão",
         "UTILIDADE": "Roteiro",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 396,
@@ -2845,7 +2597,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Reiniciar o Fluxo do Workflow",
         "UTILIDADE": "Material",
         "DETALHES": "Só funciona no ambiente QA.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 400,
@@ -2860,21 +2611,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Cadastro para validação automática das visões do material",
         "UTILIDADE": "Workflow",
         "DETALHES": " ",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 402,
         "REFERÊNCIA": "ZTMM160",
         "DESCRIÇÃO": "Relatório Inconsistências Validação Automática Visões Material",
         "UTILIDADE": "Workflow",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 403,
         "REFERÊNCIA": "ZTMM161",
         "DESCRIÇÃO": "Relatório Regras Validação Automática de Visões de material",
         "UTILIDADE": "Workflow",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 404,
@@ -2889,7 +2637,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de Materiais Exclusivos",
         "UTILIDADE": "Material",
         "DETALHES": "Material exclusivo de uma linha que pode ser deletado.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 406,
@@ -2897,7 +2644,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de Materiais X Período sem Consumo ",
         "UTILIDADE": "Material",
         "DETALHES": "Para avaliar o material sem consumo em uma quantidade de dias em um depósito - Substituida por ZTMM402",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 407,
@@ -2912,14 +2658,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Simulação para execução das regras do material",
         "UTILIDADE": "Workflow",
         "DETALHES": "Identificar regra existente para classe de material.",
-        "ICON": "icones_agenda/workflow.png"
     },
     {
         "SEQ": 409,
         "REFERÊNCIA": "ZTMM194",
         "DESCRIÇÃO": "Execução das regras para Rastreabilidade.",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 410,
@@ -2927,7 +2671,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Atualização em Massa de Agrupador ",
         "UTILIDADE": "Material",
         "DETALHES": "Atualiza um material em vários Centros",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 411,
@@ -2962,7 +2705,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de Materiais X Período sem Consumo",
         "UTILIDADE": "Material",
         "DETALHES": "Substituida por ZTMM402",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 416,
@@ -3074,7 +2816,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório SAP Kanban Eletrônico - Ordem",
         "UTILIDADE": "Material",
         "DETALHES": "Verificar quais materiais já foram solicitados por ordem",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 434,
@@ -3094,7 +2835,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório Análise de Estoques",
         "UTILIDADE": "Material",
         "DETALHES": "Era ZTMM178 e ZTMM233nPreencher Segregado por depósito, Centro, Sem linhas estoque Zero e Avaliar Estoque Especial. O filtro de dias deve ser feito dentro do relatório. Cuidar com o Número de registros. nSe um dia o relatório parar pela metade, avaliar o material em que parou. Estoque 0,001 de alguma unidade de medida é problema.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 437,
@@ -3108,7 +2848,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTMM423",
         "DESCRIÇÃO": "Consulta do De Para Migração de Materiais WIS",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 439,
@@ -3116,7 +2855,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Exibir Modificações de Material em Massa",
         "UTILIDADE": "Material",
         "DETALHES": "Resumo de modificação em Massa",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 440,
@@ -3124,7 +2862,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Estornar documento de materal",
         "UTILIDADE": "Inventário",
         "DETALHES": "Substitui a MBST",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 441,
@@ -3138,14 +2875,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Cisualização do Documento",
         "UTILIDADE": "Documentos",
         "DETALHES": "Comparar uma versão do documento com a outra",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 443,
         "REFERÊNCIA": "ZTPP002",
         "DESCRIÇÃO": "Indice de Atendimento ao Mapa de Transferência",
         "UTILIDADE": "inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 444,
@@ -3165,7 +2900,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório Informações Gerenciais - Atendimento a Vendas",
         "UTILIDADE": "Projetos",
         "DETALHES": " ",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 447,
@@ -3221,7 +2955,6 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTPP102",
         "DESCRIÇÃO": "Exibir Nº série Para Documentos",
         "UTILIDADE": "Documentos",
-        "ICON": "icones_agenda/documentos.png"
     },
     {
         "SEQ": 456,
@@ -3260,21 +2993,18 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Verificação de consumo de Cotas",
         "UTILIDADE": "inventário",
         "DETALHES": "Mostrar OV' que estão com faturamento em atraso.",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 462,
         "REFERÊNCIA": "ZTPP129",
         "DESCRIÇÃO": "Visão de Material com Planejador e Descrição ",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 463,
         "REFERÊNCIA": "ZTPP131",
         "DESCRIÇÃO": "Consumo dos Materiais Baseado na MM03",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 464,
@@ -3295,7 +3025,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Atualização Dados Gerais de Pré-paletização Ordem de Venda",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Quando o sistema não gera a pre-paletização de algum material, pode ser utilizado para fazer manualmente.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 467,
@@ -3324,7 +3053,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Roteiros e Componentes",
         "UTILIDADE": "Roteiro",
         "DETALHES": "Roteiros em massa.",
-        "ICON": "icones_agenda/roteiro.png"
     },
     {
         "SEQ": 471,
@@ -3366,7 +3094,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de Mensagens de Exceção",
         "UTILIDADE": "Material",
         "DETALHES": "MD06 em Relatório.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 477,
@@ -3379,14 +3106,12 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTPS018",
         "DESCRIÇÃO": "Atribuir Local de Referencia a Modelo de Estrutura de Projeto",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 479,
         "REFERÊNCIA": "ZTPS021",
         "DESCRIÇÃO": "Atualizar Status Faturamento Completo",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 480,
@@ -3394,14 +3119,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de Estoque e Reservas de Projeto",
         "UTILIDADE": "Projetos",
         "DETALHES": "Avaliar todos os estoques de um projeto e que estão com alguma quantidade de sobra. Eventualmente esta quantidade pode ser utilizada em outro projeto ou no estoque livre. Solicitar para Status LIB e ABER",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 481,
         "REFERÊNCIA": "ZTPS023",
         "DESCRIÇÃO": "Monitoramento contábil de Projetos",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 482,
@@ -3409,7 +3132,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Síntese da Verba do Projeto",
         "UTILIDADE": "Projetos",
         "DETALHES": "Controle de disponibilidade - preencher apenas o número do projeto e executar. Abrir os níveis. É possível trocar a moeda clicando no ícone "100". Trocar a moeda e na chave seguinte escolher a opção 3 - Taxa de Compra - Data fixada hoje..",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 483,
@@ -3417,7 +3139,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Síntese da Verba do Projeto",
         "UTILIDADE": "Projetos",
         "DETALHES": "Esta versão é gravada por Contratos e deve ser gravada antes de enviar o projeto para o PCP. Contratos está criando atividades específicas de Custos o que permite criar a versão COT, com as tarefas criadas no template.",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 484,
@@ -3425,7 +3146,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Seleção de Status dos Projetos",
         "UTILIDADE": "Projetos",
         "DETALHES": "Usar a transação para identificar os PEP's por Empresa e Centro que estão pendentes de ENCE "usar variante  - INDICADOR"",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 485,
@@ -3438,14 +3158,12 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTPS063",
         "DESCRIÇÃO": "Relatorio de Acompanhamento CPC-47",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 487,
         "REFERÊNCIA": "ZTPS067",
         "DESCRIÇÃO": "% Evolução CPC47",
         "UTILIDADE": "Projetos",
-        "ICON": "icones_agenda/projeto.png"
     },
     {
         "SEQ": 488,
@@ -3453,7 +3171,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de Sugestão de Entrega",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Procurar nas Variantes Modificado por "ascaburi"",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 489,
@@ -3461,7 +3178,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Gerar paletização   ",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Executar esta transação sempre depois do fechamento de MPS para o novo período (Genset). Utilizar a variante /AK0009, apagar as datas e teclar ENTER para preencher a data do período atual. Pode ser executado diversas vezes na semana, assim os materiais que forem corrigidos no período poderão ser pré-paletizados.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 490,
@@ -3469,7 +3185,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Relatório de informações gerencias.",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Para imprimir os materiais da OV.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 491,
@@ -3477,7 +3192,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Recuperação de Necessidades de Venda e de Remessa",
         "UTILIDADE": "Ordem de Vendas",
         "DETALHES": "Quando uma Ordem de Venda já faturada continua gerando reserva.nOu quando uma ordem de venda não gera a reserva na MD04. nMarcar todas as caixas de diálogo.",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 492,
@@ -3492,14 +3206,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Remessa e Retorno de Materiais",
         "UTILIDADE": "Material",
         "DETALHES": "Material em poder de terceiros e de terceiros em nosso poder. Ver tudo na ZTSD165.",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 494,
         "REFERÊNCIA": "ZTSD179",
         "DESCRIÇÃO": "Relatório detalhado financeiro.",
         "UTILIDADE": "Ordem de Vendas",
-        "ICON": "icones_agenda/venda.png"
     },
     {
         "SEQ": 495,
@@ -3514,7 +3226,6 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Simulação de Configuração do Produto",
         "UTILIDADE": "Material",
         "DETALHES": "Ver configuração de material sem Ordem de Venda ► Entrar com Material Configurável e Centro ►Clicar em Executar Pesquisa ► Clicar na Aba - Recuperar Configuração ► Entrar com o Material Configurado ►Se desejar imprimir a Configuração ► Clicar em Resumo e escolher a forma de Imprimir. ",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 497,
@@ -3527,14 +3238,12 @@ export const agendaPCP = `
         "REFERÊNCIA": "ZTVC139",
         "DESCRIÇÃO": "Formulário de Ampliação de Material FERT",
         "UTILIDADE": "Material",
-        "ICON": "icones_agenda/material.png"
     },
     {
         "SEQ": 499,
         "REFERÊNCIA": "ZTWM029",
         "DESCRIÇÃO": "Imprimir estoque por Depósito",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 500,
@@ -3542,14 +3251,12 @@ export const agendaPCP = `
         "DESCRIÇÃO": "Apontamento via Coletor",
         "UTILIDADE": "Inventário",
         "DETALHES": "Operação das ordens de produção realizados erroneamente via CO11N",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 501,
         "REFERÊNCIA": "ZTWM050",
         "DESCRIÇÃO": "Relatório de Referência para Unidade Comercial",
         "UTILIDADE": "Inventário",
-        "ICON": "icones_agenda/inventario.png"
     },
     {
         "SEQ": 502,
@@ -3575,7 +3282,7 @@ export const agendaPCP = `
     {
         "SEQ": 505,
         "REFERÊNCIA": "MB5B",
-        "DESCRIÇÃO": "Estoque para data de lançlamento",
+        "DESCRIÇÃO": "Estoque para data de lançamento",
         "UTILIDADE": "Estoque",
         "DETALHES": "Entrar com material ► Empresa ► Centro ► Estoque avaliado ► Executar - Será apresetado o vaor de estoque do dia para aquele material"
     }

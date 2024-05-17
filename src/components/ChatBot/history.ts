@@ -1,6 +1,8 @@
 import { kanbanDoc } from "docs/kanban_eletronico"
 import { procedures } from "docs/procedimentos_pcp"
 import { requisitosPCP } from "docs/requisitos_pcp"
+import { colaboradores } from "docs/colaboradores"
+import { agendaPCP } from "docs/agendaPCP"
 
 import { wpm1724 } from "docs/normas/norma_wpm1724"
 import { wpm2412 } from "docs/normas/norma_wpm2412"
@@ -12,8 +14,6 @@ import { wpm22685 } from "docs/normas/norma_wpm22685"
 import { wpm48914 } from "docs/normas/norma_wpm48914"
 
 import { wps21319 } from "docs/normas/norma_wps21319"
-import { colaboradores } from "docs/colaboradores"
-import { agendaPCP } from "docs/agendaPCP"
 
 export const history = [
     {
