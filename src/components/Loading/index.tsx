@@ -12,7 +12,7 @@ export default function Loading({ open }: Props) {
                     color: '#fff',
                     zIndex: (theme) => theme.zIndex.drawer + 1000,
                     position: 'absolute', // Make the backdrop relative to its parent
-                    top: 41,
+                    top: 0,
                     left: 0,
                     width: '100%',
                     height: '100%',

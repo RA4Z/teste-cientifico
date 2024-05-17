@@ -1,7 +1,7 @@
 import styles from './ChatBot.module.scss'
 import Send from '@mui/icons-material/Send';
 import Cancelar from '@mui/icons-material/Close';
-import { Dialog, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 import { useState } from "react";
 import { runChat } from './chat'
 import Loading from 'components/Loading';
