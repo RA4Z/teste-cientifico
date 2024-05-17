@@ -1180,7 +1180,7 @@ Sobregravar o arquivo.
 
 Salvar o arquivo na pasta padrão: "Salvar como" > "Pasta padrão" > "Gráfico atendimento Kanban WSB".
 
-20. Procedimento Indicador Kanban WEN Brasil
+20. Procedimento Indicador Kanban WEN Brasil (Procedimento do Kanban Mensal)
 
 Um job é gerado todo domingo de madrugada e salvo na pasta: Q:/APPS/SAP/EP0/PCP_WEN_Indicadores.
 

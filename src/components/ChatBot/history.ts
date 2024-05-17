@@ -1,6 +1,7 @@
 import { kanbanDoc } from "docs/kanban_eletronico"
 import { procedures } from "docs/procedimentos/procedimentos_pcp"
 import { indicadoresMensais } from "docs/procedimentos/indicadoresMensais"
+import { procedimentosSecretaria } from "docs/procedimentos/procedimentosSecretaria"
 import { requisitosPCP } from "docs/requisitos_pcp"
 import { colaboradores } from "docs/colaboradores"
 import { agendaPCP } from "docs/agendaPCP"
@@ -58,6 +59,14 @@ export const history = [
     {
         role: "model",
         parts: [{ text: agendaPCP }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Manual em extenso de procedimentos que a secretária do PCP realiza para os membros do time` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: procedimentosSecretaria }],
     },
     {
         role: "user",
