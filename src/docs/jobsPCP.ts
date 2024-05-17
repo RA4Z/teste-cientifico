@@ -3,11 +3,11 @@ Lista com todos os JOBS do PCP:
 Caminho com a lista atualizada de todos os JOBS da WEG: Q:/APPS/SAP/EP0/JOB_UC4
 Os principais arquivos dos jobs do PCP se encontram nas pastas Q:/APPS/SAP/EP0/Indicadores PCP_WEN e Q:/APPS/SAP/EP0/PCP_WEN
 
-Nome do job	Descricao	Programa	Variante	Periodicidade	Destinatario	Usuário	Impacto
-AT_PP_000056	 	ZPPPR_036	TF_OP_MT_ANO	Job execution start in 2021-07-13	/Indicadores_PCP_WEN/OP_MONTAGEM_ANO	josefj	---
+Nome do job	Descricao	Programa SAP	Variante	Periodicidade	Destinatario	Usuário	Impacto
+AT_PP_000056	---	ZPPPR_036	TF_OP_MT_ANO	Job execution start in 2021-07-13	/Indicadores_PCP_WEN/OP_MONTAGEM_ANO	josefj	---
 BR_MM_000009	---	ZPMMR_401	/EST_120D_1208	Diariamente as 02:15hs	/PCP_WEN/Estoque sem consumo/Dados_1208	Lucas Moraes dos Santos	---
-BR_MM_002277	 	ZPMMR_401	/EST_120D_1200	Diariamente as 02:16hs	/PCP_WEN/Estoque sem consumo/ESTOQUE_1200	ivanrl	---
-BR_MM_002314	 	ZPMMR_401	/EST_120D_6201	Diariamente as 03:22hs	/PCP_WEN/Estoque sem consumo/DADOS_6201	valmirj@weg.net	---
+BR_MM_002277	---	ZPMMR_401	/EST_120D_1200	Diariamente as 02:16hs	/PCP_WEN/Estoque sem consumo/ESTOQUE_1200	ivanrl	---
+BR_MM_002314	---	ZPMMR_401	/EST_120D_6201	Diariamente as 03:22hs	/PCP_WEN/Estoque sem consumo/DADOS_6201	valmirj@weg.net	---
 BR_MM_003340	Busca os kanbans solcitados via Kanban do centro 1206	ZPMMR_432	/KBN_ELE_SOLIC	Dias uteis a cada 2 horas das 04:01 as 21:00hs	/Indicadores PCP_WEN/KANBANS_SOLICITADOS_1206	josefj@weg.net	Nao atualizacao do kanban de turbinas
 BR_MM_003701	Atualizar informação de estoque para indicador Power BI utilizado para reuniões entre gestores	ZPMMR_401	WEN_PCP	Segunda a sexta-feira a cada 30 minutos/ das 00:05hs as 23:05hs	/PCP_WEN/Estoque ZTMM402	robertn	As informações utilizadas no GR estão desatualizadas para as reuniões
 BR_MM_0580_196_D_EST_120D_3200	Materiais em estoque a mais de 120 dias	ZPMMR_401	/EST_120D_3200	Diariamente as 01:40hs	/PCP_WEN/Estoque sem consumo/Dados_3200	valmirj@weg.net	Nao ira gerar relatorio de materiais em estoque
@@ -25,7 +25,7 @@ BR_PP_002630	---	ZPPPR_036	KANBAN_DISPOS	Diariamente as 05:19hs	/Indicadores PCP
 BR_PP_002651	---	ZPPPR_036	/TAREFAS_OP_EN	Diariamente as 06:18hs	/Indicadores PCP_WEN/TAREFAS_COMPLETO_ENS	josefj@weg.net	---
 BR_PP_002652	---	ZPPPR_036	/TF_OP_EN_ANO	Diariamente as 06:19hs	/Indicadores PCP_WEN/TAREFAS_MAQ_ANO	josefj@weg.net	---
 BR_PP_002662	---	ZPPPR_036	/TF_OP_MT_ANO	Diariamente as 06:11hs	/Indicadores PCP_WEN/MONTAGEM_COMPLETO	josefj@weg.net	---
-BR_PP_002811	 	ZPPPR_036	/KANBAN_CONJ	Job execution start in 2021-10-06	/Indicadores PCP_WEN/KANBAN_CONJ_ZTPP107	josefj@weg.net	---
+BR_PP_002811	---	ZPPPR_036	/KANBAN_CONJ	Job execution start in 2021-10-06	/Indicadores PCP_WEN/KANBAN_CONJ_ZTPP107	josefj@weg.net	---
 BR_PP_002899	O Job deve criar uma base de dados com as ordens do Vestas para que essas sejam mapeadas pelo Kanban eletronico	ZPPPR_036	KBN_VESTAS_NEW	Diariamentes as 06:01 Hrs	/Indicadores PCP_WEN/KBN_VESTAS_ZTPP107_RELEASED_12_2021	josefj@weg.net	Falha na programacao do Vestas possiveis problemas na producao
 BR_PP_003005	Coleta as ordens de producao ativas de TURBINAS	ZPPPR_036	WENHISA_ZPP107	Diariamentes as 01:01 Hrs	/Indicadores PCP_WEN/ZTPP107_1206	josefj@weg.net	Nao atualizacao do Kanban Eletronico possivel falha na programacaoacompanhamento de projetos
 BR_PP_003012	Job necessario para atualizacao do kanban eletronico	PPIO_ENTRY	/PREPARA_KBN	Diariamentes as 06:02 Hrs	/Indicadores PCP_WEN/APONTAMENTOS_KANBAN	josefj@weg.net	Nao atualizacao do Kanban eletronico
@@ -93,7 +93,7 @@ BR_PS_0070_133_S_IND_ATD_KANBAN	Indicador KANBAN Diario FC0001	RPSISVG000 	/FC00
 BR_PS_0070_187_D_KANBAN_TURB	Gerar atendimento de kanban do departamento de Turbinas	RPSISVG000 	/KANBAN_TURB	Diariamente as 01:20 hs	/PCP_WEN_Indicadores/Turbinas	czeiser	Nao ira gerar relatorio de atendimentos de kanban
 BR_QM_001440	Atualiza base de dados de indicador PCP	ZPQMR_038	WM_PCP_QM	Diariamente as 01:29hs	/PCP_WEN/Relatorio das QM's	robertn	Indicador não atualiza para as reuniões da equipe
 BR_QM_002454	JOB para atualizacao de dashboard de maquinas de servicos de SBC	RIQMEL30	MEDIDASBC	Diariamentes as 08:01 Hrs	/PCP_WEN/DASHBOARD	karolinel@weg.net	Falta de atualizacao de dados
-BR_QM_0050_001_S_CUSTO_CC_WEM	Informacao horas apontadas para centros de custo produtivo	RKAEP000	/CUSTO_CC_WEM	Domingos as 20:09 hs	/PCP_WEN_Indicadores/	czeiser	Nao gerara informacao de apontamento de horas para analise
-BR_QM_0050_004_S_CUSTO_CC_WEN	Informacao horas apontadas para centros de custo produtivo	RKAEP000	/CUSTO_CC_WEN	Domingos as 22:07	/PCP_WEN/Custo_CC_WEN	czeiser	Nao gerara informacao de apontamento de horas para analise
+BR_QM_0050_001_S_CUSTO_CC_WEM	Informacao horas apontadas para centros de custo produtivo	RKAEP000	/CUSTO_CC_WEM	Domingos as 20:09 hs	/PCP_WEN_Indicadores/	czeiser	Não gerará informação de apontamento de horas para análise
+BR_QM_0050_004_S_CUSTO_CC_WEN	Informacao horas apontadas para centros de custo produtivo	RKAEP000	/CUSTO_CC_WEN	Domingos as 22:07	/PCP_WEN/Custo_CC_WEN	czeiser	Não gerará informação de apontamento de horas para análise
 
 `
