@@ -1,0 +1,21 @@
+$chatbot-normal: url('../../assets/chatbot_normal.png');
+$chatbot-falando: url('../../assets/chatbot_falando.png');
+
+.chat {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  z-index: 10;
+  cursor: pointer;
+  background-image: $chatbot-normal;
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 1%;
+  border: none;
+  color: white;
+  transition: .2s;
+
+  &:hover {
+    background-image: $chatbot-falando;
+  }
+}

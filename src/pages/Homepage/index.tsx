@@ -11,7 +11,10 @@ import Indicadores_img from 'images/indicadores.jpg'
 
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
+
+import chatStyle from './Homepage.module.scss'
 import ChatBot from 'components/ChatBot'
+import ChatIMG from 'assets/chatbot_normal.png'
 
 export default function Homepage() {
     const [chatVisible, setChatVisible] = useState(false)
@@ -39,7 +42,7 @@ export default function Homepage() {
     ]
     return (
         <>
-            {!chatVisible && <button className="chat" onClick={() => setChatVisible(true)}>Falar com o ChatBot PCP</button>}
+            {!chatVisible && <span className={chatStyle.chat} title='Chatbot do PCP' onClick={() => setChatVisible(true)} />}
             {chatVisible && <ChatBot visible={chatVisible} setVisible={setChatVisible} />}
             <h3 style={{ textAlign: 'center', textWrap: 'wrap', paddingBottom: 20 }}>PPC WEN Automation's Database</h3>
             <div className="container">
