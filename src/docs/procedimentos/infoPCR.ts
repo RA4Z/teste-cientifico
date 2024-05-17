@@ -1,4 +1,6 @@
 export const infoPCR = `
+O arquivo com todas as informações da PCR se encontra no Sharepoint do PCP, no link: https://intranet.weg.net/br/energia-wm/pcp/PCR/Forms/AllItems.aspx
+
 WEG EQUIPAMENTOS ELÉTRICOS S.A. – WEN 
 Departamento Planejamento e Controle da Produção 
 PCR - Fluxo, regras e procedimentos 
