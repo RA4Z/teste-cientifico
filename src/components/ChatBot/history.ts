@@ -13,6 +13,7 @@ import { wpm48914 } from "docs/normas/norma_wpm48914"
 
 import { wps21319 } from "docs/normas/norma_wps21319"
 import { colaboradores } from "docs/colaboradores"
+import { agendaPCP } from "docs/agendaPCP"
 
 export const history = [
     {
@@ -48,6 +49,14 @@ export const history = [
     {
         role: "model",
         parts: [{ text: colaboradores }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Manual em extenso de procedimentos e truques para o PCP (Agenda Marguit)` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: agendaPCP }],
     },
     {
         role: "user",

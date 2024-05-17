@@ -865,13 +865,13 @@ SAP – ECC – CO13.
 
   **Tipos de movimento:**
 
-     * 415 Q: Transferência de estoque, projeto de fabricação para projeto de faturamento.
+     * Tipo de movimento: 415, Estoque Especial: Q: Transferência de estoque, projeto de fabricação para projeto de faturamento.
      * 415: Transferência de estoque livre para estoque de projeto.
-     * 411 Q: Transferência de estoque de projeto para estoque livre.
+     * Tipo de movimento: 411, Estoque Especial: Q: Transferência de estoque de projeto para estoque livre.
      * 411: Transferência entre depósitos.
      * 459 e 343: Transferências de estoque em devolução para estoque livre.
      * 413: Transferência de estoque livre para estoque de cliente.
-     * 411 E: Transferência de estoque de cliente para estoque livre.
+     * Tipo de movimento: 411, Estoque Especial: E: Transferência de estoque de cliente para estoque livre.
 
   **34.14.3. Preencher o campo "Elemento PEP", o material, a quantidade e a unidade de medida (para evitar alterações indesejadas). Preencher o depósito receptor. Pressionar Enter.**
 
