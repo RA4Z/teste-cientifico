@@ -5,6 +5,7 @@ import { procedimentosSecretaria } from "docs/procedimentos/procedimentosSecreta
 import { requisitosPCP } from "docs/requisitos_pcp"
 import { colaboradores } from "docs/colaboradores"
 import { agendaPCP } from "docs/agendaPCP"
+import { jobsPCP } from "docs/jobsPCP"
 
 import { wpm1724 } from "docs/normas/norma_wpm1724"
 import { wpm2412 } from "docs/normas/norma_wpm2412"
@@ -16,6 +17,7 @@ import { wpm22685 } from "docs/normas/norma_wpm22685"
 import { wpm48914 } from "docs/normas/norma_wpm48914"
 
 import { wps21319 } from "docs/normas/norma_wps21319"
+import { transacoes } from "docs/transacoes"
 
 export const history = [
     {
@@ -51,6 +53,22 @@ export const history = [
     {
         role: "model",
         parts: [{ text: colaboradores }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Programas SAP e suas transações` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: transacoes }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Lista em extenso com todos os JOBS do PCP` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: jobsPCP }],
     },
     {
         role: "user",
