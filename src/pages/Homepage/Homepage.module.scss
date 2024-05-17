@@ -13,7 +13,7 @@ $chatbot-falando: url('../../assets/chatbot_falando.png');
   right: 1%;
   border: none;
   color: white;
-  transition: .2s;
+  transition: .2s ease-in-out;
 
   &:hover {
     background-image: $chatbot-falando;

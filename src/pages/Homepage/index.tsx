@@ -3,8 +3,8 @@ import './styles.css'
 import Softwares_ico from 'images/svgs/softwares.svg'
 import Softwares_img from 'images/softwares.jpg'
 
-import Agenda_ico from 'images/svgs/agenda.svg'
-import Agenda_img from 'images/agenda.jpg'
+// import Agenda_ico from 'images/svgs/agenda.svg'
+// import Agenda_img from 'images/agenda.jpg'
 
 import Indicadores_ico from 'images/svgs/indicadores.svg'
 import Indicadores_img from 'images/indicadores.jpg'
@@ -14,19 +14,18 @@ import { useState } from 'react'
 
 import chatStyle from './Homepage.module.scss'
 import ChatBot from 'components/ChatBot'
-import ChatIMG from 'assets/chatbot_normal.png'
 
 export default function Homepage() {
     const [chatVisible, setChatVisible] = useState(false)
 
     const navigate = useNavigate()
     const webPages = [
-        {
-            name: 'Agenda',
-            link: '/Agenda',
-            image: Agenda_img,
-            icon: Agenda_ico
-        },
+        // {
+        //     name: 'Agenda',
+        //     link: '/Agenda',
+        //     image: Agenda_img,
+        //     icon: Agenda_ico
+        // },
         {
             name: 'Softwares',
             link: '/Softwares',
