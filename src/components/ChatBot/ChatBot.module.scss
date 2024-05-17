@@ -15,6 +15,7 @@ $desktop: 1440px;
     position: fixed;
     right: 20px;
     bottom: 0;
+    z-index: 10;
 
     @media(max-width: $tablet) {
         width: 60vw;
@@ -22,7 +23,7 @@ $desktop: 1440px;
 
     @media(max-width: $mobile) {
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
         left: 0;
         right: 0;
     }
