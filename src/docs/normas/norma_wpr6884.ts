@@ -1,4 +1,6 @@
 export const wpr6884 = `
+A norma WPR-6884 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPR-6884%22,%22fields%22:[]}
+
 COMPRADOS E MANUFATURADOS - WPR-6884 PT
 Depto Planejamento e Controle da Producao,Depto Suprimentos,Secao P... Rev. 07
 Corporativo,Motores Comerciais e Appliance,Energia,WEG Digital e

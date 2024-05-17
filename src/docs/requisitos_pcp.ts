@@ -1,4 +1,5 @@
 export const requisitosPCP = `
+As informações sobre os requisitos se encontram na Matriz CHA do PCP.
 Requisitos de vagas para o PCP da WEG Energia:
 
 Cargo	Requisitos	Conhecimento	Curso Interno WEG (sugestão)

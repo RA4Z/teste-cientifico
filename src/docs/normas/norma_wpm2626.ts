@@ -1,4 +1,6 @@
 export const wpm2626 = `
+A norma WPM-2626 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-2626%22,%22fields%22:[]}
+
 CONTROLE DE DOCUMENTOS E DE DADOS - DEPARTAMENTO DE PLANEJAMENTO E CONTROLE DA PRODUÇÃO - WPM-2626 PT
 Secao Planejamento da Producao , Secao Programacao e Controle Rev. 01
 Energia - WEG Equipamentos Eletricos S/A Local | Everyone 1 / 5

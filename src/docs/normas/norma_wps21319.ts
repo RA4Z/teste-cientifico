@@ -1,4 +1,6 @@
 export const wps21319 = `
+A norma WPS-21319 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPS-21319%22,%22fields%22:[]}
+
 ROTEIROS DE FABRICAÇÃO WPS-21319 PT
 Seção Engenharia de Projetos, Seção Engenharia de Processos
 Rev. 098

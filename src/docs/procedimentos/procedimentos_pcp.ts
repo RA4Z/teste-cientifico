@@ -1,5 +1,7 @@
 export const procedures = `
 Manual de Procedimentos PCP
+Todos os procedimentos gerais do PCP se encontram no sharepoint, no link: https://intranet.weg.net/br/energia-wm/pcp/Central%20de%20Arquivos/Forms/AllItems.aspx
+
 1. Objetivo: Estabelece o procedimento do inventário cíclico de produtos acabados na expedição de alternadores da WM.
 2. Generalidades
 2.1. Inventário Cíclico:

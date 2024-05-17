@@ -1,4 +1,6 @@
 export const wpm2412 = `
+A norma WPM-2412 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-2412%22,%22fields%22:[],%22product%22:73}
+
 WPM-2412 - Modificar Ordem de Venda e Compras
 PT Secao Planejamento da Producao , Secao Programacao e Controle Rev. 03
 1. OBJETIVO

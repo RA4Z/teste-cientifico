@@ -1,4 +1,6 @@
 export const wpm22641 = `
+A norma WPM-22641 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-22641%22,%22fields%22:[]}
+
 Modificar Ordens de Venda e Produto WPM-22641 PT
 Seção Planejamento da Produção
 Rev. 02

@@ -3,6 +3,8 @@ const secretaria = 'Ester Caroline Vieira Dias'
 
 export const kanbanDoc = `
 MANUAL EXPLICATIVO DO KANBAN ELETRÔNICO
+O manual do kanban eletrônico se encontra na pasta: Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Processos com Automatização/11 - Kanban digital
+
 1. METODOLOGIA
 O método kanban é utilizado na WEG Energia para programar e acompanhar a produção das máquinas eletro girantes e turbinas. Este método consiste em programar as máquinas “de trás para frente” a partir da data da ordem de venda.
 2. KANBAN ELETRÔNICO – MEG

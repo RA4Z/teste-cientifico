@@ -1,4 +1,6 @@
 export const wpm48914 = `
+A norma WPM-48914 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-48914%22,%22fields%22:[]}
+
 PLANEJAMENTO LINHAS SERIADAS - WPM-48914 PT
 Secao Planejamento da Producao Rev. 00
 1. OBJETIVO

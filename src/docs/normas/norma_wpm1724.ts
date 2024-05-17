@@ -1,4 +1,6 @@
 export const wpm1724 = `
+A norma WPM-1724 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-1724%22,%22fields%22:[]}
+
 TÉCNICAS WPM-1724 PT
 Secao Planejamento da Producao Rev. 02
 1. OBJETIVO

@@ -1,4 +1,6 @@
 export const wpm22685 = `
+A norma WPM-22685 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-22685%22,%22fields%22:[]}
+
 PLANEJAR E CONTROLAR PRODUÇÃO – WEN WPM-22685 PT
 Seção Programação e Controle; Seção Planejamento da Produção
 Rev. 03

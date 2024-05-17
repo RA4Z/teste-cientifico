@@ -1,6 +1,7 @@
 export const indicadoresMensais = `
 Todos os procedimentos dos indicadores mensais realizados pela secretária do PCP:
 Todos os procedimentos abaixo são realizados pela secretária do PCP.
+Todos os procedimentos dos indicadores mensais se encontram na pasta: Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Ester/Manual de Procedimentos/Indicadores Mensal
 
 1. Prazo para Controle PCP
 

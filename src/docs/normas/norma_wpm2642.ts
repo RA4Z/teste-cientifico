@@ -1,4 +1,6 @@
 export const wpm2642 = `
+A norma WPM-2642 se encontra em: https://wegdoc.weg.net/softexpert/workspace?page=search,&filter={%22term%22:%22WPM-2642%22,%22fields%22:[]}
+
 CONTROLE DE REGISTROS - DEPARTAMENTO DE PLANEJAMENTO E CONTROLE DA PRODUÇÃO - WPM-2642 PT
 Depto Planejamento e Controle da Producao Rev. 02
 Energia - WEG Equipamentos Eletricos S/A Local | Everyone 1 / 3

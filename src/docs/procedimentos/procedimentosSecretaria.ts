@@ -1,6 +1,7 @@
 export const procedimentosSecretaria = `
 Procedimentos Detalhados do Documento "procedimentos uteis.docx"
 Seguem abaixo procedimentos que a Secretária do PCP realiza.
+Todos os procedimentos de secretariado abaixo se encontram na pasta: Q:/GROUPS/BR_SC_JGS_WM_LOGISTICA/PCP/Ester/Manual de Procedimentos/Procedimentos Úteis
 
 1. 5S - Auditoria de Rotina
 
