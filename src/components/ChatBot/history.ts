@@ -6,6 +6,8 @@ import { requisitosPCP } from "docs/requisitos_pcp"
 import { colaboradores } from "docs/colaboradores"
 import { agendaPCP } from "docs/agendaPCP"
 import { jobsPCP } from "docs/jobsPCP"
+import { transacoes } from "docs/transacoes"
+import { infoPCR } from "docs/procedimentos/infoPCR"
 
 import { wpm1724 } from "docs/normas/norma_wpm1724"
 import { wpm2412 } from "docs/normas/norma_wpm2412"
@@ -17,7 +19,6 @@ import { wpm22685 } from "docs/normas/norma_wpm22685"
 import { wpm48914 } from "docs/normas/norma_wpm48914"
 
 import { wps21319 } from "docs/normas/norma_wps21319"
-import { transacoes } from "docs/transacoes"
 
 export const history = [
     {
@@ -53,6 +54,14 @@ export const history = [
     {
         role: "model",
         parts: [{ text: colaboradores }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Manual em extenso com todos os procedimentos da PCR` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: infoPCR }],
     },
     {
         role: "user",
