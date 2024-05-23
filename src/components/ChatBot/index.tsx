@@ -56,7 +56,7 @@ export default function ChatBot({ visible, setVisible }: Props) {
                 <Loading open={loading} />
                 {visible && <div className={styles.container}>
                     <div className={styles.container__header}>
-                        <li>ChatBot PCP</li>
+                        <li>ChatBot PCP - BETA</li>
                         <Cancelar fontSize='large' onClick={() => setVisible(false)} className={styles.container__header__close} />
                     </div>
                     <div id='texto_chat' className={styles.container__chat}>
