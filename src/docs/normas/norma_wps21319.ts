@@ -95,7 +95,7 @@ Descrição Componente	HGF	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Sal
 8.3.2.2 Visual	1	1	1	1	1	1	1	1	1	1
 8.3.2.3 Embalagem	1	1	1	1	1	1	1	1	1	1
 8.3.2.4 Pint. (Ader+camada) / Pull Off	1	1	1	1	1	1	1	1	1	1
-Se for eixo liso considerar 8 dias, se possuir engrenagem no eixo considerar 32 dias.
+
 COMPONENTES - Montagem B1 (Carcaças 500 a 800)
 COMPONENTES - MONTAGEM B1 - 500 até 800
 CRITÉRIOS:
@@ -150,7 +150,7 @@ Descrição Componente	HGF	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Sal
 7.2 Cubo Coletor	10	10	10	10	10	10	10	10	-	-	10
 7.3 Coletor de anéis	11	11	11	11	11	11	11	11	-	-	11
 7.4 Componentes gerais	6	6	6	6	6	6	6	6	-	-	6
-Se for eixo liso considerar 8 dias, se possuir engrenagem no eixo considerar 32 dias.
+
 MONTAGEM / ENSAIOS / ACABAMENTO - Montagem Linha B1 (Carcaças 500 a 800)
 MONTAGEM / ENSAIOS / ACABAMENTO - MONTAGEM B1 - 500 até 800
 CRITÉRIOS:
@@ -222,7 +222,7 @@ Descrição Componente	HGF	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Sal
 7.2 Cubo Coletor	10	10	10	10	10	10	10	10	-	-	10
 7.3 Coletor de anéis	11	11	11	11	11	11	11	11	-	-	11
 7.4 Componentes gerais	6	6	6	6	6	6	6	6	-	-	6
-Se for eixo liso considerar 8 dias, se possuir engrenagem no eixo considerar 32 dias.
+
 
 Montagem Linha B2 (Carcaças 500 a 800)
 CRITÉRIOS:
@@ -252,7 +252,7 @@ Descrição Componente	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Salient
 8.3.2.2 Visual	1	1	1	1	1	1	1	1	1	1
 8.3.2.3 Embalagem	1	1	1	1	1	1	1	1	1	1
 8.3.2.4 Pintura (Ader+camada) / Pull Off	1	1	1	1	1	1	1	1	1	1
-Observação: Se for eixo liso considerar 8 dias, se possuir engrenagem no eixo considerar 32 dias.
+
 
 COMPONENTES - Montagem C1 (Carcaças 900 a 1000)
 CRITÉRIOS:
@@ -450,4 +450,7 @@ Selecionar e segunda operação e executar duplo clique sobre a chave Modelo, id
 Figura 8 – Flegar a opção "Sobreposição Obrigatória" na operação
 Notas:
 Observar sempre os campos que devem ser preenchidos, além da opção de sobreposição informar também os valores nos campos “TmpMin”. Sobreposição e “Qtd.minim.transf”.
+
+Para todas as montagens: 
+Se for eixo liso considerar 8 dias, se possuir engrenagem no eixo considerar 32 dias.
 `
