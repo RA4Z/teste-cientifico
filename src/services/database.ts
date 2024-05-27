@@ -1,5 +1,16 @@
 import { database } from "config/firebase";
-import { limitToLast, onValue, orderByChild, query, ref, remove } from "firebase/database";
+import { child, limitToLast, onValue, orderByChild, push, query, ref, remove, serverTimestamp, set } from "firebase/database";
+
+export async function sendMessage(message: string) {
+    try {
+        const id = push(child(ref(database), 'chatbot')).key
+        set(ref(database, `chatbot/${id}`), {
+            mensagem: message, timestamp: serverTimestamp()
+        })
+    } catch(error) {
+        console.log(error)
+    }
+}
 
 export async function getHistory(dbRef: string, setHistory: any) {
     try {
