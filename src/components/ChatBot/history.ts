@@ -19,6 +19,7 @@ import { wpm22685 } from "docs/normas/norma_wpm22685"
 import { wpm48914 } from "docs/normas/norma_wpm48914"
 
 import { wps21319 } from "docs/normas/norma_wps21319"
+import { contagemCiclica } from "docs/procedimentos/contagemCiclica"
 
 export const history = [
     {
@@ -208,6 +209,14 @@ export const history = [
     {
         role: "model",
         parts: [{ text: requisitosPCP }],
+    },
+    {
+        role: "user",
+        parts: [{ text: `Procedimento detalhado para realizar a contagem cíclica` }],
+    },
+    {
+        role: "model",
+        parts: [{ text: contagemCiclica }],
     },
     {
         role: "user",
