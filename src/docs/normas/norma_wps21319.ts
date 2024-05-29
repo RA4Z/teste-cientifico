@@ -54,7 +54,7 @@ Descrição Componente	HGF	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Sal
 4.2 Carcaça Usinada S/ Tubos	6	6	-	-	6	-	6	6	-	-
 4.3 Carcaça Usinada C/ Tubos	-	-	8	11	-	8	-	-	6	7
 4.3.1 Carcaça Pre Usinada	-	-	4	5	-	4	-	-	-	5
-4.3.2 Carcaça Com Tubos	-	-	2	-	-	2	-	-	-	-
+4.3.2 Carcaça Soldada Com Tubos	-	-	2	-	-	2	-	-	-	-
 4.3.3 Carcaça Usinada	-	-	2	6	-	2	-	-	6	2
 5. Tampa										
 5.1 Tampa Soldada	8	8	8	8	8	8	8	8	8	8
@@ -133,7 +133,7 @@ Descrição Componente	HGF	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Sal
 4.2 Carcaça Usinada S/ Tubos	6	6	-	2	6	-	6	6	6	6	6
 4.3 Carcaça Usinada C/ Tubos	-	-	8	6	-	8	-	-	-	-	-
 4.3.1 Carcaça Pré-Usinada	-	-	4	4	-	4	-	-	-	-	-
-4.3.2 Carcaça Com Tubos	-	-	2	-	-	2	-	-	-	-	-
+4.3.2 Carcaça Soldada Com Tubos	-	-	2	-	-	2	-	-	-	-	-
 4.3.3 Carcaça Usinada	-	-	2	2	-	2	-	-	-	-	-
 5. Tampa											
 5.1 Tampa Soldada	10	10	10	10	10	10	10	10	10	10	10
@@ -205,7 +205,7 @@ Descrição Componente	HGF	MG / W60	MGR	WGM	MA	MAR	G/S Polos Lisos	G/S Polos Sal
 4.2 Carcaça Usinada S/ Tubos	6	6	-	2	6	-	6	6	6	6	6
 4.3 Carcaça Usinada C/ Tubos	-	-	8	6	-	8	-	-	-	-	-
 4.3.1 Carcaça Pré-Usinada	-	-	4	4	-	4	-	-	-	-	-
-4.3.2 Carcaça Com Tubos	-	-	2	-	-	2	-	-	-	-	-
+4.3.2 Carcaça Soldada Com Tubos	-	-	2	-	-	2	-	-	-	-	-
 4.3.3 Carcaça Usinada	-	-	2	2	-	2	-	-	-	-	-
 5. Tampa											
 5.1 Tampa Soldada	10	10	10	10	10	10	10	10	10	10	10
@@ -291,7 +291,7 @@ Descrição Componente	MG / W60	MGR	MA	MAR	G/S Polos Lisos	G/S Polos Salientes	S
 5.2 Carcaça Usinada S/ Tubos	8	-	8	-	8	8	13	8	8
 5.3 Carcaça Usinada C/ Tubos	-	11	-	11	-	-	-	-	-
 5.3.1 Carcaça Pre Usinada	-	6	-	6	-	-	-	-	-
-5.3.2 Carcaça Com Tubos	-	2	-	2	-	-	-	-	-
+5.3.2 Carcaça Soldada Com Tubos	-	2	-	2	-	-	-	-	-
 5.3.3 Carcaça Usinada	-	3	-	3	-	-	-	-	-
 6. Tampa									
 6.1. Tampa Soldada	12	12	12	12	12	12	12	12	12
@@ -376,7 +376,7 @@ Descrição Componente	MG / W60	MGR	MA	MAR	G/S Polos Lisos	G/S Polos Salientes	S
 5.2 Carcaça Usinada S/ Tubos	8	-	8	-	8	8	13	8	8	8
 5.3 Carcaça Usinada C/ Tubos	-	11	-	11	-	-	-	-	-	-
 5.3.1 Carcaça Pre Usinada	-	6	-	6	-	-	-	-	-	-
-5.3.2 Carcaça Com Tubos	-	2	-	2	-	-	-	-	-	-
+5.3.2 Carcaça Soldada Com Tubos	-	2	-	2	-	-	-	-	-	-
 5.3.3 Carcaça Usinada	-	3	-	3	-	-	-	-	-	-
 6. Tampa										
 6.1. Tampa Soldada	12	12	12	12	12	12	12	12	12	12

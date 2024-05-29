@@ -947,4 +947,60 @@ SAP – ECC – CO13.
 
      * Informar o responsável pelo Kanban (Sergio Golçalves de Jesus) ao estornar componentes com tarefas no PS para que ele faça o estorno no Kanban.
      * Anular a conclusão técnica da ordem se estiver ativada.
+
+
+-------------------------------------------------------------------------------
+Recebimento de material do centro 1100 para 1200
+
+Passo 1: Acessar a tela MB5T
+
+Na tela MB5T:
+
+Preencher o campo "Centro de recebimento" com: 1200
+
+Preencher o campo "Centro fornecedor" com: 1100
+
+Clicar em "Executar"
+
+Passo 2: Copiar a referência do histórico do pedido
+
+Clicar uma vez em qualquer lugar da linha verde.
+
+Clicar em "Histórico do pedido".
+
+Selecionar a referência e pressionar CTRL + Y para copiá-la.
+
+Passo 3: Acessar a tela MIGO e inserir a referência
+
+Abrir a tela MIGO.
+
+Colar a referência copiada no passo anterior e pressionar Enter.
+
+Verificar na aba "Od" o depósito de recebimento:
+
+Se o depósito for RS02 / RS01 / RS03, voltar sem salvar.
+
+Se o depósito for RS31 / RS32 / RS33 / RS34 / RS35 / RS36 / RS37 / RS38 / RS39 / RS40 ou RS41, salvar a movimentação.
+
+Passo 4: Executar a transação MF60 após receber todos os materiais no centro 1200
+
+Na tela MF60:
+
+Clicar em "Chama a Variante".
+
+Selecionar a variante criada por "polvarino".
+
+Clicar em "Executar".
+
+Passo 5: Executar a variante para cada linha
+
+Dar dois cliques na primeira linha da variante.
+
+Clicar em "Executar".
+
+Pressionar Enter.
+
+Aguardar o processamento da linha.
+
+Repetir o processo para as outras duas linhas da variante.
 `

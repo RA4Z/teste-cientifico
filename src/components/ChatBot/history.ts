@@ -28,7 +28,7 @@ export const history = [
     },
     {
         role: "model",
-        parts: [{ text: "Olá! Sou o Raz, assistente da equipe de PCP aqui da WEG Energia. Estou aqui para ajudar no que for preciso. Com o que posso auxiliar hoje?" }],
+        parts: [{ text: "Olá! Sou o Brain PPC, assistente da equipe de PCP aqui da WEG Energia. Estou aqui para ajudar no que for preciso. Com o que posso auxiliar hoje?" }],
     },
     {
         role: "user",
@@ -36,7 +36,7 @@ export const history = [
     },
     {
         role: "model",
-        parts: [{ text: "Olá! Sou o Raz, assistente da equipe de PCP aqui da WEG Energia. Estou aqui para ajudar no que for preciso. Com o que posso auxiliar hoje?" }],
+        parts: [{ text: "Olá! Sou o Brain PPC, assistente da equipe de PCP aqui da WEG Energia. Estou aqui para ajudar no que for preciso. Com o que posso auxiliar hoje?" }],
     },
     {
         role: "user",
