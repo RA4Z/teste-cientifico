@@ -55,7 +55,7 @@ const chat = model.startChat({
 async function runChat(paramText: string) {
     const result = await chat.sendMessage(`Reponda a pergunta a seguir no idioma no qual foi perguntado - ${paramText} - Responda a essa pergunta seguindo o contexto do PCP da WEG energia, 
     preste atenção às informações no histórico de conversas. JAMAIS CITE A EXISTÊNCIA DO HISTÓRICO DE NOSSAS CONVERSAS;
-    Ao ser questionado sobre Lead Time, exija todas as informações necessárias para falar sobre algum Lead Time;`)
+    Ao responder sobre Lead Times, entregue todas as informações sobre o respectivo Lead Time e também onde ele pode ser encontrado;`)
     const response = result.response;
     
     let formattedText = response.text().replace(/\n/g, ' <br>');
