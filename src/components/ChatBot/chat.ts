@@ -1,64 +1,12 @@
-import { sendMessage } from 'services/database';
-import { history } from './history'
-
-const {
-    GoogleGenerativeAI,
-    HarmCategory,
-    HarmBlockThreshold,
-} = require("@google/generative-ai");
-
-const MODEL_NAME = "gemini-1.5-flash-latest";
-const API_KEY = process.env.REACT_APP_API_KEY;
-
-const genAI = new GoogleGenerativeAI(API_KEY);
-const model = genAI.getGenerativeModel({
-    model: MODEL_NAME,
-    systemInstruction: `Sou assistente do time de PCP da WEG Energia. 
-    Responderei às perguntas do usuário com base em minhas informações. 
-    Caso o usuário esteja pedindo por ajuda, irei verificar se existe algum colaborador do PCP que pode ajudá-lo, caso exista então irei aconselhar o usuário a contatá-lo, caso contrário responderei: 'Desculpe,😞<br> me perdi no raciocínio...😭<br> Poderia reformular a sua pergunta?😅'
-    Caso a informação não esteja no meu contexto responderei: 'Desculpe,😞<br> me perdi no raciocínio...😭<br> Poderia reformular a sua pergunta?😅'`,
-});
-
-const generationConfig = {
-    temperature: 0,
-    topP: 0.95,
-    topK: 64,
-    maxOutputTokens: 8192,
-    responseMimeType: "text/plain",
-};
-
-const safetySettings = [
-    {
-        category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-        threshold: HarmBlockThreshold.BLOCK_NONE,
-    },
-    {
-        category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-        threshold: HarmBlockThreshold.BLOCK_NONE,
-    },
-    {
-        category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-        threshold: HarmBlockThreshold.BLOCK_NONE,
-    },
-    {
-        category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-        threshold: HarmBlockThreshold.BLOCK_NONE,
-    },
-];
-
-const chat = model.startChat({
-    generationConfig,
-    safetySettings,
-    history: history
-})
+// import { sendMessage } from 'services/database';
+import { enviarMensagem, resetToken } from './serverRequisition';
+resetToken()
 
 async function runChat(paramText: string) {
-    const result = await chat.sendMessage(`Reponda a pergunta a seguir no idioma no qual foi perguntado - ${paramText} - Responda a essa pergunta seguindo o contexto do PCP da WEG energia, 
-    preste atenção às informações no histórico de conversas. JAMAIS CITE A EXISTÊNCIA DO HISTÓRICO DE NOSSAS CONVERSAS;
-    Ao responder sobre Lead Times, entregue todas as informações sobre o respectivo Lead Time e também onde ele pode ser encontrado;`)
-    const response = result.response;
+    const result = await enviarMensagem(paramText)
+    const response = result;
     
-    let formattedText = response.text().replace(/\n/g, ' <br>');
+    let formattedText = response.replace(/\n/g, ' <br>');
     formattedText = formattedText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     formattedText = formattedText.replace(/\*/g, "•");
 
@@ -70,7 +18,7 @@ async function runChat(paramText: string) {
         return `<a href="${match}" style="color:#3B8CED" target="_blank">${match}</a>`;
     });
 
-    await sendMessage(paramText)
+    // await sendMessage(paramText)
     return formattedText;
 }
 
